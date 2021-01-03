@@ -10,14 +10,12 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
-TASK_XX-SF-Scrapes-App_Server_1.sh
-TASK_XX-SF-Scrapes-App_Server_2.sh
-TASK_XX-SF-Scrapes-App_Server_3.sh
-TASK_XX-SF-Scrapes-App_Server_1-2-3.sh
-TASK_XX-SF-Scrapes-LBR_Server.sh
-TASK_XX-SF-Scrapes-DB_Server.sh
-TASK_XX-SF-Scrapes-Storage_Server.sh
-TASK_XX-SF-Scrapes-Backup_Server.sh
-TASK_XX-SF-Scrapes-Mail_Server.sh
-TASK_XX-SF-Scrapes-Jump_host.sh
-TASK_XX-SF-Scrapes-Jenkins_Server.sh
+TASK_xx-SF-Scrapes-App_Server 1.sh
+TASK_xx-SF-Scrapes-App_Server 2.sh
+TASK_xx-SF-Scrapes-App_Server 3.sh
+TASK_xx-SF-Scrapes-App_Server 1-2-3.sh
+TASK_xx-SF-Scrapes-Jump_Server.sh
+TASK_xx-SF-Scrapes-Storage_Server.sh
+TASK_xx-SF-Scrapes-LBR_Server.sh
+TASK_xx-SF-Scrapes-DB_Server.sh
+TASK_xx-SF-Scrapes-Backup_Server.sh

@@ -1,16 +1,16 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
-Start			2020-11-25 21:30:01
-Finished		2020-11-25 22:34:29
+Start			2020-07-28 || 03:12 PM
+Finished			
 
 -----------------------------------------------------------------------------------------------------------------
 
-TASK_XX-Description_of_task
+TASK_xx-DESCRIPTION 
 
 REQUIREMENTS:
 
-# Put the instructions here.
+
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -24,76 +24,49 @@ CONTENT:
 
 I.		REFERENCES
 
-# Put the reference links that was used for this task here
 
 -----------------------------------------------------------------------------------------------------------------
 
 II.		STEPS - SUMMARY
 
-#	1.	SSH into the App server 1, App server 2, and App server 3 and switch to root.
+#	1.	SSH into the jump server, Storage Server, App server 1, App server 2, and App server 3 and switch 
+#		to root.
+
 
 -----------------------------------------------------------------------------------------------------------------
 
 III.	STEPS - BREAKDOWN
 
-# jump_host	
-thor
-sudo su - 
-mjolnir123
+sudo su -
+mjolnir123	
 
-# Nautilus App 1
-# stapp01
 sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
 Ir0nM@n
-
-# Nautilus App 2
-# stapp02
 sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su -
 Am3ric@
-
-# Nautilus App 3
-# stapp03
 sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
 BigGr33n
-
-# Nautilus HTTP LBR
-# stlb01
-sshpass -p  'Mischi3f' ssh -o StrictHostKeyChecking=no loki@172.16.238.14
-sudo su -
-Mischi3f
-
-# Nautilus DB Server
-# stdb01
-sshpass -p  'Sp!dy' ssh -o StrictHostKeyChecking=no peter@172.16.239.10
+sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 sudo su -
 Sp!dy
-
-# Stork DC Storage Filer
-# ststor01
-sshpass -p  'Bl@kW' ssh -o StrictHostKeyChecking=no natasha@172.16.238.15
+sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+sudo su -
+H@wk3y3
+sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+sudo su -
+Mischi3f
+sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
 Bl@kW
 
-# Nautilus Backup Server
-# stbkp01
-sshpass -p  'H@wk3y3' ssh -o StrictHostKeyChecking=no clint@172.16.238.16
-sudo su -
-H@wk3y3
 
-# Nautilus Mail Server
-# stmail01
-sshpass -p  'Gr00T123' ssh -o StrictHostKeyChecking=no natasha@172.16.238.17
-sudo su -
-Gr00T123
 
-# Jenkins Server for CI/CD
-# jenkins
-sshpass -p  'j@rv!s' ssh -o StrictHostKeyChecking=no jenkins@172.16.238.19
-sudo su -
-j@rv!s  
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -111,4 +84,20 @@ j@rv!s
    #########     #########	   #### ####	#### ####	#########	 #########	  #########		###	  ###
 	#######       #######		#######		 #######	#########	  #######	   #######		###	  ###
 			
+############################################################################################################
+
+
+############################################################################################################
+
+    #########	  #####	 	 ###	###			 #########	  ########		###				   ##
+	#########	 #######	 ###	###			 #########	  #########		###				 ###
+	###			###	  ###	 ### 	###			 ###		  ###	###		###		 ###	 ###
+	###			###	  ###	 ### 	###			 ###		  ###	###		###		 ###    ###
+	########	###	  ### 	 ### 	###			 ########	  ###	###		###		 		###
+	########	###	  ### 	 ### 	###			 ########  	  ###	###		###				###
+	###			#########	 ###	###			 ###		  ###	###		###		 ###	###
+	###			######### 	 ###	###			 ###		  ###	###				 ###	 ###
+	###		    ###   ###	 ### 	#########	 #########	  #########		###		 		 ###
+	###			###   ###	 ###	#########	 #########	  ########		###				   ##
+		
 ############################################################################################################
