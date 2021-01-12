@@ -50,17 +50,17 @@ III.	COMMANDS USED
 #	1.	SSH into the App server 1, App server 2, and App server 3 and switch 
 #		to root. Check which of the App Servers has an inactive httpd service.
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 
-			sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 			sudo su -
-			Am3ric@
+			******
 
-			sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 			sudo su -
-			BigGr33n
+			******
 
 
 #	2. 	Try to enable and restart and then verify status of httpd again.

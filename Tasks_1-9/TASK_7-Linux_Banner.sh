@@ -142,7 +142,7 @@ thor@jump_host /$
 
 # Thinking that SCP might not be enabled or may not be installed properly in the
 # DB server, I SSH into the db server and do the needful.
-thor@jump_host /$ sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 Warning: Permanently added '172.16.239.10' (ECDSA) to the list of known hosts.
 [peter@stdb01 ~]$
 [peter@stdb01 ~]$ sudo yum install -y openssh-clients
@@ -162,15 +162,15 @@ thor@jump_host /$
 #		we just need to move or copy this file into the correct /etc/motd
 
 # Summary - Log into each of the three App server and DB server
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 
 # Breakdown - Log into each of the three App server and DB server
 
 # Logging into App Server 1 
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$
 [tony@stapp01 ~]$ cd /tmp
@@ -229,7 +229,7 @@ Connection to 172.16.238.11 closed.
 
 
 # Logging into App Server 2
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 [steve@stapp02 ~]$
 [steve@stapp02 ~]$ cd /tmp
@@ -330,7 +330,7 @@ Connection to 172.16.238.12 closed.
 
 
 # Logging into DB Server
-thor@jump_host /$ sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 Last login: Fri Jul  3 22:15:17 2020 from jump_host.linuxbanner_db_net
 [peter@stdb01 ~]$
 [peter@stdb01 ~]$ cd /tmp/
@@ -383,10 +383,10 @@ thor@jump_host /$
 #		So I tested this as well.
 
 # Summary - Log-in to each of the four server and make sure that you see the banner upon login.
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 
 # Banner appears upon login. Success!
 

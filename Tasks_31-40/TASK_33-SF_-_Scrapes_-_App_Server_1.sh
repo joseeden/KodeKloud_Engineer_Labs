@@ -13,9 +13,9 @@
 TASK 33 - SupportFile - Scrapes for App Server 1
 
 
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 sudo su -
-Ir0nM@n
+******
 [tony@stapp01 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System

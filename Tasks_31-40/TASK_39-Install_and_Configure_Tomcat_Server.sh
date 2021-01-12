@@ -61,11 +61,11 @@ III.	STEPS - BREAKDOWN
 #		to root.
 
 			sudo su -
-			mjolnir123	
+			******	
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 
 #	2.	On App Server 1, install tomcat service using yum.
 #		Enable, start, and verify status of service afterwards.

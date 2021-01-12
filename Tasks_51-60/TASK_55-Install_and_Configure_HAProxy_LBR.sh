@@ -63,17 +63,17 @@ III.	STEPS - BREAKDOWN
 		# App server/s. So for each one, I just run the three lines and i'll be immediately switched to root
 		# without entering any password.
 		
-        sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
         sudo su -
-        Ir0nM@n
+        ******
         
-        sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
         sudo su -
-        Am3ric@
+        ******
         
-        sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
         sudo su -
-        BigGr33n
+        ******
 
 		# Note that the following steps are done on EACH APP SERVER - thus all steps from this point onward is 
 		# done after connecting via SSH to each App server.
@@ -98,9 +98,9 @@ III.	STEPS - BREAKDOWN
 					
 #	2.	Proceed to LBR Server and install HAproxy through yum only. Enable, start, and then verify status.
 		
-        sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+        sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
         sudo su -
-        Mischi3f
+        ******
 		
 		# Install HAproxy through YUM then start and enable afterwards.
 		

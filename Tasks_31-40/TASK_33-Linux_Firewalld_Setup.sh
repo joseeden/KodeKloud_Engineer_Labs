@@ -63,17 +63,17 @@ III.	COMMANDS USED
 		# I always switch to root user upon login since it simplified the succeeding tasks 
 		# It's much easier to just enter password once and then run all the commands.
 		
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 
-			sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 			sudo su -
-			Am3ric@
+			******
 
-			sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 			sudo su -
-			BigGr33n
+			******
 		
 		# Note that all commands from here on forward are run on each App server unless specified to run
 		# on LBR server only.
@@ -134,7 +134,7 @@ III.	COMMANDS USED
 		# I initially tested both from LBR server and jumphost but I found that testing from the LBR server
 		# is enough.
 		
-			sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+			sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 			
 		# I actually got stucked here because whenever I try to curl for all the App server using the NGINX port,
 		# I always get a 'Forbidden 503' error just like this:

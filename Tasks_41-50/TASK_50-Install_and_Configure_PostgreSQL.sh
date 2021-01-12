@@ -64,9 +64,9 @@ III.	STEPS - BREAKDOWN
 #	1.	SSH into the jump server, Storage Server, App server 1, App server 2, and App server 3 and switch 
 #		to root.
 
-        sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+        sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
         sudo su -
-        Sp!dy
+        ******
 
 #	2.	Install postgresql and initialize. 
 #		Enable, start, and then verify status of postgresql service.

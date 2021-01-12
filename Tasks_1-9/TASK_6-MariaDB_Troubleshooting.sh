@@ -14,7 +14,7 @@ https://serverfault.com/questions/812719/mysql-mariadb-not-starting
 -----------------------------------------------------------------------------------------------------------------
 
 # Checking on the Lucidchart, the Nautilus db server is stdb01 -- so I need to connect here first
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 
 # then check status of mariadb
 systemctl status mariadb

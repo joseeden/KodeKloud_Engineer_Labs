@@ -45,7 +45,7 @@ II.		STEPS - SUMMARY
 III.	COMMANDS USED
 
 #	these were the commands I used during troubleshooting
-sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 systemctl status haproxy
 ls -l /usr/lib/systemd/system | grep haprox
 sudo systemctl restart haproxy
@@ -59,7 +59,7 @@ haproxy -c -f /etc/haproxy/haproxy.cfg
 #	1.	Connect to the LBR server
 #		This was actually the first time that I connected to this server.
 
-sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 
 #	2.	Check status of haproxy service. Verify also if config file is valid.
 #		Status shows 'dead' so I restarted it and checked status again.
@@ -126,7 +126,7 @@ IV.	STEPS - BREAKDOWN
 #		I did a couple of t-chooting on my own before caving in to check the KKC.
 #		And as mentioned in the section above, there were two errors that I encountered here.
 
-thor@jump_host /$thor@jump_host /$ sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+thor@jump_host /$thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 Warning: Permanently added '172.16.238.14' (ECDSA) to the list of known hosts.
 [loki@stlb01 ~]$
 [loki@stlb01 ~]$ systemctl status haproxy

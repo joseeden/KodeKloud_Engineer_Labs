@@ -44,7 +44,7 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 ls -l  /data/
 
 #	This creates the tar.gz file for the requester.
@@ -70,7 +70,7 @@ IV.	STEPS - BREAKDOWN
 #	I'm probably just not in the mood or my brain's quite tired from the AWS study the whole day.
 #	Will try to focus and learn more on the next task, which would probably come tomorrow afternoon.
 
-thor@jump_host /$thor@jump_host /$ sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+thor@jump_host /$thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 Warning: Permanently added '172.16.238.15' (ECDSA) to the list of known hosts.
 [natasha@ststor01 ~]$
 [natasha@ststor01 ~]$ ls -l  /data/

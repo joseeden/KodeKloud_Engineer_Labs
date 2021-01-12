@@ -59,7 +59,7 @@ sudo scp -r /tmp/nautilus.txt.gpg banner@172.16.238.12:/tmp
 #		required directory.
 #		Go in to the specified App server and then move the filr from the temporary directory to the 
 #		specified one. 
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo mv /tmp/nautilus.txt.gpg /home/code
 
 #	4.	Verify.
@@ -114,7 +114,7 @@ thor@jump_host /$ sudo scp -r /tmp/nautilus.txt.gpg banner@172.16.238.12:/tmp
 banner@172.16.238.12 password:
 nautilus.txt.gpg                                              100%   74   115.2KB/s   00:00
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 [banner@stapp03 ~]$
 [banner@stapp03 ~]$ sudo mv /tmp/nautilus.txt.gpg /home/code/

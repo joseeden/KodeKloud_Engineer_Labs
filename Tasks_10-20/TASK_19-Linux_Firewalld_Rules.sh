@@ -44,7 +44,7 @@ III.	COMMANDS USED
 
 #	1.	Connect via SSH to the Backup server
 
-      sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+      sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 
 # 	2.	Check status of firewalld and the available options
 #		Now for this one, since I try to check first the available options in the man pages before checking out
@@ -71,7 +71,7 @@ III.	COMMANDS USED
 
 IV.	STEPS - BREAKDOWN
 
-thor@jump_host /$thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+thor@jump_host /$thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.[clint@stbkp01 ~]$
 [clint@stbkp01 ~]$ firewall-cmd --help
 

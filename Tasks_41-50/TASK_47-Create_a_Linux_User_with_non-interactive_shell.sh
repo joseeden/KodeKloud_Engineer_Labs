@@ -50,9 +50,9 @@ III.	STEPS - BREAKDOWN
 
 #	1.	SSH into App server 3 and switch to root.
 
-		sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+		sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 		sudo su -
-		BigGr33n
+		******
 
 #	2.	Add the required user and modify shell intonon-interactice shell.
 #		Vefify afterwards.
@@ -66,9 +66,9 @@ III.	STEPS - BREAKDOWN
 ## For the complete scrapes, see below:
 
 
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 sudo su -
-BigGr33n[banner@stapp03 ~]$ sudo su -
+******[banner@stapp03 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

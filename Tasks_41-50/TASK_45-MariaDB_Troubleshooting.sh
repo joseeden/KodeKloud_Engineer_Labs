@@ -48,9 +48,9 @@ III.	STEPS - BREAKDOWN
 
 #	1.	SSH into the DB server and switch to root
 
-		sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+		sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 		sudo su -
-		Sp!dy
+		******
 
 #	2.	Verify status of Mariadb service. Restart and verify status again.
 

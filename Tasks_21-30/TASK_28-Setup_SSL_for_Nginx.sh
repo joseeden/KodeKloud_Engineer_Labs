@@ -58,7 +58,7 @@ III.	COMMANDS USED
 #		Switching to root user simplifies the succeeding commands as I won't have to use sudo and enter password
 #		everytime I run a root-level command.
 			
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
 			
 #	2.	Install nginx. Start, enable, and then verify status.
@@ -173,7 +173,7 @@ IV.	STEPS - BREAKDOWN
 
 #	Great learning experience indeed!
 
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$[tony@stapp01 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System

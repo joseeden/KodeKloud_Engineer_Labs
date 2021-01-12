@@ -64,7 +64,7 @@ III.	COMMANDS USED
 
 	1.	Connect via SSH to the App Server.
 		
-			sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 		
 	2.	Create Authentication SSH-Keygen Keys on App Server.
 	
@@ -75,17 +75,17 @@ III.	COMMANDS USED
 	3.	Create .ssh Directory on Backup server.
 	
 			ssh clint@172.16.238.16 mkdir -p .ssh
-			# Enter password: H@wk3y3
+			# Enter password: ******
 			
 	4.	Upload Generated Public Keys to Backup server.
 	
 			cat .ssh/id_rsa.pub | ssh clint@stbkp01 'cat >> .ssh/authorized_keys'
-			# Enter password: H@wk3y3
+			# Enter password: ******
 			
 	5.	Set Permissions on Backup server.
 	
 			ssh clint@stbkp01 "chmod 700 .ssh; chmod 640 .ssh/authorized_keys"
-			# Enter password: H@wk3y3
+			# Enter password: ******
 		
 	6. 	Test passwordless SSH authentication. Login from App server to Backup server.
 	
@@ -145,7 +145,7 @@ IV.	STEPS - BREAKDOWN
 #	So as always, I worked and tested each part.
 #	I estimate that I hadaround 5 or 6 attempts on this lab.
 
-thor@jump_host /$thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.[steve@stapp02 ~]$
 [steve@stapp02 ~]$ ssh-keygen -t rsa
 Generating public/private rsa key pair.

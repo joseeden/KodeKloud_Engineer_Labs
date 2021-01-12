@@ -14,10 +14,10 @@ TASK 34 - Install and Configure NFS Server
 
 
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 sudo su -
-Am3ric@[steve@stapp02 ~]$ sudo su -
+******[steve@stapp02 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

@@ -42,7 +42,7 @@ III.	STEPS - BREAKDOWN
 #	Found two articles where the steps were broken down. 
 # 	Of course the first one, which I already know, is to SSH into the correc App Server.
 
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 [steve@stapp02 ~]$
 

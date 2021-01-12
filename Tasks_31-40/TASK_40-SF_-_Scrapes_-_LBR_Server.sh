@@ -13,7 +13,7 @@
 TASK 40 - SupportFile - IPtables Installation And Configuration
 
 
-thor@jump_host /$ sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 Warning: Permanently added '172.16.238.14' (ECDSA) to the list of known hosts.
 [loki@stlb01 ~]$
 [loki@stlb01 ~]$ curl stapp01:5004

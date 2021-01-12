@@ -57,7 +57,7 @@ III.	COMMANDS USED
 #		I had multiple attempts on this lab and the App server to be used keep changing on each attempt.
 #		For the las lab, the required App Server was App Server 1.
 		
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			
 #	2.	Modify the httpd.conf for the Directory section for '/var/www/html'. Afterwards, restart  https
 
@@ -106,7 +106,7 @@ III.	COMMANDS USED
 			
 #	7.	Switch to the App Server again and verify that it is able to curl the index.html using only the user.
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 
 			curl -u siva http://localhost:8080
 			curl -u siva http://localhost:8080/security/index.html
@@ -124,7 +124,7 @@ IV.	STEPS - BREAKDOWN
 #	using .htaccess
 
 
-8FmzjvFU6Sthor@jump_host /$thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+8FmzjvFU6Sthor@jump_host /$thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$
 [tony@stapp01 ~]$ cat /etc/httpd/conf/httpd.conf
@@ -542,7 +542,7 @@ Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 tony@172.16.238.10's password:
 index.html                                                    100%   51    12.8KB/s   00:00
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Last login: Tue Jul 28 10:06:46 2020 from jump_host.linuxprotecteddirhttpd_app_net
 [tony@stapp01 ~]$
 [tony@stapp01 ~]$ ls -l /var/www/html/security

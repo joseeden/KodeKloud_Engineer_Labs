@@ -45,9 +45,9 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 
 sudo vi /etc/ssh/sshd_config
 
@@ -82,7 +82,7 @@ IV.	STEPS - BREAKDOWN
 #	Pasted in my "templated commands" and then hit finish.
 #	Luckily, thhere were no errors and lab succeeded.
 
-thor@jump_host /$thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+thor@jump_host /$thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$
 [tony@stapp01 ~]$ sudo vi /etc/ssh/sshd_config
@@ -133,7 +133,7 @@ Connection to 172.16.238.10 closed.
 
 
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 [steve@stapp02 ~]$
 [steve@stapp02 ~]$ sudo vi /etc/ssh/sshd_config
@@ -185,7 +185,7 @@ Connection to 172.16.238.11 closed.
 
 
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 [banner@stapp03 ~]$
 [banner@stapp03 ~]$ sudo vi /etc/ssh/sshd_config

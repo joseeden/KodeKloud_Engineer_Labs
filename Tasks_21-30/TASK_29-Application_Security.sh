@@ -55,7 +55,7 @@ III.	COMMANDS USED
 #			explain the concept behind securing application -- for that, I need to seek Mr. Google.
 #			But I'll probably do that next time I encounter a similar task or if I have some spare time.
 
-			sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+			sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 			sudo su - 
 			
 #			Again, it's always best to check the directory and file that I need during the lab.
@@ -121,7 +121,7 @@ III.	COMMANDS USED
 IV.	STEPS - BREAKDOWN
 
 
-thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
 [clint@stbkp01 ~]$[clint@stbkp01 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System

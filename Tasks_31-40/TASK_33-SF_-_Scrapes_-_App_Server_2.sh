@@ -13,10 +13,10 @@
 TASK 33 - SupportFile - Scrapes for App Server 2
 
 
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 sudo su -
-Am3ric@
+******
 
 [steve@stapp02 ~]$ sudo su -
 

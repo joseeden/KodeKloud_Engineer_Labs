@@ -13,8 +13,8 @@
 TASK 36 - SupportFile - Install and Configure PostgreSQL
 
 
-thor@jump_host /$ sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10Warning: Permanently added '172.16.239.10' (ECDSA) to the list of known hosts.
-sudo su -Sp!dy[peter@stdb01 ~]$ sudo su -
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10Warning: Permanently added '172.16.239.10' (ECDSA) to the list of known hosts.
+sudo su -******[peter@stdb01 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

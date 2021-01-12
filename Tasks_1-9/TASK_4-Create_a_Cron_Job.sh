@@ -9,11 +9,11 @@ b. Add a cron */5 * * * * echo hello > /tmp/cron_text for root user.
 -----------------------------------------------------------------------------------------------------------------
 
 # since I need to add cron for root user
-sshpass -p  'mjolnir123' ssh -o StrictHostKeyChecking=no thor@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no thor@172.16.238.10
 
 # however this did not worked -- showed permission denied
 # so back to using the local creds on the app server
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo yum install -y cronie
 sudo systemctl start crond
 sudo crontab -e
@@ -35,7 +35,7 @@ sudo cat /var/spool/cron/root
 ---------------------------------------------------------------------------------
 
 # Now do the same for App Server 2
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo yum install -y cronie
 sudo systemctl start crond
 sudo crontab -e
@@ -70,7 +70,7 @@ sudo cat /var/spool/cron/root
 ---------------------------------------------------------------------------------	
 
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo yum install -y cronie
 sudo systemctl start crond
 sudo crontab -e

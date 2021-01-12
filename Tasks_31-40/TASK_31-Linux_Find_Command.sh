@@ -56,9 +56,9 @@ III.	COMMANDS USED
 			# even though I ran the command. Found out later that there just an incorrect character on
 			# the command I use.
 			
-				sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+				sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 				sudo su -
-				Am3ric@
+				******
 
 #	2.	Proceed to the specified directory and copy required files into another specified directory.
 #		Afterwards, verify.
@@ -85,9 +85,9 @@ III.	COMMANDS USED
 
 IV.	STEPS - BREAKDOWN
 
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 sudo su -
-Am3ric@[steve@stapp02 ~]$ sudo su -
+******[steve@stapp02 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

@@ -49,7 +49,7 @@ III.	COMMANDS USED
 
 #	1.	Connect via SSH to the Storage Server.
 
-		sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+		sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 		
 #	2.	Check the limits and the limits.conf file.
 #		Now there aren't much articles in the KKC - there were only two of them.
@@ -90,7 +90,7 @@ IV.	STEPS - BREAKDOWN
 #	when you complete it.
 #	For this lab, I did two attempts in 1 hour
 
-thor@jump_host /$ sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15Warning: Permanently added '172.16.238.15' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15Warning: Permanently added '172.16.238.15' (ECDSA) to the list of known hosts.
 [natasha@ststor01 ~]$
 [natasha@ststor01 ~]$ ulimit -a
 core file size          (blocks, -c) unlimited

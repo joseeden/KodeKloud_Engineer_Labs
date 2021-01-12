@@ -13,10 +13,10 @@
 TASK 33 - SupportFile - Scrapes for App Server 3
 
 
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 sudo su -
-BigGr33n
+******
 
 [banner@stapp03 ~]$ sudo su -
 

@@ -45,7 +45,7 @@ II.		STEPS - SUMMARY
 III.	COMMANDS USED
 
 #	1.	Connect via SSH to the  Backup server
-sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 
 #	2.	Check the /root/nautilus.xml and grep for 'Random'
 sudo ls -l /root/nautilus.xml

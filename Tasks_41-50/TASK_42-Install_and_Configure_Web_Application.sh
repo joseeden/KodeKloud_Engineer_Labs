@@ -52,17 +52,17 @@ III.	STEPS - BREAKDOWN
 #	My first 1000-point task!
 
 sudo su -
-mjolnir123	
+******	
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
-Ir0nM@n
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+******
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su -
-Am3ric@
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+******
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
-BigGr33n
+******
 
 yum install openssh-clients -y
 sudo yum install -y httpd
@@ -83,9 +83,9 @@ yum install openssh-clients -y
 ll /home/thor/ecommerce
 ll /home/thor/games
 
-Ir0nM@n
-Am3ric@
-BigGr33n
+******
+******
+******
 
 sudo scp -r /home/thor/ecommerce tony@172.16.238.10:/tmp
 

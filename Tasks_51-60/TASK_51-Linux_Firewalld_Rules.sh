@@ -46,9 +46,9 @@ III.	STEPS - BREAKDOWN
 
 #	1.	SSH into the Backup Server and switch to root.
 
-        sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+        sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
         sudo su -
-        H@wk3y3
+        ******
 
 # 	2.	Check status of firewalld and the available options
         # Now for this one, since I try to check first the available options in the man pages 

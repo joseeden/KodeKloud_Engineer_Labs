@@ -62,7 +62,7 @@ III.	COMMANDS USED
 
 #	1. 	Connect via SSH to the backup server.
 
-			sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+			sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 			
 #	2. 	Install the httpd and nginx and configure each to listen to the required ports. Restart httpd.
 
@@ -193,10 +193,10 @@ III.	COMMANDS USED
 			# I moved the file to the specified directory.
 			
 			sudo scp -r /home/index.html clint@172.16.238.16:/tmp
-			# enter jumhost password 		mjolnir123
-			# enter backup server password 	H@wk3y3
+			# enter jumhost password 		******
+			# enter backup server password 	******
 			
-			sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+			sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 			ls -l /tmp/
 			sudo mv /tmp/index.html /var/www/html/
 			
@@ -219,7 +219,7 @@ IV.	STEPS - BREAKDOWN
 # Though I was not able to absorb all of them. Might need to redo this in my personal lab.
 # Maybe in the EC2 instances or in my VirtualBox.
 
-thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
 [clint@stbkp01 ~]$
 [clint@stbkp01 ~]$ sudo yum install httpd -y
 
@@ -1264,7 +1264,7 @@ Permission denied, please try again.
 clint@172.16.238.16's password:
 index.html                                                    100%   35    36.3KB/s   00:00
 thor@jump_host /$
-thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 Last login: Wed Jul 29 18:21:43 2020 from jump_host.linuxnginxconfig_app_net
 [clint@stbkp01 ~]$
 [clint@stbkp01 ~]$ ls -l /tmp/

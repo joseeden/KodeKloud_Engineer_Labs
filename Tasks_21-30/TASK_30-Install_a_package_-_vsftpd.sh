@@ -43,29 +43,29 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
-Ir0nM@n
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+******
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su -
-Am3ric@
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+******
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
-BigGr33n
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+******
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 sudo su -
-Sp!dy
-sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+******
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 sudo su -
-H@wk3y3
-sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
+******
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
 sudo su -
-Mischi3f
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+******
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW
+******
 
-thor 	mjolnir123		
+thor 	******		
 
 -----------------------------------------------------------------------------------------------------------------
 

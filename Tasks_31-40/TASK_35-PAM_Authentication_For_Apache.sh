@@ -69,19 +69,19 @@ III.	COMMANDS USED
 #		to root.
 
 			sudo su -
-			mjolnir123	
+			******	
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 			
-			sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 			sudo su -
-			Am3ric@
+			******
 			
-			sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 			sudo su -
-			BigGr33n
+			******
 						
 #	2.	All configurations are done on the App servers. 
 #		Install and enable the required packages for Basic + PAM authentication.

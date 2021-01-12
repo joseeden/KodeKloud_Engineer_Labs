@@ -49,9 +49,9 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 
 sudo yum remove httpd -y
 
@@ -88,7 +88,7 @@ IV.	STEPS - BREAKDOWN
 #	So at this point in time, I repeated the lab with a defined list of steps to be done and the target is to
 #	reconfigure and make sure all app servers working in under 10 mins.
 
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$ sudo yum remove httpd -y
 
 We trust you have received the usual lecture from the local System
@@ -243,7 +243,7 @@ thor@jump_host /$ curl http://172.16.238.10:8087/
 Welcome to xFusionCorp Industries !
 thor@jump_host /$
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 Warning: Permanently added '172.16.238.11' (ECDSA) to the list of known hosts.
 [steve@stapp02 ~]$ sudo yum remove httpd -y
 
@@ -404,7 +404,7 @@ thor@jump_host /$
 thor@jump_host /$ curl http://172.16.238.11:8087/
 Welcome to xFusionCorp Industries !
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 [banner@stapp03 ~]$ sudo yum remove httpd -y
 

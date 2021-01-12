@@ -45,10 +45,10 @@ III.	STEPS - BREAKDOWN
 
 #	So, below are the commands I used for this lab.
 #	To log in to the three app servers:
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 
 #	To install httpd and make sure that it'll be enable upon bootup:
 sudo yum install -y httpd

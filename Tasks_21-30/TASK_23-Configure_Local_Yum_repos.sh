@@ -53,7 +53,7 @@ III.	COMMANDS USED
 #		As for the /etc directory, I saw multiple articles in KKC that show that the repo file must be 
 #		created in the /etc/yum.repos.d
 
-			sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+			sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
 			ls -l /packages/downloaded_rpms/
 			ls -l /etc
 			
@@ -100,7 +100,7 @@ III.	COMMANDS USED
 
 IV.	STEPS - BREAKDOWN
 
-thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
 [clint@stbkp01 ~]$[clint@stbkp01 ~]$ ls -l /packages/downloaded_rpms/
 total 53084
 -rw-r--r-- 3 root root   105968 Aug 22  2019 apr-1.4.8-5.el7.x86_64.rpm

@@ -67,9 +67,9 @@ III.	STEPS - BREAKDOWN
 #		As for the /etc directory, I saw multiple articles in KKC that show that the repo file must be 
 #		created in the /etc/yum.repos.d
 
-        sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
+        sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
         sudo su -
-        H@wk3y3
+        ******
 
         ll /packages/downloaded_rpms/
         ll /etc

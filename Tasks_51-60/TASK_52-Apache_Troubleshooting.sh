@@ -103,17 +103,17 @@ III.	STEPS - BREAKDOWN
 
 #	1.	SSH into the App server 1, App server 2, and App server 3 and switch to root.
 
-        sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
         sudo su -
-        Ir0nM@n
+        ******
 
-        sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
         sudo su -
-        Am3ric@
+        ******
 
-        sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
         sudo su -
-        BigGr33n
+        ******
 
 #   2.  As it is mentioned that the issue is in Apache, it's good diea to update and install Apache.
 #       Start and then verify status afterwards.

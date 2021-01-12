@@ -14,10 +14,10 @@ TASK_52-SF-Scrapes-App_erver 1-2-3.sh
 
 
 thor@jump_host /$
-thor@jump_host /$ sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 Warning: Permanently added '172.16.238.12' (ECDSA) to the list of known hosts.
 sudo su -
-BigGr33n[banner@stapp03 ~]$ sudo su -
+******[banner@stapp03 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

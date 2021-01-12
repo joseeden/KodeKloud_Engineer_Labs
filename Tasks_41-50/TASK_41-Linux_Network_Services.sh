@@ -56,19 +56,19 @@ III.	STEPS - BREAKDOWN
 #		to root. 
 
 			sudo su -
-			mjolnir123	
+			******	
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 
-			sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 			sudo su -
-			Am3ric@
+			******
 
-			sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 			sudo su -
-			BigGr33n
+			******
 
 #	2.	One of the App Servers has an issue with the HTTPD. Check what might be wrong on the configuration
 #		or the App Server. In this case, check the processes.

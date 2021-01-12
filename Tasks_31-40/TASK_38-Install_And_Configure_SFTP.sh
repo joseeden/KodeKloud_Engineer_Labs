@@ -62,11 +62,11 @@ III.	COMMANDS USED
 #		to root.
 
 			sudo su -
-			mjolnir123	
+			******	
 
-			sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+			sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 			sudo su -
-			Ir0nM@n
+			******
 			
 #	2.	Add the user and password. Make sure that you specify the /sbin/nologin flag.
 #		This makes sure that only SFTP connections are allowed.

@@ -66,9 +66,9 @@ II.		STEPS - SUMMARY
 III.	STEPS - BREAKDOWN
 
 
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
 sudo su -
-Sp!dy
+******
 
 yum install openssh-clients -y
 
@@ -112,9 +112,9 @@ mysql -u kodekloud_cap -p -h localhost
 pass
 exit
 
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '******' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW
+******
 
 
 cat /data/wp-config.php | grep DB_NAME
@@ -132,9 +132,9 @@ exit
 exit
 
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
-Ir0nM@n
+******
 
 
 yum install mysql -y

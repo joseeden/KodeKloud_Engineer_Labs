@@ -12,9 +12,9 @@
 
 TASK_51-SF-Scrapes-Backup_Server.sh
 
-thor@jump_host /$ sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
+thor@jump_host /$ sshpass -p '******' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16Warning: Permanently added '172.16.238.16' (ECDSA) to the list of known hosts.
 sudo su -
-H@wk3y3[clint@stbkp01 ~]$ sudo su -
+******[clint@stbkp01 ~]$ sudo su -
 
 We trust you have received the usual lecture from the local System
 Administrator. It usually boils down to these three things:

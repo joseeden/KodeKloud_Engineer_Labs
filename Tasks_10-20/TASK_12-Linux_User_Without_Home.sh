@@ -41,7 +41,7 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo useradd -M kareem
 ls  -l /home
 
@@ -56,7 +56,7 @@ IV.	STEPS - BREAKDOWN
 
 #	1.	Connect via SSH to the correct App server.
 
-thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.[tony@stapp01 ~]$
 
 

@@ -62,9 +62,9 @@ III.	STEPS - BREAKDOWN
 #		Switching to root user simplifies the succeeding commands as I won't have to use sudo and enter password
 #		everytime I run a root-level command.
 
-        sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+        sshpass -p  '******' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
         sudo su -
-        Am3ric@
+        ******
 
 #	2.	Install nginx. Start, enable, and then verify status.
 

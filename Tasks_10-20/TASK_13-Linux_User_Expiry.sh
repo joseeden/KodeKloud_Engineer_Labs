@@ -43,7 +43,7 @@ II.		STEPS - SUMMARY
 
 III.	COMMANDS USED
 
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo useradd -e 2021-12-07 john 
 sudo chage -l john 
 
@@ -55,7 +55,7 @@ IV.	STEPS - BREAKDOWN
 #	steps and then verify using resources in KKC and in the internet.
 
 #	1.	Connect via SSH to the correct App Server
-thor@jump_host /$thor@jump_host /$ sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+thor@jump_host /$thor@jump_host /$ sshpass -p  '******' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 Warning: Permanently added '172.16.238.10' (ECDSA) to the list of known hosts.
 [tony@stapp01 ~]$
 
