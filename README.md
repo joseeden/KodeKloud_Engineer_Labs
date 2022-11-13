@@ -3,9 +3,9 @@
 
 This repository contains all my notes for the past Kodekloud tasks - which are done in a live Linux environment. For each task, a set of instructions are given. The documentations for the servers are also provided.
 
-I finished 55 Systems Administration tasks before I finally reached 25000 points.
-After that, I was promoted to 'Devops Engineer' level where my next goal is to reach 100,000 points.
-Each tasks are scored with varying points, depending on the difficulty.
+Each tasks are scored with varying points depending on the difficulty.
+
+I finished 55 Systems Administration tasks before I finally reached 25000 points. After that, I was promoted to 'Devops Engineer' level where my next goal is to reach 100,000 points.
 
 ## Systems Administrator ##
 
@@ -67,4 +67,5 @@ Each tasks are scored with varying points, depending on the difficulty.
 
 ## DevOps Engineer ##
 
-- [ ] Task 56   - Deploy Haproxy App on Kubernetes  
+:heavy_check_mark: Task 56   - Save. Load and Transfer Docker Image
+<!-- - [ ] Task 56   - Save. Load and Transfer Docker Image -->
