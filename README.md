@@ -76,5 +76,5 @@ Each tasks are scored with varying points depending on the difficulty.
 
 ## DevOps Engineer ##
 
-:heavy_check_mark: Task 56   - Save. Load and Transfer Docker Image
+:heavy_check_mark: Task 56   - Save. Load, and Transfer Docker Image
 <!-- - [ ] Task 56   - Save. Load and Transfer Docker Image -->
