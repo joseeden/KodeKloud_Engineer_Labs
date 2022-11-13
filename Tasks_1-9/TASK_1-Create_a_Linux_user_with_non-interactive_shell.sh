@@ -1,5 +1,5 @@
 
-TASK 1 - Create a Linus user with non-interactive shell
+TASK 1 - Create a Linux user with non-interactive shell
 
 ------------------------------------------------------------------------------------------------------------------------
 # in some application server of stratos create a Linus user with non-interactive shell
