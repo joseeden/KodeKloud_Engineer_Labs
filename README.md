@@ -12,7 +12,7 @@ Task levels:
 - [Systems Administrator](#systems-administrator)
 - [DevOps Engineer](#devops-engineer)
 
-Each tasks are scored with varying points depending on the difficulty. You may also get bonus points for solving the challenges in a short amount of time.
+Each task is scored with varying points depending on the difficulty. You may also get bonus points for solving the challenges in a short amount of time.
 
 - To reach the "Devops Engineer" level, gain 25000 points.
 - To reach the "Devops Architect" level, gain 100000 points
