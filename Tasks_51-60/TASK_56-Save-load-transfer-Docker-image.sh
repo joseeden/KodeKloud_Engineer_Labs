@@ -7,9 +7,9 @@ Finished		2022-11-14 07:03:35
 -----------------------------------------------------------------------------------------------------------------
 
 CONTENT:
-	I.		REQUIREMENTS
-	II.  	STEPS
-	III.	REFERENCES
+	I.			REQUIREMENTS
+	II.  		STEPS
+	III.		REFERENCES
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -17,9 +17,11 @@ TASK_56-Save, Load and Transfer Docker Image
 
 I. REQUIREMENTS:
 
-One of the DevOps team members was working on to create a new custom docker image on App Server 1 in Stratos DC. He is done with his changes and image is saved on same server with name beta:devops. 
+One of the DevOps team members was working on to create a new custom docker image on App Server 1 in Stratos DC. 
+He is done with his changes and image is saved on same server with name beta:devops. 
 
-Recently a requirement has been raised by a team to use that image for testing, but the team wants to test the same on App Server 3. So we need to provide them that image on App Server 3 in Stratos DC.
+Recently a requirement has been raised by a team to use that image for testing, but the team wants to 
+test the same on App Server 3. So we need to provide them that image on App Server 3 in Stratos DC.
 
 a. On App Server 1 save the image beta:devops in an archive.
 
@@ -66,7 +68,7 @@ sudo su -
 # Check if docker is runnign
 sudo systemctl status docker
 
-# If its ianctive, start 
+# If its inactive, start 
 sudo systemctl start docker && sudo systemctl status docker
 
 # Check if tar was transferred from app1 to app3
@@ -86,7 +88,7 @@ beta         devops    e7c53ea80a0e   6 minutes ago   117MB
 
 -----------------------------------------------------------------------------------------------------------------
 
-II.		REFERENCES
+II.	REFERENCES
 
 https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
