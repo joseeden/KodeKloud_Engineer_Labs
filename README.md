@@ -74,7 +74,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 47  - Create a Linux User with Non-Interactive Shell  
 :heavy_check_mark: Task 48  - Configure Local Yum Repos  
 :heavy_check_mark: Task 49  - Linux FIrewalld Setup  
-:heavy_check_mark: Task 50  - Install and COnfigure PostgreSQL  
+:heavy_check_mark: Task 50  - Install and Configure PostgreSQL  
 :heavy_check_mark: Task 51  - Linux Firewalld Rules  
 :heavy_check_mark: Task 52  - Apache Troubleshooting  
 :heavy_check_mark: Task 53  - Create a Linux User with Non-Interactive Shell  
