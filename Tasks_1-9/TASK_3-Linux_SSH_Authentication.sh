@@ -6,10 +6,31 @@ The system admins team of xFusionCorp Industries has set up some scripts on jump
 Set up a password-less authentication for user thor on jump host to all app servers through their respective sudo users.
 
 -------------------------------------------------------------------------------------------------------------------------
+At Thor the jump run the following commands
 
-ssh tony@172.16.238.10				# When user-thor tries to ssh to the app servers using the server-users, user-thor will be
-									# prompted to enter password.
-									
+```bash
+whoami
+
+ssh-keygen -t rsa
+
+ssh-copy-id tony@stapp01
+
+ssh-copy-id steve@stapp02
+
+ssh-copy-id banner@stapp03
+
+ssh tony@stapp01
+
+whoami
+
+ssh steve@stapp02
+
+whoami
+
+ssh banner@stapp03
+
+whoami
+```															
 -------------------------------------------------------------------------------------------------------------------------
 
 # enote:
