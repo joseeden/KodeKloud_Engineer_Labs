@@ -19,7 +19,7 @@ Each task is scored with varying points depending on the difficulty. You may als
 
 ## Update: Public Profile
 
-Profiles can now be shared publicly. These allows the engineer to showcase what kind of challenges he/she has solved.
+Profiles can now be shared publicly. These allows engineers to showcase the challenges they have solved.
 
 See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/#!/user_profile?uid=15930992248539436) 
 
