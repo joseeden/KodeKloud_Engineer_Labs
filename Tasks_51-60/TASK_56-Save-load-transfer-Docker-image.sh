@@ -13,7 +13,7 @@ CONTENT:
 
 -----------------------------------------------------------------------------------------------------------------
 
-TASK_56-Save, Load and Transfer Docker Image
+TASK 56: Save, Load and Transfer Docker Image
 
 I. REQUIREMENTS:
 
