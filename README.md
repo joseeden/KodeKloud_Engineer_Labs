@@ -3,9 +3,18 @@
 
 This repository contains all my notes for the past Kodekloud tasks - which are done in a live Linux environment. For each task, a set of instructions are given. The documentations for the servers are also provided.
 
-Each tasks are scored with varying points depending on the difficulty.
+Task levels:
 
-I finished 55 Systems Administration tasks before I finally reached 25000 points. After that, I was promoted to 'Devops Engineer' level where my next goal is to reach 100,000 points.
+- [Systems Administrator](#systems-administrator)
+- [DevOps Engineer](#devops-engineer)
+
+Each tasks are scored with varying points depending on the difficulty.
+- To reach the "Devops Engineer" level, gain 25000 points.
+- To reach the "Devops Architect" level, gain 100000 points
+
+
+
+
 
 ## Systems Administrator ##
 
