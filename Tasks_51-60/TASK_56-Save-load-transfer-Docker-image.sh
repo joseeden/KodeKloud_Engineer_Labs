@@ -34,7 +34,7 @@ Note: Docker is already installed on both servers; however, if its service is do
 
 -----------------------------------------------------------------------------------------------------------------
 
-II.	STEPS
+II. STEPS
 
 # Connect to server 1
 sshpass -p  'xxxxx' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
@@ -88,7 +88,7 @@ beta         devops    e7c53ea80a0e   6 minutes ago   117MB
 
 -----------------------------------------------------------------------------------------------------------------
 
-II.	REFERENCES
+III. REFERENCES
 
 https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
