@@ -41,7 +41,6 @@ also validation can take some time to complete so keep patience.
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 
-------------------------------
 
 ## Steps
 
@@ -131,7 +130,6 @@ root@secret-datacenter:/# cat /opt/demo/password
 5ecur3
 ```
 
-------------------------------
 
 ## References
 
