@@ -84,4 +84,5 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ## DevOps Engineer ##
 
 :heavy_check_mark: Task 56  - Save. Load, and Transfer Docker Image
+:heavy_check_mark: Task 57  - Manage Secrets in Kubernetes` 
 <!-- - [ ] Task 56  - Save. Load and Transfer Docker Image -->
