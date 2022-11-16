@@ -1,7 +1,7 @@
 
 # Kodekloud Engineer Tasks #
 
-This repository contains all my notes for ~~past~~ Kodekloud Engineer tasks which are all done in a live Linux environment. These tasks simulate actual enterprise challenges and mimics the day-to-day work of System Administrators and Devops Engineer.
+This repository contains all my notes for ~~past~~ Kodekloud Engineer tasks which are all done in a live Linux environment. These tasks simulate actual enterprise challenges and mimics the day-to-day work of System Administrators and Devops Engineers.
 
 For each task, a set of requirements are given. The documentations for the servers are also provided. It is up for the "engineer" to find the solution for each problem. 
 
@@ -12,10 +12,10 @@ Task levels:
 - [Systems Administrator](#systems-administrator)
 - [DevOps Engineer](#devops-engineer)
 
-Each task is scored with varying points depending on the difficulty. You may also get bonus points for solving the challenges in a short amount of time.
+Each task is scored with varying points depending on the difficulty. You may also get bonus points for solving the challenges quickly.
 
-- To reach the "Devops Engineer" level, gain 25000 points.
-- To reach the "Devops Architect" level, gain 100000 points
+- To reach the "Devops Engineer" level, gain 25,000 points.
+- To reach the "Devops Architect" level, gain 100,000 points
 
 ## Update: Public Profile
 
