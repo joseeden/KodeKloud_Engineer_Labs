@@ -45,6 +45,13 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 
 ## Steps
 
+Check the secret to be used for the lab.
+
+```bash
+$ cat media.txt
+5ecur3
+```
+
 Create  YAML files for secret and pod.
 
 ```bash
@@ -106,7 +113,7 @@ NAME                READY   STATUS    RESTARTS   AGE
 secret-datacenter   1/1     Running   0      
 ```
 
-Login to the pod and check the secret.
+Login to the pod and check if the secret is mounted.
 
 ```bash
 $ kubectl exec -it secret-datacenter bash
