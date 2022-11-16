@@ -81,11 +81,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 54  - Setup SSL for NGINX  
 :heavy_check_mark: Task 55  - Install and Configure HAProxy LBR  
 
-## DevOps Engineer ##
+## DevOps Engineer 
 
-:heavy_check_mark: Task 56  - Save. Load, and Transfer Docker Image 
-:heavy_check_mark: Task 57  - Manage Secrets in Kubernetes
-
-:heavy_check_mark: Task 54  - Setup SSL for NGINX  
-:heavy_check_mark: Task 55  - Install and Configure HAProxy LBR  
-<!-- - [ ] Task 56  - Save. Load and Transfer Docker Image -->
+:heavy_check_mark: Task 56  - Save. Load, and Transfer Docker Image  
+:heavy_check_mark: Task 57  - Manage Secrets in Kubernetes  
+<!-- :heavy_check_mark: Task 55  - Install  HAProxy LBR   -->
