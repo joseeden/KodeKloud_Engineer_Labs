@@ -28,7 +28,6 @@ The Nautilus DevOps team is practicing some of the Ansible modules and creating 
 
 **Note**: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml so please make sure playbook works this way without passing any extra arguments.
 
-
 ------------------------------
 
 ## Steps
