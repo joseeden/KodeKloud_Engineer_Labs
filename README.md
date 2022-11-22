@@ -86,6 +86,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 56  - Save. Load, and Transfer Docker Image  
 :heavy_check_mark: Task 57  - Manage Secrets in Kubernetes  
 :heavy_check_mark: Task 58  - Creating Soft Links Using Ansible  
-:heavy_check_mark: Task 59  - Ansible Basic Playbook
+:heavy_check_mark: Task 59  - Ansible Basic Playbook   
+:heavy_check_mark: Task 60  - Git Fork a Repository  
 
 <!-- :heavy_check_mark: Task 55  - Install  HAProxy LBR   -->
