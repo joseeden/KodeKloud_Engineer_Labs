@@ -88,5 +88,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 58  - Creating Soft Links Using Ansible  
 :heavy_check_mark: Task 59  - Ansible Basic Playbook   
 :heavy_check_mark: Task 60  - Git Fork a Repository  
+:heavy_check_mark: Task 61  - Deploy Grafana on Kubernetes  
 
 <!-- :heavy_check_mark: Task 55  - Install  HAProxy LBR   -->
