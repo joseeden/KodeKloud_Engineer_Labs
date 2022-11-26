@@ -122,8 +122,8 @@ jenkins-service   NodePort   10.96.132.225   <none>        8080:30008/TCP   2m45
 
 Click the "Jenkins" button at the upper right to open a new tab which connects to the port defined in the manifest. In the new tab, you should see the Jenkins login page.
 
-![](../Images/task61-grafana-login-page.png)  
 
+![](../Images/task62-jenkins-login-page.png)  
 
 ------------------------------
 
