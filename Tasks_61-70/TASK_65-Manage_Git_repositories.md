@@ -56,13 +56,13 @@ In your dashboard, click the "+" at the right to create a new repository.
 
 ![](../Images/task65-new-repo.png)  
 
-Put "story_blog" in the Repository Name field and click then **Create Repository** at the bottom.
+Put "story_blog" in the Repository Name field and then click **Create Repository** at the bottom.
 
 <p align=center>
 <img src="../Images/task65-new-repo2.png">
 </p>
 
-After creating the nw repository, the page should now return a series of git commands as guide. Copy the **HTTP** URL and save it in a notepad. We'll use it later.
+After creating the new repository, the page should now return a series of git commands. Copy the **HTTP** URL and save it in a notepad. We'll use it later.
 
 <p align=center>
 <img width=900 src="../Images/task65-git-url.png">
@@ -71,7 +71,7 @@ After creating the nw repository, the page should now return a series of git com
 Back at the jumphost terminal, SSH to the storage server. Replace the '*******' with the user's password.
 
 ```bash
-sshpass -p 'Max_pass123' ssh -o StrictHostKeyChecking=no  max@172.16.238.15
+sshpass -p '*******' ssh -o StrictHostKeyChecking=no  max@172.16.238.15
 ```
 Ensure you're in the user's home directory.
 ```bash
@@ -105,7 +105,7 @@ drwxr-xr-x    1 root     root          4096 Oct 26  2020 ..
 drwxr-sr-x    3 max      max           4096 Nov 28 23:22 story_blog 
 ```
 
-Check out the files that needs to be copied from the specified directory.
+Check the files that needs to be copied from the specified directory.
 
 ```bash
 max $ ls -la /usr/security/
@@ -155,7 +155,7 @@ To http://git.stratos.xfusioncorp.com/max/story_blog.git
  * [new branch]      master -> master 
 ```
 
-Create a new branch and switch to it. You should see the prompt to change from "max (master)" to "max (max_demo)".
+Create a new branch and switch to it. You should see the prompt change from "max (master)" to "max (max_demo)".
 
 ```bash
 max (master)$ git checkout -b max_demo
@@ -164,7 +164,7 @@ Switched to a new branch 'max_demo'
 max (max_demo)$  
 ```
 
-You could also verify that you're in the correct branch by running the command below. The branch with the '*' is the branch you're currently on.
+You could also verify that you're on the correct branch by running the command below. The branch with the '*' is the branch you're currently on.
 
 ```bash
 max (max_demo)$ git branch
@@ -188,7 +188,7 @@ Verify that the file is copied to the repository.
 ```bash
 max (max_demo)$ pwd
 /home/max/story_blog
-max (max_demo)$ 
+
 max (max_demo)$ ls -la
 total 28
 drwxr-sr-x    3 max      max           4096 Nov 28 22:39 .
@@ -204,6 +204,12 @@ Edit the "story-index-max.txt" using vim and replace "Mooose" with "Mouse".
 ```bash
 max (max_demo)$ vim story-index-max.txt
 
+1. The Lion and the Mooose
+2. The Frogs and the Ox
+3. The Fox and the Grapes
+4. The Donkey and the Dog 
+```
+```bash
 1. The Lion and the Mouse
 2. The Frogs and the Ox
 3. The Fox and the Grapes
@@ -224,7 +230,9 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track) 
 ```
 
-Stage and commit the change with the correct commit message. This can be done in a single line of command, along with the "git push".
+Stage and commit the change with the correct commit message. This can be done in a single line of command, along with the "git push". 
+
+Make sure to specify "origin" as the origin branch and "max_demo" as the remote branch in the push command.
 
 ```bash
 max (max_demo)$ git add story-index-max.txt; git commit -m "typo fixed for Mooose"; git push origin max_demo
@@ -235,7 +243,7 @@ To http://git.stratos.xfusioncorp.com/max/story_blog.git
  * [new branch]      max_demo -> max_demo
 ```
 
-Back at the Gitea UI, click **story_blog** to see your dashboard. By default, the master branch will be displayed. You should see the two files you commited earlier aong with the "add stories" commit message.
+Back at the Gitea UI, click **story_blog** to see your dashboard. By default, the master branch will be displayed. You should see the two files you commited earlier along with the "add stories" commit message.
 
 ![](../Images/task65-master-commits.png)  
 
