@@ -93,5 +93,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 62  - [Deploy Jenkins on Kubernetes](./Tasks_61-70/TASK_62-Deploy_Jenkins_on_Kubernetes.md)  
 :heavy_check_mark: Task 63  - [Create Namespaces on Kubernetes Cluster](./Tasks_61-70/TASK_63-Create_Namespaces_in_Kubernetes.md)   
 :heavy_check_mark: Task 64  - [Ansible Copy Module](./Tasks_61-70/TASK_64-Ansible_Copy_Module.md)   
+:heavy_check_mark: Task 65  -  [Manage Git Repositories](./Tasks_61-70/TASK_65-Manage_Git_repositories.md)   
 
 <!-- :heavy_check_mark: Task 63  -    -->
