@@ -105,7 +105,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 66  -  [Update an Existing Deployment in Kubernetes](./Tasks_61-70/TASK_66_Update_existing_Deployment_in_Kubernetes.md)   
 :heavy_check_mark: Task 67  -  [Managing Jinja2 Templates Using Ansible](./Tasks_61-70/TASK_67_Managing_Jinja2_Templates.md)  
 :heavy_check_mark: Task 68  -  [Puppet Install a Package](./Tasks_61-70/TASK_68_Puppet-Install_a_Package.md)   
-:heavy_check_mark: Task 69  -  [Ansible Lineinfile Module](./Tasks_61-70/TASK_69-Ansible_Lineinfile_Module.md) 
-:heavy_check_mark: Task 70  -  [Setup Puppet Certs Autosign](./Tasks_61-70/TASK_70-Setup_Puppet_Certs_Autosign.md)
+:heavy_check_mark: Task 69  -  [Ansible Lineinfile Module](./Tasks_61-70/TASK_69-Ansible_Lineinfile_Module.md)   
+:heavy_check_mark: Task 70  -  [Setup Puppet Certs Autosign](./Tasks_61-70/TASK_70-Setup_Puppet_Certs_Autosign.md)   
 
 <!-- :heavy_check_mark: Task 63  -    -->
