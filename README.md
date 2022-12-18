@@ -109,5 +109,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 70  -  [Setup Puppet Certs Autosign](./Tasks_61-70/TASK_70-Setup_Puppet_Certs_Autosign.md)   
 :heavy_check_mark: Task 71  -  [Create a Docker Network](./Tasks_71-80/TASK_71-Create_a_Docker_Network.md)   
 :heavy_check_mark: Task 72  -  [Create Deployments in Kubernetes Cluster](./Tasks_71-80/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)
+:heavy_check_mark: Task 73  -  [Ansible Inventory Update](./Tasks_71-80/TASK_73-Ansible_Inventory_Update.md)   
 
 <!-- :heavy_check_mark: Task 63  -    -->
