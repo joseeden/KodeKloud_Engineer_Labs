@@ -108,11 +108,11 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 69  -  [Ansible Lineinfile Module](./Tasks_61-70/TASK_69-Ansible_Lineinfile_Module.md)   
 :heavy_check_mark: Task 70  -  [Setup Puppet Certs Autosign](./Tasks_61-70/TASK_70-Setup_Puppet_Certs_Autosign.md)   
 :heavy_check_mark: Task 71  -  [Create a Docker Network](./Tasks_71-80/TASK_71-Create_a_Docker_Network.md)   
-:heavy_check_mark: Task 72  -  [Create Deployments in Kubernetes Cluster](./Tasks_71-80/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)
-:heavy_check_mark: Task 73  -  [Ansible Inventory Update](./Tasks_71-80/TASK_73-Ansible_Inventory_Update.md)   
-:heavy_check_mark: Task 74  -  [Create Replicaset in Kubernetes Cluster](./Tasks_71-80/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)
-:heavy_check_mark: Task 75  -  [Puppet String Manipulation](./Tasks_71-80/TASK_75-Puppet_String_Manipulation.md)   
-:heavy_check_mark: Task 76  -  [Run a Docker Container](./Tasks_71-80/TASK_76-Run_a_Docker_Container.md)
+:heavy_check_mark: Task 72  -  [Create Deployments in Kubernetes Cluster](./Tasks_71-80/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)   
+:heavy_check_mark: Task 73  -  [Ansible Inventory Update](./Tasks_71-80/TASK_73-Ansible_Inventory_Update.md)     
+:heavy_check_mark: Task 74  -  [Create Replicaset in Kubernetes Cluster](./Tasks_71-80/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)   
+:heavy_check_mark: Task 75  -  [Puppet String Manipulation](./Tasks_71-80/TASK_75-Puppet_String_Manipulation.md)    
+:heavy_check_mark: Task 76  -  [Run a Docker Container](./Tasks_71-80/TASK_76-Run_a_Docker_Container.md)    
 
 
 <!-- :heavy_check_mark: Task 63  -    -->
