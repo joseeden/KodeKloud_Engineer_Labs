@@ -43,7 +43,7 @@ Copy the contents of the public key.
 ```bash
 $ cat ~/.ssh/id_rsa.pub 
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwiooC75LA9hrd1ASypsTPjF3lSNg1Hh7xjkHvDwxyhLnrPWoGTeZx55axDTxqbkipclH9auYHP/JisT1i1PRUZwbiNsy6aFLHK5UKVMHJNL4/XxIhRilb8zSfylZ6yYP1ledKPxImN3SmnbBc2OO0EuRlPSSSU5niBdrUswqDqSP4veF4uH5JF98S60m5FCeX+HU926VStC8jEl9WoV0JhJyQ88GbPpoYEtzPlvlLobLmW/SlxavtzdlK0U1t+UCeg/+g9J4ntkoSKOGJNtFKPONlNtiRhs3+1sLbPdJOOSKf6cpCFTOeijizRh/+wzWr9UzlAJEtqGT3OQlvM423 thor@jump_host.stratos.xfusioncorp.com
+ssh-rsa AAAABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx thor@jump_host.stratos.xfusioncorp.com
 ```
 
 Switch to root user. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
@@ -60,7 +60,7 @@ cd /etc/puppetlabs/code/environments/production/manifests
 ```bash
 $ sudo vi blog.pp
 
-$public_key =  'AAAAB3NzaC1yc2EAAAADAQABAAABAQCwiooC75LA9hrd1ASypsTPjF3lSNg1Hh7xjkHvDwxyhLnrPWoGTeZx55axDTxqbkipclH9auYHP/JisT1i1PRUZwbiNsy6aFLHK5UKVMHJNL4/XxIhRilb8zSfylZ6yYP1ledKPxImN3SmnbBc2OO0EuRlPSSSU5niBdrUswqDqSP4veF4uH5JF98S60m5FCeX+HU926VStC8jEl9WoV0JhJyQ88GbPpoYEtzPlvlLobLmW/SlxavtzdlK0U1t+UCeg/+g9J4ntkoSKOGJNtFKPONlNtiRhs3+1sLbPdJOOSKf6cpCFTOeijizRh/+wzWr9UzlAJEtqGT3OQlvM423'
+$public_key =  'AAAABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 class ssh_node1 {
    ssh_authorized_key { 'tony@stapp01':
@@ -148,9 +148,6 @@ puppet agent --test
 
 Go back to the jumphost. Now try to login to the App servers via SSH. We should be able to login without entering any password.
 
-```bash
-ssh tony@stapp01  
-```
 ```bash
 thor@jump_host $ ssh tony@stapp01  
 The authenticity of host 'stapp01 (172.16.238.10)' can't be established.
