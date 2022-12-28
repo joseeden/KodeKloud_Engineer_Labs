@@ -106,10 +106,10 @@ Validate the puppet file.
 puppet parser validate blog.pp 
 ```
 
-Next, login to App server 1, switch to root, and run the Puppet agent to pull the configuration from the Puppet server.
+Next, login to App server 1, switch to root, and run the Puppet agent to pull the configuration from the Puppet server. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '*************' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
 ```
 
@@ -135,13 +135,13 @@ Notice: Applied catalog in 0.09 seconds
 Repeat the same steps for App server 2 and App server 3.
 
 ```bash
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '*************' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su - 
 puppet agent --test 
 ```
 
 ```bash
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '*************' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su - 
 puppet agent --test 
 ```
