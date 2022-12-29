@@ -114,7 +114,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 75  -  [Puppet String Manipulation](./Tasks_71-80/TASK_75-Puppet_String_Manipulation.md)    
 :heavy_check_mark: Task 76  -  [Run a Docker Container](./Tasks_71-80/TASK_76-Run_a_Docker_Container.md)    
 :heavy_check_mark: Task 77  -  [Init Containers in Kubernetes](./Tasks_71-80/TASK_77-Init_containers_in_Kubernetes.md)  
-:heavy_check_mark: Task 78  -  [Rollback a Deployment in Kubernetes](./Tasks_71-80/TASK_78-Rollback_deployment_in_Kubernetes.md)  
-:heavy_check_mark: Task 79  -  [Puppet Setup SSH Keys](./Tasks_71-80/TASK_79-Puppet_Setup_SSH_Keys.md)   
+:heavy_check_mark: Task 78  -  [Rollback a Deployment in Kubernetes](./Tasks_71-80/TASK_78-Rollback_deployment_in_Kubernetes.md)   
+:heavy_check_mark: Task 79  -  [Puppet Setup SSH Keys](./Tasks_71-80/TASK_79-Puppet_Setup_SSH_Keys.md)    
+:heavy_check_mark: Task 80  -  [Deploy MySQL on Kubernetes](./Tasks_71-80/TASK_80-Deploy_MySQL_on_Kubernetes.md)
 
-<!-- :heavy_check_mark: Task 7  -    -->
+<!-- :heavy_check_mark: Task 8  -    -->
