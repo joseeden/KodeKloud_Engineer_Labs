@@ -55,7 +55,7 @@ $ vi inventory
 stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=********  ansible_user=tony
 ```
 
-To verify if the inventory is correct, let's runa  simple ping test. It should return the "ping:pong" response.
+To verify if the inventory is correct, let's run a simple ping test. It should return the "ping:pong" response.
 
 ```bash
 $ ansible -m ping -i inventory all
