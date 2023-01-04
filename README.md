@@ -119,5 +119,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 80  -  [Deploy MySQL on Kubernetes](./Tasks_71-80/TASK_80-Deploy_MySQL_on_Kubernetes.md)  
 :heavy_check_mark: Task 81  -  [Ansible Facts Gathering](./Tasks_81-90/TASK_81_Ansible_Facts_Gathering.md)   
 :heavy_check_mark: Task 82  -  [Create Cronjobs in Kubernetes](./Tasks_81-90/TASK_82_Create_Cronjobs_in_Kubernetes.md)   
+:heavy_check_mark: Task 83  -  [Deploy Tomcat App on Kubernetes](./Tasks_81-90/TASK_83_Deploy_Tomcat_on_Kubernetes.md)   
 
 <!-- :heavy_check_mark: Task 8  -    -->
