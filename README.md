@@ -123,6 +123,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 84  -  [Fix Python App Deployed on Kubernetes Cluster](./Tasks_81-90/TASK_84_Fix_Python_App.md)   
 :heavy_check_mark: Task 85  -  [Rolling Updates in Kubernetes](./Tasks_81-90/TASK_85_Rolling_Updates_in_Kubernetes.md)   
 :heavy_check_mark: Task 86  -  [Ansible Archive Module](./Tasks_81-90/TASK_86_Ansible_Archive_Module.md)     
+:heavy_check_mark: Task 87  -  [Ansible Config File Update](./Tasks_81-90/TASK_87_Ansible_Config_File_Update.md)   
 
 <!-- :heavy_check_mark: Task 8  -    -->
 	
