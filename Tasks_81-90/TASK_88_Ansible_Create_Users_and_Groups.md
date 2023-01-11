@@ -147,7 +147,7 @@ inventory = ~/playbooks/inventory
 vault_password_file = ~/playbooks/secrets/vault.txt
 ```
 
-Before we run the playbook, let's first make sure we can reach the App servers by running a simple PING. All three shuold return a "PONG" response.
+Before we run the playbook, let's first make sure we can reach the App servers by running a simple PING. All three should return a "PONG" response.
 
 ```bash
 $ vi ~/playbooks/ansible.cfg
