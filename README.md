@@ -125,6 +125,17 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 86  -  [Ansible Archive Module](./Tasks_81-90/TASK_86_Ansible_Archive_Module.md)     
 :heavy_check_mark: Task 87  -  [Ansible Config File Update](./Tasks_81-90/TASK_87_Ansible_Config_File_Update.md)   
 :heavy_check_mark: Task 88  -  [Ansible Create Users and Groups](./Tasks_81-90/TASK_88_Ansible_Create_Users_and_Groups.md)    
+:heavy_check_mark: Task 89  -  [Kubernetes Sidecar Containers](./Tasks_81-90/TASK_89_Kubernetes_Sidecar_Containers.md)   
+:heavy_check_mark: Task 90  -  [Using Ansible Conditionals](./Tasks_81-90/TASK_90_Using_Ansible_Conditionals.md)   
 
-<!-- :heavy_check_mark: Task 8  -    -->
+<!-- :heavy_check_mark: Task 91  -  x  -->
+<!-- :heavy_check_mark: Task 92  -  x  -->
+<!-- :heavy_check_mark: Task 93  -  x  -->
+<!-- :heavy_check_mark: Task 94  -  x  -->
+<!-- :heavy_check_mark: Task 95  -  x  -->
+<!-- :heavy_check_mark: Task 96  -  x  -->
+<!-- :heavy_check_mark: Task 97  -  x  -->
+<!-- :heavy_check_mark: Task 98  -  x  -->
+<!-- :heavy_check_mark: Task 99  -  x  -->
+<!-- :heavy_check_mark: Task 100  -  x  -->
 	
