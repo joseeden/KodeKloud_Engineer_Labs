@@ -128,8 +128,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 89  -  [Kubernetes Sidecar Containers](./Tasks_81-90/TASK_89_Kubernetes_Sidecar_Containers.md)   
 :heavy_check_mark: Task 90  -  [Using Ansible Conditionals](./Tasks_81-90/TASK_90_Using_Ansible_Conditionals.md)   
 :heavy_check_mark: Task 91  -  [Ansible Setup Httpd and PHP](./Tasks_91-100/TASK_91_Ansible_Setup_HTTPD_and_PHP.md)	  
+:heavy_check_mark: Task 92  -  [Print Environment Variables](./Tasks_91-100/TASK_92_Print_Environment_Variables.md)  
 
-<!-- :heavy_check_mark: Task 92  -  x  -->
 <!-- :heavy_check_mark: Task 93  -  x  -->
 <!-- :heavy_check_mark: Task 94  -  x  -->
 <!-- :heavy_check_mark: Task 95  -  x  -->
