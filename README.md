@@ -131,8 +131,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 92  -  [Print Environment Variables](./Tasks_91-100/TASK_92_Print_Environment_Variables.md)  
 :heavy_check_mark: Task 93  -  [Set Limits for Resources in Kubernetes](./Tasks_91-100/TASK_93_Set_Limits_for_Resources.md)    
 :heavy_check_mark: Task 94  -  [Kubernetes Troubleshooting](./Tasks_91-100/TASK_94_Kubernetes_Troubleshooting.md)   
+:heavy_check_mark: Task 95  -  [Ansible Blockinfile Module](./Tasks_91-100/TASK_95_Ansible_Blockinfile_module.md)   
 
-<!-- :heavy_check_mark: Task 95  -  x  -->
 <!-- :heavy_check_mark: Task 96  -  x  -->
 <!-- :heavy_check_mark: Task 97  -  x  -->
 <!-- :heavy_check_mark: Task 98  -  x  -->
