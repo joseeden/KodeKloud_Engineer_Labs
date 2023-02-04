@@ -133,8 +133,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 94  -  [Kubernetes Troubleshooting](./Tasks_91-100/TASK_94_Kubernetes_Troubleshooting.md)   
 :heavy_check_mark: Task 95  -  [Ansible Blockinfile Module](./Tasks_91-100/TASK_95_Ansible_Blockinfile_module.md)   
 :heavy_check_mark: Task 96  -  [Countdown job in Kubernetes](./Tasks_91-100/TASK_96_Countdown_job_in_Kubernetes.md)   
+:heavy_check_mark: Task 97  -  [Docker Ports Mapping](./Tasks_91-100/TASK_97_Docker_Ports_Mapping.md)   
 
-<!-- :heavy_check_mark: Task 97  -  x  -->
 <!-- :heavy_check_mark: Task 98  -  x  -->
 <!-- :heavy_check_mark: Task 99  -  x  -->
 <!-- :heavy_check_mark: Task 100  -  x  -->
