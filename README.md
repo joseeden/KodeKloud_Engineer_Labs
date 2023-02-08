@@ -136,5 +136,15 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 97  -  [Docker Ports Mapping](./Tasks_91-100/TASK_97_Docker_Ports_Mapping.md)   
 :heavy_check_mark: Task 98  -  [Troubleshoot Issue With Pods](./Tasks_91-100/TASK_98_Troubleshoot_issue_with_Pods.md)   
 :heavy_check_mark: Task 99  -  [Ansible Replace Module](./Tasks_91-100/TASK_99_Ansible_Replace_Module.md)   
-<!-- :heavy_check_mark: Task 100  -  x  -->
-	
+:heavy_check_mark: Task 100  -  [Puppet Create a FIle](./Tasks_91-100/TASK_100_Puppet_Create_File.md)     
+
+<!-- :heavy_check_mark: Task 101  -  
+:heavy_check_mark: Task 102  -  
+:heavy_check_mark: Task 103  -  
+:heavy_check_mark: Task 104  -  
+:heavy_check_mark: Task 105  -  
+:heavy_check_mark: Task 106  -  
+:heavy_check_mark: Task 107  -  
+:heavy_check_mark: Task 108  -  
+:heavy_check_mark: Task 109  -  
+:heavy_check_mark: Task 110  -   -->
