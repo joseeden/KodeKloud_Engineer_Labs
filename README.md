@@ -137,14 +137,34 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 :heavy_check_mark: Task 98  -  [Troubleshoot Issue With Pods](./Tasks_91-100/TASK_98_Troubleshoot_issue_with_Pods.md)   
 :heavy_check_mark: Task 99  -  [Ansible Replace Module](./Tasks_91-100/TASK_99_Ansible_Replace_Module.md)   
 :heavy_check_mark: Task 100  -  [Puppet Create a FIle](./Tasks_91-100/TASK_100_Puppet_Create_File.md)     
+:heavy_check_mark: Task 101  -  [ReplicationController in Kubernetes](./Tasks_101-110/TASK_101_Replication_Controller_in_Kubernetes.md)   
 
-<!-- :heavy_check_mark: Task 101  -  
-:heavy_check_mark: Task 102  -  
-:heavy_check_mark: Task 103  -  
-:heavy_check_mark: Task 104  -  
-:heavy_check_mark: Task 105  -  
-:heavy_check_mark: Task 106  -  
-:heavy_check_mark: Task 107  -  
-:heavy_check_mark: Task 108  -  
-:heavy_check_mark: Task 109  -  
-:heavy_check_mark: Task 110  -   -->
+<!-- :heavy_check_mark: Task 102  -   -->
+<!-- :heavy_check_mark: Task 103  -   -->
+<!-- :heavy_check_mark: Task 104  -   -->
+<!-- :heavy_check_mark: Task 105  -   -->
+<!-- :heavy_check_mark: Task 106  -   -->
+<!-- :heavy_check_mark: Task 107  -   -->
+<!-- :heavy_check_mark: Task 108  -   -->
+<!-- :heavy_check_mark: Task 109  -   -->
+<!-- :heavy_check_mark: Task 110  -   -->
+<!-- :heavy_check_mark: Task 111  -   -->
+<!-- :heavy_check_mark: Task 112  -   -->
+<!-- :heavy_check_mark: Task 113  -   -->
+<!-- :heavy_check_mark: Task 114  -   -->
+<!-- :heavy_check_mark: Task 115  -   -->
+<!-- :heavy_check_mark: Task 116  -   -->
+<!-- :heavy_check_mark: Task 117  -   -->
+<!-- :heavy_check_mark: Task 118  -   -->
+<!-- :heavy_check_mark: Task 119  -   -->
+<!-- :heavy_check_mark: Task 120  -   -->
+<!-- :heavy_check_mark: Task 121  -   -->
+<!-- :heavy_check_mark: Task 122  -   -->
+<!-- :heavy_check_mark: Task 123  -   -->
+<!-- :heavy_check_mark: Task 124  -   -->
+<!-- :heavy_check_mark: Task 125  -   -->
+<!-- :heavy_check_mark: Task 126  -   -->
+<!-- :heavy_check_mark: Task 127  -   -->
+<!-- :heavy_check_mark: Task 128  -   -->
+<!-- :heavy_check_mark: Task 129  -   -->
+
