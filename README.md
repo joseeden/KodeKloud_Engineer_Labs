@@ -1,4 +1,4 @@
-# Kodekloud Engineer Tasks
+# Kodekloud Engineer Labs - Tasks
 
 This repository contains all my notes for ~~past~~ Kodekloud Engineer tasks which are all performed in a live Linux environment. These tasks simulate actual enterprise challenges and mimics the day-to-day work of System Administrators and Devops Engineers.
 
