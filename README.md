@@ -10,7 +10,7 @@ Task levels:
 
 
 Role/Level | Points Needed
----------|----------|---------
+---------|----------
  [Systems Administrator](#systems-administrator) | Entry-level
  [DevOps Engineer](#devops-engineer) | 25,000 
  [Senior DevOps Engineer](#devops-engineer) | 75,000
