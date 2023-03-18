@@ -141,8 +141,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 103 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)  
 ✔️ Task 104 - [Puppet Multi-Packages Installation](./Tasks_101-110/TASK_104_Puppet_Unarchive_Module.md)    
 ✔️ Task 105 - [Git Create Branches](./Tasks_101-110/TASK_105_Git_create_branches.md)  
-✔️ Task 106 - [Puppet Setup File Permissions](./Tasks_101-110/TASK_106_Puppet_File_Permissions.md)
-✔️ Task 107 - [Create Pods in Kubernetes Cluster](./Tasks_101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)   
+✔️ Task 106 - [Puppet Setup File Permissions](./Tasks_101-110/TASK_106_Puppet_File_Permissions.md)     
+✔️ Task 107 - [Create Pods in Kubernetes Cluster](./Tasks_101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)    
 ❌ Task 108 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)   
 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
