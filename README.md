@@ -8,14 +8,12 @@ To learn more, check out [Kodekloud Engineer-Getting Started.](https://kodekloud
 
 Task levels:
 
-- [Systems Administrator](#systems-administrator)
-- [DevOps Engineer](#devops-engineer)
+- [Systems Administrator](#systems-administrator) - everyone starts here
+- [DevOps Engineer](#devops-engineer) - Need 25,000 points to reach this
+- [Senior DevOps Engineer](#devops-engineer) - Need 75,000 points to reach this
+- [DevOps Architect](#devops-engineer) - Need 150,000 points to reach this
 
-Each task is scored with varying points depending on the difficulty. You may also get bonus points for solving the challenges quickly.
-
-- Everyone starts at "System Administrator" level
-- To reach the "Devops Engineer" level, gain 25,000 points.
-- To reach the "Devops Architect" level, gain 100,000 points
+More details can be found [here](https://kodekloud.com/community/t/updates-new-roles/13242).
 
 ## Updates
 
