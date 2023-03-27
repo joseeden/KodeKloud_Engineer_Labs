@@ -151,6 +151,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 108 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)    
 ✔️ Task 109 - [Git Revert Some Changes](./Tasks_101-110/TASK_109_Git_revert_some_changes.md)    
 ✔️ Task 110 - [Fix issue with PhpFpm Application Deployed on Kubernetes](./Tasks_101-110/TASK_110_Fix_issue_with_PHPFMP_App_in_Kubernetes.md)   
+✔️ Task 111 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_101-110/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)    
 
 
 
@@ -163,7 +164,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 111 - -->
 
 <!-- ✔️ Task 112 - -->
 
