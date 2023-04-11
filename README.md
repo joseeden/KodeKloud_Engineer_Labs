@@ -153,7 +153,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 110 - [Fix issue with PhpFpm Application Deployed on Kubernetes](./Tasks_101-110/TASK_110_Fix_issue_with_PHPFMP_App_in_Kubernetes.md)   
 ✔️ Task 111 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)      
 ✔️ Task 112 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)     
-✔️ Task 113 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)
+✔️ Task 113 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)    
+✔️ Task 114 - [Resolve Git Merge Conflicts](./Tasks_111-120/TASK_114_Resolve_Git_Merge_Conflicts.md)
 
 
 
@@ -169,7 +170,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 114 - -->
 
 <!-- ✔️ Task 115 - -->
 
