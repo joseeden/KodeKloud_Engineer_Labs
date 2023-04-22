@@ -156,6 +156,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 113 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)    
 ✔️ Task 114 - [Resolve Git Merge Conflicts](./Tasks_111-120/TASK_114_Resolve_Git_Merge_Conflicts.md)    
 ✔️ Task 115 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)     
+✔️ Task 116 - [Rolling Updates And Rolling Back Deployments in Kubernetes](./Tasks_111-120/TASK_116_Rolling_updates_and_rolling_back_deployments.md)   
+✔️ Task 117 - [Ansible Ping Module Usage](./Tasks_111-120/TASK_117_Ansible_Ping_Module_Usage.md)       
 
 
 
@@ -173,9 +175,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 116 - -->
 
-<!-- ✔️ Task 117 - -->
 
 <!-- ✔️ Task 118 - -->
 
