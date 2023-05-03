@@ -159,6 +159,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 116 - [Rolling Updates And Rolling Back Deployments in Kubernetes](./Tasks_111-120/TASK_116_Rolling_updates_and_rolling_back_deployments.md)   
 ✔️ Task 117 - [Ansible Ping Module Usage](./Tasks_111-120/TASK_117_Ansible_Ping_Module_Usage.md)        
 ✔️ Task 118 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)      
+✔️ Task 119 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)    
 
 
 
@@ -167,19 +168,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ✔️ Task 119 - -->
 
 <!-- ✔️ Task 120 - -->
 
