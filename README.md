@@ -161,6 +161,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 118 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)      
 ✔️ Task 119 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)    
 ✔️ Task 120 - [Deploy Nginx and Phpfpm on Kubernetes](./Tasks_111-120/TASK_120_Deploy_nginx_and_phpfm.md)     
+✔️ Task 121 - [Git Setup from Scratch](./Tasks_121-130/TASK_121_Git_setup_from_Scratch.md)   
 
 
 
@@ -171,7 +172,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 121 - -->
 
 <!-- ✔️ Task 122 - -->
 
