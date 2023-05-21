@@ -162,6 +162,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 119 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)    
 ✔️ Task 120 - [Deploy Nginx and Phpfpm on Kubernetes](./Tasks_111-120/TASK_120_Deploy_nginx_and_phpfm.md)     
 ✔️ Task 121 - [Git Setup from Scratch](./Tasks_121-130/TASK_121_Git_setup_from_Scratch.md)   
+✔️ Task 122 - [Kubernetes Redis Deployment](./Tasks_121-130/TASK_122_Kubernetes_Redis_Deployment.md)    
 
 
 
@@ -173,7 +174,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 122 - -->
 
 <!-- ✔️ Task 123 - -->
 
