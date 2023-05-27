@@ -53,7 +53,7 @@ cd /etc/puppetlabs/code/environments/production/manifests
 
 Create the **official.pp**
 
-```json
+```bash
 class tomcat_installer {
     package {'tomcat':
         ensure => installed
