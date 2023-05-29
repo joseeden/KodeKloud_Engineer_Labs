@@ -164,6 +164,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 121 - [Git Setup from Scratch](./Tasks_121-130/TASK_121_Git_setup_from_Scratch.md)   
 ✔️ Task 122 - [Kubernetes Redis Deployment](./Tasks_121-130/TASK_122_Kubernetes_Redis_Deployment.md)    
 ✔️ Task 123 - [Puppet Manage Services](./Tasks_121-130/TASK_123_Puppet_Manage_Services.md)    
+✔️ Task 124 - [Install Docker Package](./Tasks_121-130/TASK_124_Install_Docker_Package.md)    
 
 
 
@@ -177,7 +178,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 124 - -->
 
 <!-- ✔️ Task 125 - -->
 
