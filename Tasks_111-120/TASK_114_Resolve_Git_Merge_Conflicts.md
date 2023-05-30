@@ -12,7 +12,7 @@ Finished: &nbsp;&nbsp;2023-04-11 21:40:00
 
 ------------------------------
 
-# TASK xx: 
+# TASK 114: Resolve Git Merge Conflicts
 
 ## Requirements
 
