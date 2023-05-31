@@ -165,7 +165,8 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 122 - [Kubernetes Redis Deployment](./Tasks_121-130/TASK_122_Kubernetes_Redis_Deployment.md)    
 ✔️ Task 123 - [Puppet Manage Services](./Tasks_121-130/TASK_123_Puppet_Manage_Services.md)    
 ✔️ Task 124 - [Install Docker Package](./Tasks_121-130/TASK_124_Install_Docker_Package.md)    
-✔️ Task 125 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)     
+✔️ Task 125 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)      
+✔️ Task 126 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)    
 
 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
@@ -180,7 +181,6 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 126 - -->
 
 <!-- ✔️ Task 127 - -->
 
