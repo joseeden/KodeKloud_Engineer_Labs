@@ -169,6 +169,7 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 126 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)          
 ✔️ Task 127 - [Kubernetes Time Check Pod](./Tasks_121-130/TASK_127_Kubernetes_Time_Check_Pod.md)          
 ✔️ Task 128 - [Deploy Guest Book App on Kubernetes](./Tasks_121-130/TASK_128_Deploy_Guest_Book_App.md)       
+✔️ Task 129 - [Setup Puppet Certs](./Tasks_121-130/TASK_129_Setup_Puppet_Certs.md)
 
 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
@@ -177,4 +178,3 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 
 
 
-<!-- ✔️ Task 129 - -->
