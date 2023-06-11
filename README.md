@@ -171,11 +171,11 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 128 - [Deploy Guest Book App on Kubernetes](./Tasks_121-130/TASK_128_Deploy_Guest_Book_App.md)       
 ❌ Task 129 - [Setup Puppet Certs](./Tasks_121-130/TASK_129_Setup_Puppet_Certs.md)       
 ✔️ Task 130 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)           
-✔️ Task 131 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)       
+✔️ Task 131 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)         
+✔️ Task 132 - [Puppet Create Symlinks](./Tasks_131-140/TASK_132_Puppet_Create_Symlinks.md)      
 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
 
-<!-- ✔️ Task 132 -  -->
 <!-- ✔️ Task 133 -  -->
 <!-- ✔️ Task 134 -  -->
 <!-- ✔️ Task 135 -  -->
