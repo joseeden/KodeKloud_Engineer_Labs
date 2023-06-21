@@ -173,11 +173,11 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 130 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)           
 ✔️ Task 131 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)         
 ✔️ Task 132 - [Puppet Create Symlinks](./Tasks_131-140/TASK_132_Puppet_Create_Symlinks.md)        
-✔️ Task 133 - [Puppet Setup NTP Server](./Tasks_131-140/TASK_133_Puppet_Setup_NTP_Server.md)	 
+✔️ Task 133 - [Puppet Setup NTP Server](./Tasks_131-140/TASK_133_Puppet_Setup_NTP_Server.md)	   
+✔️ Task 134 - [Deploy Nagios on Kubernetes](./Tasks_131-140/TASK_134_Deploy_Nagios_on_Kubernetes.md)       
 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
 
-<!-- ✔️ Task 134 -  -->
 <!-- ✔️ Task 135 -  -->
 <!-- ✔️ Task 136 -  -->
 <!-- ✔️ Task 137 -  -->
