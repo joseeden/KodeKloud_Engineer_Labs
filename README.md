@@ -18,6 +18,13 @@ Role/Level | Points Needed
 
 More details can be found [here](https://kodekloud.com/community/t/updates-new-roles/13242).
 
+## Notes 
+
+- The tasks are given in a random order.
+- Some tasks are given more than once. 
+- For tasks with buggy lab, better to skip them.
+- You will need to wait for 24 hours for the next task to arrive.
+
 ## Updates
 
 ### Markdown for tasks 57 and onwards
