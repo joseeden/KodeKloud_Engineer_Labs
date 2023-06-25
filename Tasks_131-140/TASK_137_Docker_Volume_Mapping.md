@@ -32,9 +32,9 @@ c. Map the host volume **/opt/sysops** with container volume **/usr/src**. There
 Login to the App Server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '*************' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
-BigGr33n
+*************
 ```
 
 Check the existing docker images.
