@@ -185,11 +185,11 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 136 - [Ansible File Module](./Tasks_131-140/TASK_136_Ansible_File_Module.md)       
 ✔️ Task 137 - [Docker Volumes Mapping](./Tasks_131-140/TASK_137_Docker_Volume_Mapping.md)        
 ✔️ Task 138 - [Git Clone Repositories](./Tasks_131-140/TASK_138_Git_Clone_Repositories.md)        
-✔️ Task 139 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)         
-
+✔️ Task 139 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
+✔️ Task 140 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)      
+ 
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
 
-<!-- ✔️ Task 140 -  -->
 <!-- ✔️ Task 141 -  -->
 <!-- ✔️ Task 142 -  -->
 <!-- ✔️ Task 143 -  -->
