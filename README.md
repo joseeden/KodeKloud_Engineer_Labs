@@ -188,11 +188,11 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 139 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
 ✔️ Task 140 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)          
 ✔️ Task 141 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)         
-✔️ Task 142 - [Deploy Apache Web Server on Kubernetes Cluster](./Tasks_141_150/TASK_142_Deploy_Apache_Web_Server_on_Kubernetes_Cluster.md)      
+✔️ Task 142 - [Deploy Apache Web Server on Kubernetes Cluster](./Tasks_141_150/TASK_142_Deploy_Apache_Web_Server_on_Kubernetes_Cluster.md)       
+✔️ Task 143 - [Puppet Add Users](./Tasks_141_150/TASK_143_Puppet_Add_Users.md)     
  
 <!-- ✔️ Task 102 - [Kubernetes Shared Volumes](./Tasks_101-110/TASK_102_Kubernetes_Shared_Volumes.md)    -->
 
-<!-- ✔️ Task 143 -  -->
 <!-- ✔️ Task 144 -  -->
 <!-- ✔️ Task 145 -  -->
 <!-- ✔️ Task 146 -  -->
