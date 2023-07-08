@@ -40,6 +40,10 @@ First, switch to root and verify the module currently installed.
 For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
+sudo su - 
+```
+
+```bash
 root@jump_host ~# puppet module list  
 
 /etc/puppetlabs/code/environments/production/modules (no modules installed)
