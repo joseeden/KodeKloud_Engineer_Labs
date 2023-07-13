@@ -193,12 +193,31 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 144 - [Git Install and Create Bare Repository](./Tasks_141_150/TASK_144_Git_install_bare_repo.md)        
 ✔️ Task 145 - [Kubernetes Shared Volumes](./Tasks_141_150/TASK_145_Kubernetes_Shared_Volumes.md)       
 ✔️ Task 146 - [Puppet Setup NTP Server (Repeat task)](./Tasks_131-140/TASK_133_Puppet_Setup_NTP_Server.md)	     
-✔️ Task 147 - [Ansible Inventory Update (Repeat task)](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)     
-<!-- ✔️ Task 145 -  -->
-<!-- ✔️ Task 146 -  -->
-<!-- ✔️ Task 147 -  -->
-<!-- ✔️ Task 148 -  -->
+✔️ Task 147 - [Ansible Inventory Update (Repeat task)](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)      
+✔️ Task 148 - [Ansible Basic Playbook (Repeat task)](./Tasks_051-060/TASK_59-Ansible_Basic_Playbook.md)      
+
+
 <!-- ✔️ Task 149 -  -->
+<!-- ✔️ Task 150 -  -->
+<!-- ✔️ Task 151 -  -->
+<!-- ✔️ Task 152 -  -->
+<!-- ✔️ Task 153 -  -->
+<!-- ✔️ Task 154 -  -->
+<!-- ✔️ Task 155 -  -->
+<!-- ✔️ Task 156 -  -->
+<!-- ✔️ Task 157 -  -->
+<!-- ✔️ Task 158 -  -->
+<!-- ✔️ Task 159 -  -->
+<!-- ✔️ Task 160 -  -->
+<!-- ✔️ Task 161 -  -->
+<!-- ✔️ Task 162 -  -->
+<!-- ✔️ Task 163 -  -->
+<!-- ✔️ Task 164 -  -->
+<!-- ✔️ Task 165 -  -->
+<!-- ✔️ Task 166 -  -->
+<!-- ✔️ Task 167 -  -->
+<!-- ✔️ Task 168 -  -->
+<!-- ✔️ Task 169 -  -->
 
 
 
