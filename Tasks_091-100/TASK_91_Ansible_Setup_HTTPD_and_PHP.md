@@ -20,13 +20,13 @@ Nautilus Application development team wants to test the Apache and PHP setup on 
 
 - There is an inventory file **~/playbooks/inventory** on jump host.
 
-- Create a playbook **~/playbooks/httpd.yml** on jump host and perform the following tasks on App Server 1.
+- Create a playbook **~/playbooks/httpd.yml** on jump host and perform the following tasks on **App Server 1**.
 
   - Install httpd and php packages (whatever default version is available in yum repo).
 
   - Change default document root of Apache to **/var/www/html/myroot** in default Apache config **/etc/httpd/conf/httpd.conf**. Make sure /var/www/html/myroot path exists (if not please create the same).
 
-  - There is a template **~/playbooks/templates/phpinfo.php.j2** on jump host. Copy this template to the Apache document root you created as **phpinfo.php** file and make sure user owner and the group owner for this file is apache user.
+  - There is a template **~/playbooks/templates/phpinfo.php.j2** on jump host. Copy this template to the Apache document root you created as **phpinfo.php** file and make sure user owner and the group owner for this file is **apache** user.
 
   - Start and enable httpd service.
 
