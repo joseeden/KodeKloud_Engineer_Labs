@@ -29,9 +29,9 @@ More details can be found [here](https://kodekloud.com/community/t/updates-new-r
 
 ### Markdown for tasks 57 and onwards
 
-When I started going deep into Linux two years ago, I didn't know much about markdown files so I just dump all the notes for each tasks in ".sh" files. I've learn so much about markdown since then and I've been using this format in all my documentations, both for my personal notes and work notes.
+When I started going deep into Linux ~~two years ago~~ at the start of 2020, I didn't know much about markdown files so I just dump all the notes for each tasks in ".sh" files. I've learn so much about markdown since then and I've been using this format in all my documentations, both for my personal notes and work notes.
 
-Having said, you will see tasks 1 to 56 are all in ".sh" files. I didn't want to edit them because they showed how much I don't know back then and the tasks 57 and onwards shows how much I've grown since.
+Having said, you will see tasks 1 to 56 are all in ".sh" files. I didn't want to edit them because they showed how much I don't know before and the tasks 57 and onwards shows how much I've grown since.
 
 ### Public Profile
 
