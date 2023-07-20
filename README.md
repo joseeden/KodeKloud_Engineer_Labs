@@ -196,12 +196,10 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 147 - [Ansible Inventory Update (Repeat task)](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)      
 ✔️ Task 148 - [Ansible Basic Playbook (Repeat task)](./Tasks_051-060/TASK_59-Ansible_Basic_Playbook.md)      
 ✔️ Task 149 - [Ansible Setup Httpd and PHP (Repeat task)](./Tasks_091-100/TASK_91_Ansible_Setup_HTTPD_and_PHP.md)      
-✔️ Task 150 - [Create Replicaset in Kubernetes Cluster (Repeat task)](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)      
+✔️ Task 150 - [Create Replicaset in Kubernetes Cluster (Repeat task)](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)       
+✔️ Task 151 - [Fix Python App Deployed on Kubernetes Cluster (Repeat task)](./Tasks_081-090/TASK_84_Fix_Python_App.md)     
 
 
-<!-- ✔️ Task 149 -  -->
-<!-- ✔️ Task 150 -  -->
-<!-- ✔️ Task 151 -  -->
 <!-- ✔️ Task 152 -  -->
 <!-- ✔️ Task 153 -  -->
 <!-- ✔️ Task 154 -  -->
