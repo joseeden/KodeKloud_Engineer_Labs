@@ -37,17 +37,20 @@ Please note that once lab is loaded, the puppet server service should start auto
 
 ## Steps
 
-Before anything else, verify the status of the puppet service in the jump host. If its inactive, restart it.
+Before anything else, verify the status of the puppet server in the jump host. If its inactive, restart it.
 
 ```bash
-$ sudo systemctl status puppet.service 
+sudo su - 
+```
+```bash
+$ systemctl status puppetserver
 
 ● puppet.service - Puppet agent
    Loaded: loaded (/usr/lib/systemd/system/puppet.service; disabled; vendor preset: disabled)
    Active: inactive (dead)
 ```
 ```bash
-sudo systemctl start puppet.service 
+systemctl start puppetserver
 ```
 
 Proceed to the specified directory.
@@ -78,16 +81,18 @@ Run a syntax validation by running the command below. This ensures that the mani
 puppet parser validate news.pp
 ```
 
-Next, log in to App server 3. Make sure to replace the '********' with the [server credentials](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus).
+Next, log in to App server 3. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
+
 
 ```bash
 sshpass -p  '********' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sudo su
 ```
 
 Again, verify the status of the puppet service. Start the service if its inactive.
 
 ```bash
-sudo systemctl status puppet.service  
+systemctl status puppet.service  
 ```
 
 Note that if you these errors in the output of the **status** command, you may need to restart the Puppet service again. Confirm that the errors go away after restarting by checking the status again.
@@ -98,10 +103,14 @@ Dec 06 14:25:26 ... puppet-agent[398]: Wrapped exception:
 Dec 06 14:25:26 ... puppet-agent[398]: Failed to open TCP connection to puppe...0)
 Dec 06 14:25:26 ... puppet-agent[398]: No more routes to ca 
 ```
+```bash
+systemctl restart puppet.service  
+systemctl status puppet.service   
+```
 
 Next, run the Puppet agent to pull the configuration from the Puppet server.
 ```bash
-sudo puppet agent -tv 
+puppet agent -tv 
 ```
 
 It should return the following output.
