@@ -267,47 +267,45 @@ See screenshot below:
 
 **Level 1**
 
-☐ Lab 01 - Create a user 
-☐ Lab 02 - Create a group
-☐ Lab 03 - Create a Linux User with non-interactive shell
-☐ Lab 04 - Linux User Without Home
-☐ Lab 05 - Linux User Expiry
-☐ Lab 06 - Linux User Files
-☐ Lab 07 - Disable Root Login
-☐ Lab 08 - Linux Archives
-☐ Lab 09 - Linux File Permissions
-☐ Lab 10 - Linux Access Control List
-☐ Lab 11 - Linux String Substitute
-☐ Lab 12 - Linux Remote Copy
-☐ Lab 13 - Cron schedule deny to users
-☐ Lab 14 - Linux Run Levels
-☐ Lab 15 - Linux TimeZones Setting
-☐ Lab 16 - Linux NTP Setup
-☐ Lab 17 - Linux Firewalld Rules
-☐ Lab 18 - Linux Resource Limits
-☐ Lab 19 - Selinux Installation 
-
-
+☐ Lab 01 - Create a user                  
+☐ Lab 02 - Create a group                 
+☐ Lab 03 - Create a Linux User with non-interactive shell                 
+☐ Lab 04 - Linux User Without Home                 
+☐ Lab 05 - Linux User Expiry                 
+☐ Lab 06 - Linux User Files                 
+☐ Lab 07 - Disable Root Login                 
+☐ Lab 08 - Linux Archives                 
+☐ Lab 09 - Linux File Permissions                 
+☐ Lab 10 - Linux Access Control List                 
+☐ Lab 11 - Linux String Substitute                 
+☐ Lab 12 - Linux Remote Copy                 
+☐ Lab 13 - Cron schedule deny to users                 
+☐ Lab 14 - Linux Run Levels                 
+☐ Lab 15 - Linux TimeZones Setting                 
+☐ Lab 16 - Linux NTP Setup                 
+☐ Lab 17 - Linux Firewalld Rules                 
+☐ Lab 18 - Linux Resource Limits                 
+☐ Lab 19 - Selinux Installation                  
 
 
 ### Kubernetes
 
 **Level 1** 
 
-☐ Lab 01 - Create Pods in Kubernetes Cluster
-☐ Lab 02 - Create Deployments in Kubernetes Cluster
-☐ Lab 03 - Create Namespaces in Kubernetes Cluster
-☐ Lab 04 - Set Limits for Resources in Kubernetes
-☐ Lab 05 - Rolling Updates in Kubernetes
-☐ Lab 06 - Rollback a Deployment in Kubernetes
-☐ Lab 07 - Create Replicaset in Kubernetes Cluster
-☐ Lab 08 - Create Cronjobs in Kubernetes
-☐ Lab 09 - Countdown job in Kubernetes
-☐ Lab 10 - Kubernetes Time Check Pod
-☐ Lab 11 - Troubleshoot Issue With Pods
-☐ Lab 12 - Update an Existing Deployment in Kubernetes
-☐ Lab 13 - ReplicationController in Kubernetes
-☐ Lab 14 - Fix Issue with VolumeMounts in Kubernetes
+☐ Lab 01 - Create Pods in Kubernetes Cluster                 
+☐ Lab 02 - Create Deployments in Kubernetes Cluster                 
+☐ Lab 03 - Create Namespaces in Kubernetes Cluster                 
+☐ Lab 04 - Set Limits for Resources in Kubernetes                 
+☐ Lab 05 - Rolling Updates in Kubernetes                 
+☐ Lab 06 - Rollback a Deployment in Kubernetes                 
+☐ Lab 07 - Create Replicaset in Kubernetes Cluster                 
+☐ Lab 08 - Create Cronjobs in Kubernetes                 
+☐ Lab 09 - Countdown job in Kubernetes                 
+☐ Lab 10 - Kubernetes Time Check Pod                 
+☐ Lab 11 - Troubleshoot Issue With Pods                 
+☐ Lab 12 - Update an Existing Deployment in Kubernetes                 
+☐ Lab 13 - ReplicationController in Kubernetes                 
+☐ Lab 14 - Fix Issue with VolumeMounts in Kubernetes                 
 
 
 ### Ansible 
@@ -315,31 +313,32 @@ See screenshot below:
 
 **Level 1** 
 
-☐ Lab 01 - Ansible Basic Playbook
-☐ Lab 02 - Ansible Inventory Update
-☐ Lab 03 - Ansible Config File Update
-☐ Lab 04 - Ansible Copy Module
-☐ Lab 05 - Ansible File Module
+☐ Lab 01 - Ansible Basic Playbook                 
+☐ Lab 02 - Ansible Inventory Update                 
+☐ Lab 03 - Ansible Config File Update                 
+☐ Lab 04 - Ansible Copy Module                 
+☐ Lab 05 - Ansible File Module                 
 
 
 ### Docker 
 
 **Level 1** 
 
-☐ Lab 01 - Install Docker Package
-☐ Lab 02 - Run a Docker Container
-☐ Lab 03 - Docker Delete Container
-☐ Lab 04 - Docker Copy Operations
-☐ Lab 05 - Docker Container Issue
+☐ Lab 01 - Install Docker Package                 
+☐ Lab 02 - Run a Docker Container                 
+☐ Lab 03 - Docker Delete Container                 
+☐ Lab 04 - Docker Copy Operations                 
+☐ Lab 05 - Docker Container Issue                 
+
 
 ### Git
 
 **Level 1** 
 
-☐ Lab 01 - Git Install and Create Bare Repository
-☐ Lab 02 - Git Clone Repositories
-☐ Lab 03 - Git Fork a Repository
-☐ Lab 04 - Git Repository Update
-☐ Lab 05 - Git Delete Branches
+☐ Lab 01 - Git Install and Create Bare Repository                 
+☐ Lab 02 - Git Clone Repositories                 
+☐ Lab 03 - Git Fork a Repository                 
+☐ Lab 04 - Git Repository Update                 
+☐ Lab 05 - Git Delete Branches                 
 
 
