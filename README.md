@@ -17,7 +17,7 @@ To learn more, check out [Kodekloud Engineer-Getting Started.](https://kodekloud
 - [Labs - Systems Administrator](#systems-administrator)
 - [Labs - DevOps Engineer](#devops-engineer)
 - [Labs - Senior DevOps Engineer](#senior-devops-engineer)
-- [Labs - Per Categories](#categories)
+- [Labs - Per Category](#categories)
     - [Linux](#linux)
     - [Kubernetes](#kubernetes)
     - [Ansible](#ansible)
