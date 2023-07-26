@@ -343,8 +343,8 @@ See screenshot below:
 
 **Level 2** 
 
-✔️ Lab 006 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)
-✔️ Lab 007 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)
-✔️ Lab 008 - [Git Merge Branches](./Tasks_131-140/TASK_135_Git_merge_branches.md)
-✔️ Lab 009 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)
-✔️ Lab 010 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)
+✔️ Lab 006 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)        
+✔️ Lab 007 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)       
+✔️ Lab 008 - [Git Merge Branches](./Tasks_131-140/TASK_135_Git_merge_branches.md)       
+✔️ Lab 009 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
+✔️ Lab 010 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)         
