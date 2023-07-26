@@ -105,17 +105,17 @@ See screenshot below:
 ✔️ Task 007 - [Linux Banner](./Tasks_001-009/TASK_7-Linux_Banner.sh)   
 ✔️ Task 008 - [Selinux Installation](./Tasks_001-009/TASK_8-Selinux_installation.sh)   
 ✔️ Task 009 - [DNS Troubleshooting](./Tasks_001-009/TASK_9-DNS_Troubleshooting.sh)   
-✔️ Task 010 - [Linux Services](./Tasks_10-020/TASK_10-Linux_Services.sh)   
-✔️ Task 011 - [NFS Troubleshooting](./Tasks_10-020/TASK_11-NFS_Troubleshooting.sh)   
-✔️ Task 012 - [Linux User without Home](./Tasks_10-020/TASK_12-Linux_User_Without_Home.sh)   
-✔️ Task 013 - [Linux User Expiry](./Tasks_10-020/TASK_13-Linux_User_Expiry.sh)   
-✔️ Task 014 - [Linux Archives](./Tasks_10-020/TASK_14-Linux_Archives.sh)   
-✔️ Task 015 - [Disable Root Login](./Tasks_10-020/TASK_15-Disable_Root_Login.sh)   
-✔️ Task 016 - [Apache Troubleshooting](./Tasks_10-020/TASK_16-Apache_Troubleshooting.sh)   
-✔️ Task 017 - [Create a group](./Tasks_10-020/TASK_17-Create_a_group.sh)   
-✔️ Task 018 - [Linux String Substitute](./Tasks_10-020/TASK_18-Linux_String_Substitute.sh)   
-✔️ Task 019 - [Linux Firewalld Rules](./Tasks_10-020/TASK_19-Linux_Firewalld_Rules.sh)   
-✔️ Task 020 - [Linux Remote Copy](./Tasks_10-020/TASK_20-Linux_Remote_Copy.sh)   
+✔️ Task 010 - [Linux Services](./Tasks_010-020/TASK_10-Linux_Services.sh)   
+✔️ Task 011 - [NFS Troubleshooting](./Tasks_010-020/TASK_11-NFS_Troubleshooting.sh)   
+✔️ Task 012 - [Linux User without Home](./Tasks_010-020/TASK_12-Linux_User_Without_Home.sh)   
+✔️ Task 013 - [Linux User Expiry](./Tasks_010-020/TASK_13-Linux_User_Expiry.sh)   
+✔️ Task 014 - [Linux Archives](./Tasks_010-020/TASK_14-Linux_Archives.sh)   
+✔️ Task 015 - [Disable Root Login](./Tasks_010-020/TASK_15-Disable_Root_Login.sh)   
+✔️ Task 016 - [Apache Troubleshooting](./Tasks_010-020/TASK_16-Apache_Troubleshooting.sh)   
+✔️ Task 017 - [Create a group](./Tasks_010-020/TASK_17-Create_a_group.sh)   
+✔️ Task 018 - [Linux String Substitute](./Tasks_010-020/TASK_18-Linux_String_Substitute.sh)   
+✔️ Task 019 - [Linux Firewalld Rules](./Tasks_010-020/TASK_19-Linux_Firewalld_Rules.sh)   
+✔️ Task 020 - [Linux Remote Copy](./Tasks_010-020/TASK_20-Linux_Remote_Copy.sh)   
 ✔️ Task 021 - [HAproxy LBR Troubleshooting](./Tasks_021-030/TASK_21-Haproxy_LBR_Troubleshooting.sh)   
 ✔️ Task 022 - [Linux Bash Scripts](./Tasks_021-030/TASK_22-Linux_Bash_Scripts.sh)   
 ✔️ Task 023 - [Configure Local Yum Repos](./Tasks_021-030/TASK_23-Configure_Local_Yum_repos.sh)   
@@ -199,19 +199,19 @@ See screenshot below:
 ✔️ Task 098 - [Troubleshoot Issue With Pods](./Tasks_091-100/TASK_98_Troubleshoot_issue_with_Pods.md)   
 ✔️ Task 099 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)   
 ✔️ Task 100 - [Puppet Create a FIle](./Tasks_091-100/TASK_100_Puppet_Create_File.md)   
-✔️ Task 101 - [ReplicationController in Kubernetes](./Tasks_101-110/TASK_101_Replication_Controller_in_Kubernetes.md)   
-✔️ Task 102 - [Puppet Setup Database](./Tasks_101-110/TASK_102_Puppet_setup_database.md)   
-✔️ Task 103 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)  
-✔️ Task 104 - [Puppet Multi-Packages Installation](./Tasks_101-110/TASK_104_Puppet_Unarchive_Module.md)    
-✔️ Task 105 - [Git Create Branches](./Tasks_101-110/TASK_105_Git_create_branches.md)  
-✔️ Task 106 - [Puppet Setup File Permissions](./Tasks_101-110/TASK_106_Puppet_File_Permissions.md)     
-✔️ Task 107 - [Create Pods in Kubernetes Cluster](./Tasks_101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)    
+✔️ Task 101 - [ReplicationController in Kubernetes](./Tasks_0101-110/TASK_101_Replication_Controller_in_Kubernetes.md)   
+✔️ Task 102 - [Puppet Setup Database](./Tasks_0101-110/TASK_102_Puppet_setup_database.md)   
+✔️ Task 103 - [Ansible Unarchive Module](./Tasks_0101-110/TASK_103_Ansible_Unarchive_Module.md)  
+✔️ Task 104 - [Puppet Multi-Packages Installation](./Tasks_0101-110/TASK_104_Puppet_Unarchive_Module.md)    
+✔️ Task 105 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)  
+✔️ Task 106 - [Puppet Setup File Permissions](./Tasks_0101-110/TASK_106_Puppet_File_Permissions.md)     
+✔️ Task 107 - [Create Pods in Kubernetes Cluster](./Tasks_0101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)    
 
 ## Senior DevOps Engineer 
 
-✔️ Task 108 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)    
-✔️ Task 109 - [Git Revert Some Changes](./Tasks_101-110/TASK_109_Git_revert_some_changes.md)    
-✔️ Task 110 - [Fix issue with PhpFpm Application Deployed on Kubernetes](./Tasks_101-110/TASK_110_Fix_issue_with_PHPFMP_App_in_Kubernetes.md)   
+✔️ Task 108 - [Persistent Volumes in Kubernetes](./Tasks_0101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)    
+✔️ Task 109 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)    
+✔️ Task 110 - [Fix issue with PhpFpm Application Deployed on Kubernetes](./Tasks_0101-110/TASK_110_Fix_issue_with_PHPFMP_App_in_Kubernetes.md)   
 ✔️ Task 111 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)      
 ✔️ Task 112 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)     
 ✔️ Task 113 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)    
@@ -267,45 +267,45 @@ See screenshot below:
 
 **Level 1**
 
-☐ Lab 01 - Create a user                  
-☐ Lab 02 - Create a group                 
-☐ Lab 03 - Create a Linux User with non-interactive shell                 
-☐ Lab 04 - Linux User Without Home                 
-☐ Lab 05 - Linux User Expiry                 
-☐ Lab 06 - Linux User Files                 
-☐ Lab 07 - Disable Root Login                 
-☐ Lab 08 - Linux Archives                 
-☐ Lab 09 - Linux File Permissions                 
-☐ Lab 10 - Linux Access Control List                 
-☐ Lab 11 - Linux String Substitute                 
-☐ Lab 12 - Linux Remote Copy                 
-☐ Lab 13 - Cron schedule deny to users                 
-☐ Lab 14 - Linux Run Levels                 
-☐ Lab 15 - Linux TimeZones Setting                 
-☐ Lab 16 - Linux NTP Setup                 
-☐ Lab 17 - Linux Firewalld Rules                 
-☐ Lab 18 - Linux Resource Limits                 
-☐ Lab 19 - Selinux Installation                  
+✔️ Lab 001 - [Create a user](./Tasks_Linux/Lab_001_Create_a_user.md)                  
+✔️ Lab 002 - [Create a group](./Tasks_Linux/Lab_002_Create_a_group.md)                 
+✔️ Lab 003 - [Create a Linux User with non-interactive shell ](./Tasks_Linux/Lab_003_Create_a_User_with_non-interactive_shell.md)               
+✔️ Lab 004 - [Linux User Without Home](./Tasks_Linux/Lab_004_Linux_User_without_home.md)                 
+✔️ Lab 005 - [Linux User Expiry](./Tasks_Linux/Lab_005_Linux_User_Expiry.md)                 
+✔️ Lab 006 - [Linux User Files](./Tasks_Linux/Lab_006_Linux_User_Files.md)                 
+✔️ Lab 007 - [Disable Root Login](./Tasks_Linux/Lab_007_Disable_root_login.md)                 
+✔️ Lab 008 - [Linux Archives](./Tasks_Linux/Lab_008_Linux_Archives.md)                 
+✔️ Lab 009 - [Linux File Permissions](./Tasks_Linux/Lab_009_Linux_File_Permissions.md)                 
+✔️ Lab 010 - [Linux Access Control List](./Tasks_Linux/Lab_010_Linux_ACLs.md)                 
+✔️ Lab 011 - [Linux String Substitute](./Tasks_Linux/Lab_011_Linux_String_Substitute.md)                 
+✔️ Lab 012 - [Linux Remote Copy](./Tasks_Linux/Lab_012_Linux_Remote_Copy.md)                 
+ ☐ Lab 013 - Cron schedule deny to users                 
+✔️ Lab 014 - [Linux Run Levels](./Tasks_Linux/Lab_014_Linux_Run_Levels.md)                 
+✔️ Lab 015 - [Linux TimeZones Setting](./Tasks_Linux/Lab_015_Linux_Timezones_Setting.md)                 
+✔️ Lab 016 - [Linux NTP Setup](./Tasks_Linux/Lab_016_Linux_NTP_Setup.md)                 
+✔️ Lab 017 - [Linux Firewalld Rules](./Tasks_Linux/Lab_017_Linux_Firewalld_Rules.md)                 
+✔️ Lab 018 - [Linux Resource Limits](./Tasks_Linux/Lab_018_Linux_Resource_Limits.md)                 
+✔️ Lab 019 - [Selinux Installation](./Tasks_Linux/Lab_019_SELinux_Installation.md)                  
 
 
 ### Kubernetes
 
 **Level 1** 
 
-☐ Lab 01 - Create Pods in Kubernetes Cluster                 
-☐ Lab 02 - Create Deployments in Kubernetes Cluster                 
-☐ Lab 03 - Create Namespaces in Kubernetes Cluster                 
-☐ Lab 04 - Set Limits for Resources in Kubernetes                 
-☐ Lab 05 - Rolling Updates in Kubernetes                 
-☐ Lab 06 - Rollback a Deployment in Kubernetes                 
-☐ Lab 07 - Create Replicaset in Kubernetes Cluster                 
-☐ Lab 08 - Create Cronjobs in Kubernetes                 
-☐ Lab 09 - Countdown job in Kubernetes                 
-☐ Lab 10 - Kubernetes Time Check Pod                 
-☐ Lab 11 - Troubleshoot Issue With Pods                 
-☐ Lab 12 - Update an Existing Deployment in Kubernetes                 
-☐ Lab 13 - ReplicationController in Kubernetes                 
-☐ Lab 14 - Fix Issue with VolumeMounts in Kubernetes                 
+✔️ Lab 001 - [Create Pods in Kubernetes Cluster](./Tasks_0101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)                 
+☐ Lab 002 - Create Deployments in Kubernetes Cluster                 
+☐ Lab 003 - Create Namespaces in Kubernetes Cluster                 
+☐ Lab 004 - Set Limits for Resources in Kubernetes                 
+☐ Lab 005 - Rolling Updates in Kubernetes                 
+☐ Lab 006 - Rollback a Deployment in Kubernetes                 
+✔️ Lab 007 - [Create Replicaset in Kubernetes Cluster](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)                 
+☐ Lab 008 - Create Cronjobs in Kubernetes                 
+☐ Lab 009 - Countdown job in Kubernetes                 
+✔️ Lab 010 - [Kubernetes Time Check Pod](./Tasks_121-130/TASK_127_Kubernetes_Time_Check_Pod.md)                 
+✔️ Lab 011 - [Troubleshoot Issue With Pods](./Tasks_091-100/TASK_98_Troubleshoot_issue_with_Pods.md)                 
+☐ Lab 012 - Update an Existing Deployment in Kubernetes                 
+✔️ Lab 013 - [ReplicationController in Kubernetes](./Tasks_0101-110/TASK_101_Replication_Controller_in_Kubernetes.md)                 
+✔️ Lab 014 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)                 
 
 
 ### Ansible 
@@ -313,32 +313,38 @@ See screenshot below:
 
 **Level 1** 
 
-☐ Lab 01 - Ansible Basic Playbook                 
-☐ Lab 02 - Ansible Inventory Update                 
-☐ Lab 03 - Ansible Config File Update                 
-☐ Lab 04 - Ansible Copy Module                 
-☐ Lab 05 - Ansible File Module                 
+☐ Lab 001 - Ansible Basic Playbook                 
+☐ Lab 002 - Ansible Inventory Update                 
+☐ Lab 003 - Ansible Config File Update                 
+☐ Lab 004 - Ansible Copy Module                 
+☐ Lab 005 - Ansible File Module                 
 
 
 ### Docker 
 
 **Level 1** 
 
-☐ Lab 01 - Install Docker Package                 
-☐ Lab 02 - Run a Docker Container                 
-☐ Lab 03 - Docker Delete Container                 
-☐ Lab 04 - Docker Copy Operations                 
-☐ Lab 05 - Docker Container Issue                 
+☐ Lab 001 - Install Docker Package                 
+☐ Lab 002 - Run a Docker Container                 
+☐ Lab 003 - Docker Delete Container                 
+☐ Lab 004 - Docker Copy Operations                 
+☐ Lab 005 - Docker Container Issue                 
 
 
 ### Git
 
 **Level 1** 
 
-☐ Lab 01 - Git Install and Create Bare Repository                 
-☐ Lab 02 - Git Clone Repositories                 
-☐ Lab 03 - Git Fork a Repository                 
-☐ Lab 04 - Git Repository Update                 
-☐ Lab 05 - Git Delete Branches                 
+✔️ Lab 001 - [Git Install and Create Bare Repository](./Tasks_141_150/TASK_144_Git_install_bare_repo.md)                 
+✔️ Lab 002 - [Git Clone Repositories](./Tasks_131-140/TASK_138_Git_Clone_Repositories.md)                 
+✔️ Lab 003 - [Git Fork a Repository](./Tasks_051-060/TASK_60-Git_Fork_a_Repository.md)                 
+✔️ Lab 004 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)                 
+☐ Lab 005 - Git Delete Branches                 
 
+**Level 2** 
 
+✔️ Lab 006 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)
+✔️ Lab 007 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)
+✔️ Lab 008 - [Git Merge Branches](./Tasks_131-140/TASK_135_Git_merge_branches.md)
+✔️ Lab 009 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)
+✔️ Lab 010 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)
