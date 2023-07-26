@@ -1,4 +1,4 @@
-# Kodekloud Engineer Labs - Tasks
+# Kodekloud Engineer Labs 
 
 This repository contains all my notes for ~~past~~ Kodekloud Engineer tasks which are all performed in a live Linux environment. These tasks simulate actual enterprise challenges and mimics the day-to-day work of System Administrators and Devops Engineers.
 
@@ -6,7 +6,28 @@ For each task, a set of requirements are given. The documentations for the serve
 
 To learn more, check out [Kodekloud Engineer-Getting Started.](https://kodekloudhub.github.io/kodekloud-engineer/docs/getting-started)
 
-Task levels:
+----------------------------------------------
+
+- [Roles](#roles)
+- [Updates](#updates)
+    - [Mechanics](#mechanics)
+    - [Markdown for tasks 57 and onwards](#markdown-for-tasks-57-and-onwards)
+    - [Public Profile](#public-profile)
+    - [Change in mechanics](#change-in-mechanics)
+- [Systems Administrator](#systems-administrator)
+- [DevOps Engineer](#devops-engineer)
+- [Senior DevOps Engineer](#senior-devops-engineer)
+- [Categories](#categories)
+    - [Linux](#linux)
+    - [Kubernetes](#kubernetes)
+    - [Ansible](#ansible)
+    - [Docker](#docker)
+    - [Git](#git)
+
+
+----------------------------------------------
+
+## Roles
 
 Role/Level | Points Needed
 ---------|----------
@@ -18,14 +39,23 @@ Role/Level | Points Needed
 
 More details can be found [here](https://kodekloud.com/community/t/updates-new-roles/13242).
 
-## Notes 
+
+## Updates
+
+<details><summary> [2022-Nov-29] - Mechanics  </summary>
+
+### Mechanics 
+
+Here's how the "Kodekloud Engineer" gamified learning works:
 
 - The tasks are given in a random order.
 - Some tasks are given more than once. 
 - For tasks with buggy lab, better to skip them.
 - You will need to wait for 24 hours for the next task to arrive.
 
-## Updates
+</details>
+
+<details><summary> [2022-Nov-29] - Markdown for tasks 57 and onwards </summary>
 
 ### Markdown for tasks 57 and onwards
 
@@ -33,11 +63,36 @@ When I started going deep into Linux ~~two years ago~~ at the start of 2020, I d
 
 Having said, you will see tasks 1 to 56 are all in ".sh" files. I didn't want to edit them because they showed how much I don't know before and the tasks 57 and onwards shows how much I've grown since.
 
+</details>
+
+<details><summary> [2022-Nov-29] - Public Profile </summary>
+
 ### Public Profile
 
 Profiles can now be shared publicly. These allows engineers to showcase the challenges they have solved.
 
 See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/#!/user_profile?uid=15930992248539436)
+
+</details>
+
+<details><summary> [2023-July-26] - Change in mechanics  </summary>
+
+### Change in mechanics 
+
+There's been a change in how Kodekloud "gives tasks" to engineers. 
+Previously the tasks are given one at a time, and the engineer needs to finish the current task, and then wait for 24 hours for the next task to arrive.
+
+Kodekloud has change the approach by:
+
+- Setting different levels for separate categories
+- The engineer can answer as many tasks as they can, as long as they have "Kodekloud coins".
+- Each task cost a number of coins and it is also equivalent to a number of experience points 
+
+See screenshot below:
+
+![](Images/2023updateonkodekloudengineer.png)
+
+</details>
 
 ## Systems Administrator
 
@@ -199,29 +254,92 @@ See my public profile here: [Kodekloud Engineer](https://kodekloud-engineer.com/
 ✔️ Task 150 - [Create Replicaset in Kubernetes Cluster (Repeat task)](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)       
 ✔️ Task 151 - [Fix Python App Deployed on Kubernetes Cluster (Repeat task)](./Tasks_081-090/TASK_84_Fix_Python_App.md)      
 ✔️ Task 152 - [Puppet Install a Package (Repeat task)](./Tasks_061-070/TASK_68_Puppet-Install_a_Package.md)      
+✔️ Task 153 - [Puppet Setup NTP Server (Repeat task)](./Tasks_131-140/TASK_133_Puppet_Setup_NTP_Server.md)	     
 
-<!-- ✔️ Task 152 -  -->
-<!-- ✔️ Task 153 -  -->
-<!-- ✔️ Task 154 -  -->
-<!-- ✔️ Task 155 -  -->
-<!-- ✔️ Task 156 -  -->
-<!-- ✔️ Task 157 -  -->
-<!-- ✔️ Task 158 -  -->
-<!-- ✔️ Task 159 -  -->
-<!-- ✔️ Task 160 -  -->
-<!-- ✔️ Task 161 -  -->
-<!-- ✔️ Task 162 -  -->
-<!-- ✔️ Task 163 -  -->
-<!-- ✔️ Task 164 -  -->
-<!-- ✔️ Task 165 -  -->
-<!-- ✔️ Task 166 -  -->
-<!-- ✔️ Task 167 -  -->
-<!-- ✔️ Task 168 -  -->
-<!-- ✔️ Task 169 -  -->
+> *Starting July 2023, the mechanics has been changed. Tasks are no longer provisioned individually, but rather engineers are provided Kodekloud coins which can then be used to unlock a number of tasks. In addition to this, engineers can work on multiple labs on different levels across categories.*
+> *See updates section above*
+
+----------------------------------------------
+
+## Categories 
+
+### Linux
+
+**Level 1**
+
+☐ Lab 01 - Create a user 
+☐ Lab 02 - Create a group
+☐ Lab 03 - Create a Linux User with non-interactive shell
+☐ Lab 04 - Linux User Without Home
+☐ Lab 05 - Linux User Expiry
+☐ Lab 06 - Linux User Files
+☐ Lab 07 - Disable Root Login
+☐ Lab 08 - Linux Archives
+☐ Lab 09 - Linux File Permissions
+☐ Lab 10 - Linux Access Control List
+☐ Lab 11 - Linux String Substitute
+☐ Lab 12 - Linux Remote Copy
+☐ Lab 13 - Cron schedule deny to users
+☐ Lab 14 - Linux Run Levels
+☐ Lab 15 - Linux TimeZones Setting
+☐ Lab 16 - Linux NTP Setup
+☐ Lab 17 - Linux Firewalld Rules
+☐ Lab 18 - Linux Resource Limits
+☐ Lab 19 - Selinux Installation 
 
 
 
 
+### Kubernetes
 
+**Level 1** 
+
+☐ Lab 01 - Create Pods in Kubernetes Cluster
+☐ Lab 02 - Create Deployments in Kubernetes Cluster
+☐ Lab 03 - Create Namespaces in Kubernetes Cluster
+☐ Lab 04 - Set Limits for Resources in Kubernetes
+☐ Lab 05 - Rolling Updates in Kubernetes
+☐ Lab 06 - Rollback a Deployment in Kubernetes
+☐ Lab 07 - Create Replicaset in Kubernetes Cluster
+☐ Lab 08 - Create Cronjobs in Kubernetes
+☐ Lab 09 - Countdown job in Kubernetes
+☐ Lab 10 - Kubernetes Time Check Pod
+☐ Lab 11 - Troubleshoot Issue With Pods
+☐ Lab 12 - Update an Existing Deployment in Kubernetes
+☐ Lab 13 - ReplicationController in Kubernetes
+☐ Lab 14 - Fix Issue with VolumeMounts in Kubernetes
+
+
+### Ansible 
+
+
+**Level 1** 
+
+☐ Lab 01 - Ansible Basic Playbook
+☐ Lab 02 - Ansible Inventory Update
+☐ Lab 03 - Ansible Config File Update
+☐ Lab 04 - Ansible Copy Module
+☐ Lab 05 - Ansible File Module
+
+
+### Docker 
+
+**Level 1** 
+
+☐ Lab 01 - Install Docker Package
+☐ Lab 02 - Run a Docker Container
+☐ Lab 03 - Docker Delete Container
+☐ Lab 04 - Docker Copy Operations
+☐ Lab 05 - Docker Container Issue
+
+### Git
+
+**Level 1** 
+
+☐ Lab 01 - Git Install and Create Bare Repository
+☐ Lab 02 - Git Clone Repositories
+☐ Lab 03 - Git Fork a Repository
+☐ Lab 04 - Git Repository Update
+☐ Lab 05 - Git Delete Branches
 
 
