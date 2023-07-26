@@ -313,21 +313,21 @@ See screenshot below:
 
 **Level 1** 
 
-☐ Lab 001 - Ansible Basic Playbook                 
-☐ Lab 002 - Ansible Inventory Update                 
-☐ Lab 003 - Ansible Config File Update                 
-☐ Lab 004 - Ansible Copy Module                 
-☐ Lab 005 - Ansible File Module                 
+✔️ Lab 001 - [Ansible Basic Playbook](./Tasks_051-060/TASK_59-Ansible_Basic_Playbook.md)                 
+✔️ Lab 002 - [Ansible Inventory Update](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)                 
+✔️ Lab 003 - [Ansible Config File Update](./Tasks_081-090/TASK_87_Ansible_Config_File_Update.md)                 
+✔️ Lab 004 - [Ansible Copy Module](./Tasks_061-070/TASK_64-Ansible_Copy_Module.md)                 
+✔️ Lab 005 - [Ansible File Module](./Tasks_131-140/TASK_136_Ansible_File_Module.md)                
 
 
 ### Docker 
 
 **Level 1** 
 
-☐ Lab 001 - Install Docker Package                 
+✔️ Lab 001 - [Install Docker Package](./Tasks_121-130/TASK_124_Install_Docker_Package.md)                 
 ☐ Lab 002 - Run a Docker Container                 
 ☐ Lab 003 - Docker Delete Container                 
-☐ Lab 004 - Docker Copy Operations                 
+✔️ Lab 004 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)                 
 ☐ Lab 005 - Docker Container Issue                 
 
 
