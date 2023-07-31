@@ -296,7 +296,7 @@ See screenshot below:
 ✔️ Lab 002 - [Run a Docker Container](./Tasks_071-080/TASK_76-Run_a_Docker_Container.md)                
 ✔️ Lab 003 - [Docker Delete Container](./Tasks_Docker/Lab_003_Docker_delete_container.md)                    
 ✔️ Lab 004 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)                 
-☐ Lab 005 - Docker Container Issue  
+✔️ Lab 005 - [Docker Container Issue](./Tasks_Docker/Lab_005_Docker_container_issue.md)    
 
 
 ### Kubernetes
