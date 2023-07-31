@@ -4,7 +4,11 @@ This repository contains all my notes for ~~past~~ Kodekloud Engineer tasks whic
 
 For each task, a set of requirements are given. The documentations for the servers are also provided. It is up for the "engineer" to find the solution for each problem.
 
-To learn more, check out [Kodekloud Engineer-Getting Started.](https://kodekloudhub.github.io/kodekloud-engineer/docs/getting-started)
+To learn more, check out the following links:
+
+- [Kodekloud Engineer-Version 1](https://kodekloudhub.github.io/kodekloud-engineer/docs/getting-started)
+
+- [Kodekloud Engineer-Version 2](https://kodekloud.com/community/t/kke-v2-0-user-documentation/338901)
 
 ----------------------------------------------
 
@@ -93,6 +97,18 @@ See screenshot below:
 ![](Images/2023updateonkodekloudengineer.png)
 
 </details>
+
+
+<details><summary> [2023-July-31] - Mark Level as Complete  </summary>
+
+### Mark Level as Complete
+
+Once you have finished all tasks for a level, click the **Mark Complete** to unlock the next level tasks.
+
+![](Images/marklevelascomplete.png)
+
+</details> 
+
 
 ## Systems Administrator
 
@@ -288,6 +304,36 @@ See screenshot below:
 ✔️ Lab 019 - [Selinux Installation](./Tasks_Linux/Lab_019_SELinux_Installation.md)                  
 
 
+### Git
+
+**Level 1** 
+
+✔️ Lab 001 - [Git Install and Create Bare Repository](./Tasks_141_150/TASK_144_Git_install_bare_repo.md)                 
+✔️ Lab 002 - [Git Clone Repositories](./Tasks_131-140/TASK_138_Git_Clone_Repositories.md)                 
+✔️ Lab 003 - [Git Fork a Repository](./Tasks_051-060/TASK_60-Git_Fork_a_Repository.md)                 
+✔️ Lab 004 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)                 
+✔️ Lab 005 - [Git Delete Branches](./Tasks_Git/Lab_005_Git_delete_branches.md)                 
+
+**Level 2** 
+
+✔️ Lab 006 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)        
+✔️ Lab 007 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)       
+✔️ Lab 008 - [Git Merge Branches](./Tasks_131-140/TASK_135_Git_merge_branches.md)       
+✔️ Lab 009 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
+✔️ Lab 010 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)         
+
+
+### Ansible 
+
+**Level 1** 
+
+✔️ Lab 001 - [Ansible Basic Playbook](./Tasks_051-060/TASK_59-Ansible_Basic_Playbook.md)                 
+✔️ Lab 002 - [Ansible Inventory Update](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)                 
+✔️ Lab 003 - [Ansible Config File Update](./Tasks_081-090/TASK_87_Ansible_Config_File_Update.md)                 
+✔️ Lab 004 - [Ansible Copy Module](./Tasks_061-070/TASK_64-Ansible_Copy_Module.md)                 
+✔️ Lab 005 - [Ansible File Module](./Tasks_131-140/TASK_136_Ansible_File_Module.md)                       
+
+
 ### Docker 
 
 **Level 1** 
@@ -319,32 +365,5 @@ See screenshot below:
 ✔️ Lab 014 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)                 
 
 
-### Ansible 
 
 
-**Level 1** 
-
-✔️ Lab 001 - [Ansible Basic Playbook](./Tasks_051-060/TASK_59-Ansible_Basic_Playbook.md)                 
-✔️ Lab 002 - [Ansible Inventory Update](./Tasks_071-080/TASK_73-Ansible_Inventory_Update.md)                 
-✔️ Lab 003 - [Ansible Config File Update](./Tasks_081-090/TASK_87_Ansible_Config_File_Update.md)                 
-✔️ Lab 004 - [Ansible Copy Module](./Tasks_061-070/TASK_64-Ansible_Copy_Module.md)                 
-✔️ Lab 005 - [Ansible File Module](./Tasks_131-140/TASK_136_Ansible_File_Module.md)                       
-
-
-### Git
-
-**Level 1** 
-
-✔️ Lab 001 - [Git Install and Create Bare Repository](./Tasks_141_150/TASK_144_Git_install_bare_repo.md)                 
-✔️ Lab 002 - [Git Clone Repositories](./Tasks_131-140/TASK_138_Git_Clone_Repositories.md)                 
-✔️ Lab 003 - [Git Fork a Repository](./Tasks_051-060/TASK_60-Git_Fork_a_Repository.md)                 
-✔️ Lab 004 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)                 
-☐ Lab 005 - Git Delete Branches                 
-
-**Level 2** 
-
-✔️ Lab 006 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)        
-✔️ Lab 007 - [Git Create Branches](./Tasks_0101-110/TASK_105_Git_create_branches.md)       
-✔️ Lab 008 - [Git Merge Branches](./Tasks_131-140/TASK_135_Git_merge_branches.md)       
-✔️ Lab 009 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
-✔️ Lab 010 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)         
