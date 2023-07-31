@@ -12,21 +12,24 @@ To learn more, check out the following links:
 
 ----------------------------------------------
 
+
 - [Roles](#roles)
 - [Updates](#updates)
     - [Mechanics](#mechanics)
     - [Markdown for tasks 57 and onwards](#markdown-for-tasks-57-and-onwards)
     - [Public Profile](#public-profile)
     - [Change in mechanics](#change-in-mechanics)
-- [Labs - Systems Administrator](#systems-administrator)
-- [Labs - DevOps Engineer](#devops-engineer)
-- [Labs - Senior DevOps Engineer](#senior-devops-engineer)
-- [Labs - Per Category](#categories)
+    - [Mark Level as Complete](#mark-level-as-complete)
+- [Labs - Per Role](#labs---per-role)
+    - [Systems Administrator](#systems-administrator)
+    - [DevOps Engineer](#devops-engineer)
+    - [Senior DevOps Engineer](#senior-devops-engineer)
+- [Labs - Per Category](#labs---per-category)
     - [Linux](#linux)
-    - [Kubernetes](#kubernetes)
+    - [Git](#git)
     - [Ansible](#ansible)
     - [Docker](#docker)
-    - [Git](#git)
+    - [Kubernetes](#kubernetes)
 
 
 ----------------------------------------------
@@ -110,7 +113,9 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 </details> 
 
 
-## Systems Administrator
+## Labs - Per Role 
+
+### Systems Administrator
 
 ✔️ Task 001 - [Create a Linux User with Non-Interactive Shell](./Tasks_001-009/TASK_1-Create_a_Linux_user_with_non-interactive_shell.sh)   
 ✔️ Task 002 - [Linux Run levels](./Tasks_001-009/TASK_2-Linux_Run_Levels.sh)   
@@ -168,7 +173,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Task 054 - [Setup SSL for NGINX](./Tasks_051-060/TASK_54-Setup_SSL_for_NGINX.sh)   
 ✔️ Task 055 - [Install and Configure HAProxy LBR](./Tasks_051-060/TASK_55-Install_and_Configure_HAProxy_LBR.sh)   
 
-## DevOps Engineer
+### DevOps Engineer
 
 ✔️ Task 056 - [Save. Load, and Transfer Docker Image](./Tasks_051-060/TASK_56-Save-load-transfer-Docker-image.sh)   
 ✔️ Task 057 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)   
@@ -223,7 +228,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Task 106 - [Puppet Setup File Permissions](./Tasks_0101-110/TASK_106_Puppet_File_Permissions.md)     
 ✔️ Task 107 - [Create Pods in Kubernetes Cluster](./Tasks_0101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)    
 
-## Senior DevOps Engineer 
+### Senior DevOps Engineer 
 
 ✔️ Task 108 - [Persistent Volumes in Kubernetes](./Tasks_0101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)    
 ✔️ Task 109 - [Git Revert Some Changes](./Tasks_0101-110/TASK_109_Git_revert_some_changes.md)    
@@ -277,7 +282,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 ----------------------------------------------
 
-## Categories 
+## Labs - Per Category 
 
 ### Linux
 
