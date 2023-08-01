@@ -12,7 +12,6 @@ To learn more, check out the following links:
 
 ----------------------------------------------
 
-
 - [Roles](#roles)
 - [Updates](#updates)
     - [Mechanics](#mechanics)
@@ -355,7 +354,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 **Level 1** 
 
 ✔️ Lab 001 - [Create Pods in Kubernetes Cluster](./Tasks_0101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)                 
-☐ Lab 002 - Create Deployments in Kubernetes Cluster                 
+✔️ Lab 002 - [Create Deployments in Kubernetes Cluster](./Tasks_071-080/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)                 
 ☐ Lab 003 - Create Namespaces in Kubernetes Cluster                 
 ☐ Lab 004 - Set Limits for Resources in Kubernetes                 
 ☐ Lab 005 - Rolling Updates in Kubernetes                 
