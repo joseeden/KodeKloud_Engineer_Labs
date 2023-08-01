@@ -371,11 +371,11 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 ### Jenkins 
 
-☐ Lab 001 - Jenkins Installation
-☐ Lab 002 - Jenkins Plugins
-☐ Lab 003 - Jenkins Create Users
-☐ Lab 004 - Jenkins Folders
-☐ Lab 005 - Jenkins Install Packages
+☐ Lab 001 - Jenkins Installation       
+☐ Lab 002 - Jenkins Plugins        
+☐ Lab 003 - Jenkins Create Users       
+☐ Lab 004 - Jenkins Folders         
+☐ Lab 005 - Jenkins Install Packages         
 
 
 
