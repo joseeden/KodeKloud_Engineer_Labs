@@ -287,25 +287,25 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 **Level 1**
 
-✔️ Lab 001 - [Create a user](./Tasks_Linux/Lab_001_Create_a_user.md)                  
-✔️ Lab 002 - [Create a group](./Tasks_Linux/Lab_002_Create_a_group.md)                 
-✔️ Lab 003 - [Create a Linux User with non-interactive shell ](./Tasks_Linux/Lab_003_Create_a_User_with_non-interactive_shell.md)               
-✔️ Lab 004 - [Linux User Without Home](./Tasks_Linux/Lab_004_Linux_User_without_home.md)                 
-✔️ Lab 005 - [Linux User Expiry](./Tasks_Linux/Lab_005_Linux_User_Expiry.md)                 
-✔️ Lab 006 - [Linux User Files](./Tasks_Linux/Lab_006_Linux_User_Files.md)                 
-✔️ Lab 007 - [Disable Root Login](./Tasks_Linux/Lab_007_Disable_root_login.md)                 
-✔️ Lab 008 - [Linux Archives](./Tasks_Linux/Lab_008_Linux_Archives.md)                 
-✔️ Lab 009 - [Linux File Permissions](./Tasks_Linux/Lab_009_Linux_File_Permissions.md)                 
-✔️ Lab 010 - [Linux Access Control List](./Tasks_Linux/Lab_010_Linux_ACLs.md)                 
-✔️ Lab 011 - [Linux String Substitute](./Tasks_Linux/Lab_011_Linux_String_Substitute.md)                 
-✔️ Lab 012 - [Linux Remote Copy](./Tasks_Linux/Lab_012_Linux_Remote_Copy.md)                 
-✔️ Lab 013 - [Cron schedule deny to users](./Tasks_Linux/Lab_013_Cron_Schedule_deny_to_users.md)                   
-✔️ Lab 014 - [Linux Run Levels](./Tasks_Linux/Lab_014_Linux_Run_Levels.md)                 
-✔️ Lab 015 - [Linux TimeZones Setting](./Tasks_Linux/Lab_015_Linux_Timezones_Setting.md)                 
-✔️ Lab 016 - [Linux NTP Setup](./Tasks_Linux/Lab_016_Linux_NTP_Setup.md)                 
-✔️ Lab 017 - [Linux Firewalld Rules](./Tasks_Linux/Lab_017_Linux_Firewalld_Rules.md)                 
-✔️ Lab 018 - [Linux Resource Limits](./Tasks_Linux/Lab_018_Linux_Resource_Limits.md)                 
-✔️ Lab 019 - [Selinux Installation](./Tasks_Linux/Lab_019_SELinux_Installation.md)                  
+✔️ Lab 001 - [Create a user](./Tasks_Linux/Level_1/Lab_001_Create_a_user.md)                  
+✔️ Lab 002 - [Create a group](./Tasks_Linux/Level_1/Lab_002_Create_a_group.md)                 
+✔️ Lab 003 - [Create a Linux User with non-interactive shell ](./Tasks_Linux/Level_1/Lab_003_Create_a_User_with_non-interactive_shell.md)               
+✔️ Lab 004 - [Linux User Without Home](./Tasks_Linux/Level_1/Lab_004_Linux_User_without_home.md)                 
+✔️ Lab 005 - [Linux User Expiry](./Tasks_Linux/Level_1/Lab_005_Linux_User_Expiry.md)                 
+✔️ Lab 006 - [Linux User Files](./Tasks_Linux/Level_1/Lab_006_Linux_User_Files.md)                 
+✔️ Lab 007 - [Disable Root Login](./Tasks_Linux/Level_1/Lab_007_Disable_root_login.md)                 
+✔️ Lab 008 - [Linux Archives](./Tasks_Linux/Level_1/Lab_008_Linux_Archives.md)                 
+✔️ Lab 009 - [Linux File Permissions](./Tasks_Linux/Level_1/Lab_009_Linux_File_Permissions.md)                 
+✔️ Lab 010 - [Linux Access Control List](./Tasks_Linux/Level_1/Lab_010_Linux_ACLs.md)                 
+✔️ Lab 011 - [Linux String Substitute](./Tasks_Linux/Level_1/Lab_011_Linux_String_Substitute.md)                 
+✔️ Lab 012 - [Linux Remote Copy](./Tasks_Linux/Level_1/Lab_012_Linux_Remote_Copy.md)                 
+✔️ Lab 013 - [Cron schedule deny to users](./Tasks_Linux/Level_1/Lab_013_Cron_Schedule_deny_to_users.md)                   
+✔️ Lab 014 - [Linux Run Levels](./Tasks_Linux/Level_1/Lab_014_Linux_Run_Levels.md)                 
+✔️ Lab 015 - [Linux TimeZones Setting](./Tasks_Linux/Level_1/Lab_015_Linux_Timezones_Setting.md)                 
+✔️ Lab 016 - [Linux NTP Setup](./Tasks_Linux/Level_1/Lab_016_Linux_NTP_Setup.md)                 
+✔️ Lab 017 - [Linux Firewalld Rules](./Tasks_Linux/Level_1/Lab_017_Linux_Firewalld_Rules.md)                 
+✔️ Lab 018 - [Linux Resource Limits](./Tasks_Linux/Level_1/Lab_018_Linux_Resource_Limits.md)                 
+✔️ Lab 019 - [Selinux Installation](./Tasks_Linux/Level_1/Lab_019_SELinux_Installation.md)                  
 
 
 ### Git
@@ -316,7 +316,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 002 - [Git Clone Repositories](./Tasks_131-140/TASK_138_Git_Clone_Repositories.md)                 
 ✔️ Lab 003 - [Git Fork a Repository](./Tasks_051-060/TASK_60-Git_Fork_a_Repository.md)                 
 ✔️ Lab 004 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)                 
-✔️ Lab 005 - [Git Delete Branches](./Tasks_Git/Lab_005_Git_delete_branches.md)                 
+✔️ Lab 005 - [Git Delete Branches](./Tasks_Git/Level_1/Lab_005_Git_delete_branches.md)                 
 
 **Level 2** 
 
@@ -344,9 +344,9 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 ✔️ Lab 001 - [Install Docker Package](./Tasks_121-130/TASK_124_Install_Docker_Package.md)                 
 ✔️ Lab 002 - [Run a Docker Container](./Tasks_071-080/TASK_76-Run_a_Docker_Container.md)                
-✔️ Lab 003 - [Docker Delete Container](./Tasks_Docker/Lab_003_Docker_delete_container.md)                    
+✔️ Lab 003 - [Docker Delete Container](./Tasks_Docker/Level_1/Lab_003_Docker_delete_container.md)                    
 ✔️ Lab 004 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)                 
-✔️ Lab 005 - [Docker Container Issue](./Tasks_Docker/Lab_005_Docker_container_issue.md)    
+✔️ Lab 005 - [Docker Container Issue](./Tasks_Docker/Level_1/Lab_005_Docker_container_issue.md)    
 
 
 ### Kubernetes
@@ -355,7 +355,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 ✔️ Lab 001 - [Create Pods in Kubernetes Cluster](./Tasks_101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)                 
 ✔️ Lab 002 - [Create Deployments in Kubernetes Cluster](./Tasks_071-080/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)                 
-☐ Lab 003 - Create Namespaces in Kubernetes Cluster                 
+✔️ Lab 003 - [Create Namespaces in Kubernetes Cluster](./Tasks_Kubernetes/Level_1/Lab_003_Create_Namespaces.md)                         
 ☐ Lab 004 - Set Limits for Resources in Kubernetes                 
 ☐ Lab 005 - Rolling Updates in Kubernetes                 
 ☐ Lab 006 - Rollback a Deployment in Kubernetes                 
