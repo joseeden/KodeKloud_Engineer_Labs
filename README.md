@@ -356,8 +356,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 001 - [Create Pods in Kubernetes Cluster](./Tasks_101-110/TASK_107_Create_pods_in_kubernetes_cluster.md)                 
 ✔️ Lab 002 - [Create Deployments in Kubernetes Cluster](./Tasks_071-080/TASK_72-Create_Deployments_in_Kubernetes_Cluster.md)                 
 ✔️ Lab 003 - [Create Namespaces in Kubernetes Cluster](./Tasks_Kubernetes/Level_1/Lab_003_Create_Namespaces.md)                         
-☐ Lab 004 - Set Limits for Resources in Kubernetes                 
-☐ Lab 005 - Rolling Updates in Kubernetes                 
+✔️ Lab 004 - [Set Limits for Resources in Kubernetes](./Tasks_091-100/TASK_93_Set_Limits_for_Resources.md)                 
+✔️ Lab 005 - [Rolling Updates in Kubernetes](./Tasks_081-090/TASK_85_Rolling_Updates_in_Kubernetes.md)                 
 ☐ Lab 006 - Rollback a Deployment in Kubernetes                 
 ✔️ Lab 007 - [Create Replicaset in Kubernetes Cluster](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)                 
 ☐ Lab 008 - Create Cronjobs in Kubernetes                 
