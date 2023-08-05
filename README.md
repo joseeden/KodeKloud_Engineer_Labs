@@ -358,13 +358,13 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 003 - [Create Namespaces in Kubernetes Cluster](./Tasks_Kubernetes/Level_1/Lab_003_Create_Namespaces.md)                         
 ✔️ Lab 004 - [Set Limits for Resources in Kubernetes](./Tasks_091-100/TASK_93_Set_Limits_for_Resources.md)                 
 ✔️ Lab 005 - [Rolling Updates in Kubernetes](./Tasks_081-090/TASK_85_Rolling_Updates_in_Kubernetes.md)                 
-☐ Lab 006 - Rollback a Deployment in Kubernetes                 
+✔️ Lab 006 - [Rollback a Deployment in Kubernetes](./Tasks_071-080/TASK_78-Rollback_deployment_in_Kubernetes.md)                 
 ✔️ Lab 007 - [Create Replicaset in Kubernetes Cluster](./Tasks_071-080/TASK_74-Create_Replicaset_in_Kubernetes_Cluster.md)                 
-☐ Lab 008 - Create Cronjobs in Kubernetes                 
-☐ Lab 009 - Countdown job in Kubernetes                 
+✔️ Lab 008 - [Create Cronjobs in Kubernetes](./Tasks_081-090/TASK_82_Create_Cronjobs_in_Kubernetes.md)                 
+✔️ Lab 009 - [Countdown job in Kubernetes](./Tasks_091-100/TASK_96_Countdown_job_in_Kubernetes.md)                 
 ✔️ Lab 010 - [Kubernetes Time Check Pod](./Tasks_121-130/TASK_127_Kubernetes_Time_Check_Pod.md)                 
-✔️ Lab 011 - [Troubleshoot Issue With Pods](./Tasks_091-100/TASK_98_Troubleshoot_issue_with_Pods.md)                 
-☐ Lab 012 - Update an Existing Deployment in Kubernetes                 
+✔️ Lab 011 - [Troubleshoot Issue With Pods](./Tasks_091-100/TASK_98_Troubleshoot_issue_with_Pods.md)                  
+✔️ Lab 012 - [Update an Existing Deployment in Kubernetes](./Tasks_061-070/TASK_66_Update_existing_Deployment_in_Kubernetes.md)          
 ✔️ Lab 013 - [ReplicationController in Kubernetes](./Tasks_101-110/TASK_101_Replication_Controller_in_Kubernetes.md)                 
 ✔️ Lab 014 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)                 
 
