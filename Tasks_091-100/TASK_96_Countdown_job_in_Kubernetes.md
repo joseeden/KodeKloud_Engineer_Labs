@@ -48,8 +48,7 @@ service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   111m
 Create the manifest for the resource definitions based on the requirements.
 
 ```bash
-# countdown-nautilus.yml
-
+# countdown.yml
 apiVersion: batch/v1
 kind: Job
 metadata:
@@ -68,14 +67,12 @@ spec:
               "for i in ten nine eight seven six five four three two one ; do echo $i ; done",
             ]
       restartPolicy: Never
-
-
 ```
 
 Apply. 
 
 ```bash
-kubectl apply -f countdown-nautilus.yml 
+kubectl apply -f .
 ```
 
 Verify by checking the resources again and checking the logs.
