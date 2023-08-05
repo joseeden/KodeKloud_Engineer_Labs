@@ -37,7 +37,7 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 
 ## Steps
 
-Check if there are anyr unning CronJobs. 
+Check if there are any running CronJobs. 
 
 ```bash
 $ kubectl get cronjob -A
@@ -46,14 +46,14 @@ No resources found
 
 Create the CronJob based on the requirements. 
 
-```bash
+```yaml
 # cronjob.yml
 apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: nautilus
 spec:
-  schedule: "*/11 * * * *"
+  schedule: "*/5 * * * *"
   jobTemplate:
     spec:
       template:
@@ -65,7 +65,42 @@ spec:
                 - /bin/sh
                 - -c
                 - echo Welcome to xfusioncorp
-          restartPolicy: OnFailure 
+          restartPolicy: OnFailure
+```
+
+**Update (July 2023):**
+
+When we try to apply the manifest above, we will get the following error:
+
+```bash
+error: resource mapping not found for name: "datacenter" namespace: "" from "cronjob.yml": no matches for kind "CronJob" in version "batch/v1beta1"
+ensure CRDs are installed first  
+```
+
+This is because the "batch/v1beta1" API version for CronJobs might not be available in your Kubernetes cluster. The "batch/v1beta1" version for CronJobs was deprecated in favor of "batch/v1" in recent Kubernetes versions.
+
+Modify the manifest
+
+```yaml
+# cronjob.yml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nautilus
+spec:
+  schedule: "*/5 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: cron-nautilus
+              image: nginx:latest
+              command:
+                - /bin/sh
+                - -c
+                - echo Welcome to xfusioncorp
+          restartPolicy: OnFailure  
 ```
 
 Create the manifest for the resource definitions.
