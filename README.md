@@ -119,7 +119,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Task 001 - [Create a Linux User with Non-Interactive Shell](./Tasks_001-009/TASK_1-Create_a_Linux_user_with_non-interactive_shell.sh)   
 ✔️ Task 002 - [Linux Run levels](./Tasks_001-009/TASK_2-Linux_Run_Levels.sh)   
 ✔️ Task 003 - [Linux SSH Authentication](./Tasks_001-009/TASK_3-Linux_SSH_Authentication.sh)   
-✔️ Task 004 - [Create a Cron job](./Tasks_001-009/TASK_4-Create_a_Cron_Job.sh)   
+✔️ Task 004 - [Create a Cron job](./Tasks_001-009/TASK_4-Create_a_Cron_Job.md)   
 ✔️ Task 005 - [Create a user](./Tasks_001-009/TASK_5-Create_a_User.sh)   
 ✔️ Task 006 - [MariaDB Troubleshooting](./Tasks_001-009/TASK_6-MariaDB_Troubleshooting.sh)   
 ✔️ Task 007 - [Linux Banner](./Tasks_001-009/TASK_7-Linux_Banner.sh)   
@@ -164,7 +164,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Task 046 - [Install and Configure Web Application](./Tasks_041-050/TASK_46-Install_and_Configure_Web_Application.sh)   
 ✔️ Task 047 - [Create a Linux User with Non-Interactive Shell](./Tasks_041-050/TASK_47-Create_a_Linux_User_with_non-interactive_shell.sh)   
 ✔️ Task 048 - [Configure Local Yum Repos](./Tasks_041-050/TASK_48-Configure_Local_Yum_repos.sh)   
-✔️ Task 049 - [Linux FIrewalld Setup](./Tasks_041-050/TASK_49-Linux_Firewalld_Setup.sh)   
+✔️ Task 049 - [Linux Firewalld Setup](./Tasks_041-050/TASK_49-Linux_Firewalld_Setup.sh)   
 ✔️ Task 050 - [Install and Configure PostgreSQL](./Tasks_041-050/TASK_50-Install_and_Configure_PostgreSQL.sh)   
 ✔️ Task 051 - [Linux Firewalld Rules](./Tasks_051-060/TASK_51-Linux_Firewalld_Rules.sh)   
 ✔️ Task 052 - [Apache Troubleshooting](./Tasks_051-060/TASK_52-Apache_Troubleshooting.sh)   
@@ -308,6 +308,33 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 019 - [Selinux Installation](./Tasks_Linux/Level_1/Lab_019_SELinux_Installation.md)                  
 
 
+**Level 2**
+
+✔️ Lab 001 - [Create a Cron Job](./Tasks_001-009/TASK_4-Create_a_Cron_Job.md)             
+☐ Lab 002 - [Linux Banner](./Tasks_001-009/TASK_7-Linux_Banner.sh)            
+☐ Lab 003 - Linux Collaborative Directories            
+☐ Lab 004 - [Linux String Substitute (sed)](./Tasks_Linux/Level_1/Lab_011_Linux_String_Substitute.md)            
+☐ Lab 005 - [Linux SSH Authentication](./Tasks_001-009/TASK_3-Linux_SSH_Authentication.sh)            
+☐ Lab 006 - [Linux Find Command](./Tasks_031-040/TASK_31-Linux_Find_Command.sh)            
+☐ Lab 007 - [Install a package](./Tasks_021-030/TASK_30-Install_a_package_-_vsftpd.sh)            
+☐ Lab 008 - Install Ansible            
+☐ Lab 009 - [Configure Local Yum repos](./Tasks_021-030/TASK_23-Configure_Local_Yum_repos.sh)            
+☐ Lab 010 - [Linux Services](./Tasks_010-020/TASK_10-Linux_Services.sh)            
+☐ Lab 011 - Linux Configure sudo            
+☐ Lab 012 - [DNS Troubleshooting](./Tasks_001-009/TASK_9-DNS_Troubleshooting.sh)            
+☐ Lab 013 - [Linux Firewalld Setup](./Tasks_031-040/TASK_33-Linux_Firewalld_Setup.sh)            
+☐ Lab 014 - Linux Postfix Mail Server            
+☐ Lab 015 - Linux Postfix Troubleshooting            
+☐ Lab 016 - [Install and Configure HaProxy LBR](./Tasks_051-060/TASK_55-Install_and_Configure_HAProxy_LBR.sh)            
+☐ Lab 017 - [Haproxy LBR Troubleshooting](./Tasks_021-030/TASK_21-Haproxy_LBR_Troubleshooting.sh)            
+☐ Lab 018 - [MariaDB Troubleshooting](./Tasks_041-050/TASK_45-MariaDB_Troubleshooting.sh)            
+☐ Lab 019 - [Linux Bash Scripts](./Tasks_021-030/TASK_22-Linux_Bash_Scripts.sh)            
+☐ Lab 020 - Add Response Headers in Apache            
+☐ Lab 021 - [Apache Troubleshooting](./Tasks_051-060/TASK_52-Apache_Troubleshooting.sh)            
+☐ Lab 022 - Linux GPG Encryption            
+☐ Lab 023 - Linux LogRotate            
+☐ Lab 024 - [Application Security](./Tasks_021-030/TASK_29-Application_Security.sh)            
+
 ### Git
 
 **Level 1** 
@@ -338,6 +365,14 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 005 - [Ansible File Module](./Tasks_131-140/TASK_136_Ansible_File_Module.md)                       
 
 
+**Level 2** 
+
+☐ Lab 001 - [Ansible Ping Module Usage](./Tasks_111-120/TASK_117_Ansible_Ping_Module_Usage.md)             
+☐ Lab 002 - Ansible Install Package             
+☐ Lab 003 - [Ansible Archive Module](./Tasks_081-090/TASK_86_Ansible_Archive_Module.md)             
+☐ Lab 004 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)             
+☐ Lab 005 - [Ansible Blockinfile Module](./Tasks_091-100/TASK_95_Ansible_Blockinfile_module.md)             
+
 ### Docker 
 
 **Level 1** 
@@ -348,6 +383,14 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 004 - [Docker Copy Operations](./Tasks_131-140/TASK_140_Docker_Copy_Operations.md)                 
 ✔️ Lab 005 - [Docker Container Issue](./Tasks_Docker/Level_1/Lab_005_Docker_container_issue.md)    
 
+
+**Level 2** 
+
+☐ Lab 001 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)           
+☐ Lab 002 - Docker Update Permissions           
+☐ Lab 003 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
+☐ Lab 004 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)           
+☐ Lab 005 - Write a Docker File           
 
 ### Kubernetes
 
@@ -368,6 +411,19 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 013 - [ReplicationController in Kubernetes](./Tasks_101-110/TASK_101_Replication_Controller_in_Kubernetes.md)                 
 ✔️ Lab 014 - [Fix Issue with VolumeMounts in Kubernetes](./Tasks_111-120/TASK_111_Fix_issue_with_volumemounts_in_Kubernetes.md)                 
 
+**Level 2**
+
+☐ Lab 001 - [Kubernetes Shared Volumes](./Tasks_141_150/TASK_145_Kubernetes_Shared_Volumes.md)          
+☐ Lab 002 - [Kubernetes Sidecar Containers](./Tasks_081-090/TASK_89_Kubernetes_Sidecar_Containers.md)          
+☐ Lab 003 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)          
+☐ Lab 004 - [Print Environment Variables](./Tasks_091-100/TASK_92_Print_Environment_Variables.md)          
+☐ Lab 005 - [Rolling Updates And Rolling Back Deployments in Kubernetes](./Tasks_111-120/TASK_116_Rolling_updates_and_rolling_back_deployments.md)          
+☐ Lab 006 - [Deploy Jenkins on Kubernetes](./Tasks_061-070/TASK_62-Deploy_Jenkins_on_Kubernetes.md)          
+☐ Lab 007 - [Deploy Grafana on Kubernetes Cluster](./Tasks_061-070/TASK_61-Deploy_Grafana_on_Kubernetes.md)          
+☐ Lab 008 - [Deploy Tomcat App on Kubernetes](./Tasks_081-090/TASK_83_Deploy_Tomcat_on_Kubernetes.md)          
+☐ Lab 009 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)          
+☐ Lab 010 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)          
+☐ Lab 011 - Fix issue with LAMP Environment in Kubernetes          
 
 ### Jenkins 
 
