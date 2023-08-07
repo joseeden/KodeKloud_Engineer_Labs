@@ -386,11 +386,11 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 **Level 2** 
 
-☐ Lab 001 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)           
-☐ Lab 002 - Docker Update Permissions           
-☐ Lab 003 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
-☐ Lab 004 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)           
-☐ Lab 005 - Write a Docker File           
+✔️ Lab 001 - [Pull Docker Image](./Tasks_111-120/TASK_119_Pull_Docker_Image.md)           
+✔️ Lab 002 - [Docker Update Permissions](./Tasks_Docker/Level_2/Lab_002_Docker_Update_Permissions.md)            
+✔️ Lab 003 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
+✔️ Lab 004 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)           
+✔️ Lab 005 - [Write a Docker File](./Tasks_Docker/Level_2/Lab_005_Write_a_Dockerfile.md)           
 
 ### Kubernetes
 
