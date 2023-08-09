@@ -413,16 +413,16 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 **Level 2**
 
-☐ Lab 001 - [Kubernetes Shared Volumes](./Tasks_141_150/TASK_145_Kubernetes_Shared_Volumes.md)          
-☐ Lab 002 - [Kubernetes Sidecar Containers](./Tasks_081-090/TASK_89_Kubernetes_Sidecar_Containers.md)          
-☐ Lab 003 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)          
-☐ Lab 004 - [Print Environment Variables](./Tasks_091-100/TASK_92_Print_Environment_Variables.md)          
-☐ Lab 005 - [Rolling Updates And Rolling Back Deployments in Kubernetes](./Tasks_111-120/TASK_116_Rolling_updates_and_rolling_back_deployments.md)          
+✔️ Lab 001 - [Kubernetes Shared Volumes](./Tasks_141_150/TASK_145_Kubernetes_Shared_Volumes.md)          
+✔️ Lab 002 - [Kubernetes Sidecar Containers](./Tasks_081-090/TASK_89_Kubernetes_Sidecar_Containers.md)          
+✔️ Lab 003 - [Deploy Nginx Web Server on Kubernetes Cluster](./Tasks_131-140/TASK_131_Deploy_NGINX_on_Kubernetes.md)          
+✔️ Lab 004 - [Print Environment Variables](./Tasks_091-100/TASK_92_Print_Environment_Variables.md)          
+✔️ Lab 005 - [Rolling Updates And Rolling Back Deployments in Kubernetes](./Tasks_111-120/TASK_116_Rolling_updates_and_rolling_back_deployments.md)          
 ☐ Lab 006 - [Deploy Jenkins on Kubernetes](./Tasks_061-070/TASK_62-Deploy_Jenkins_on_Kubernetes.md)          
 ☐ Lab 007 - [Deploy Grafana on Kubernetes Cluster](./Tasks_061-070/TASK_61-Deploy_Grafana_on_Kubernetes.md)          
 ☐ Lab 008 - [Deploy Tomcat App on Kubernetes](./Tasks_081-090/TASK_83_Deploy_Tomcat_on_Kubernetes.md)          
-☐ Lab 009 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)          
-☐ Lab 010 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)          
+✔️ Lab 009 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)          
+✔️ Lab 010 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)          
 ☐ Lab 011 - Fix issue with LAMP Environment in Kubernetes          
 
 ### Jenkins 
