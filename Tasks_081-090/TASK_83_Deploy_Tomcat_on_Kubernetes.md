@@ -183,6 +183,14 @@ and open the template in the editor.
 </html> 
 ```
 
+Lastly, we can click the **App** button at the top right to open the landing page of the deployed application in a new tab.
+
+![](../Images/task81editedaddedappbutton.png)
+
+The landing page:
+
+![](../Images/task81editedlandingpage.png)
+
 ------------------------------
 
 ## Resources
