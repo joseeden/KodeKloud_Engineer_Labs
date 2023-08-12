@@ -130,52 +130,12 @@ thor@jump_host ~$ POD=$(kubectl get pods -o=jsonpath='{.items[*].metadata.name}'
 POD: lamp-wp-56c7c454fc-s7xf5
 ``` 
 
-Check the logs of the HTTP container. On all iterations of the labs, the lgos will show that there was an incorrect variable. Now we'll immediately think that the environment variable needs to be corrected on the deployment YAML file, but this is not the case as the YAML file follows the instructions. 
+Check the logs of the HTTP container. On all iterations of the labs, the logs will show that there was an incorrect variable. Now we'll immediately think that the environment variable needs to be corrected on the deployment YAML file, but this is not the case as the YAML file follows the instructions. 
 
 Instead, we need to modify the PHP file inside the HTTP container.
 
 ```bash
 k logs -f $POD -c $HTTP 
-```
-
-
-```bash
-thor@jump_host ~$ k logs -f $POD -c $HTTP
--> Executing /opt/docker/provision/entrypoint.d/05-permissions.sh
--> Executing /opt/docker/provision/entrypoint.d/20-php-fpm.sh
--> Executing /opt/docker/provision/entrypoint.d/20-php.sh
--> Executing /opt/docker/bin/service.d/supervisor.d//10-init.sh
-2023-08-12 09:22:58,733 CRIT Set uid to user 0
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
-2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
-2023-08-12 09:22:58,742 INFO RPC interface 'supervisor' initialized
-2023-08-12 09:22:58,742 INFO supervisord started with pid 1
-2023-08-12 09:22:59,745 INFO spawned: 'syslogd' with pid 89
-2023-08-12 09:22:59,750 INFO spawned: 'php-fpmd' with pid 90
-2023-08-12 09:22:59,815 INFO spawned: 'apached' with pid 91
-2023-08-12 09:22:59,820 INFO spawned: 'crond' with pid 95
--> Executing /opt/docker/bin/service.d/syslog-ng.d//10-init.sh
--> Executing /opt/docker/bin/service.d/php-fpm.d//10-init.sh
-Setting php-fpm user to application
--> Executing /opt/docker/bin/service.d/httpd.d//10-init.sh
-2023-08-12 09:22:59,822 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-2023-08-12 09:22:59,822 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-2023-08-12 09:22:59,822 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-[SYSLOG] syslog-ng[89]: syslog-ng starting up; version='3.7.2'
--> Executing /opt/docker/bin/service.d/cron.d//10-init.sh
-[Sat Aug 12 09:23:00.215107 2023] [so:warn] [pid 113:tid 140558160104264] AH01574: module socache_shmcb_module is already loaded, skipping
-[Sat Aug 12 09:23:00.316735 2023] [so:warn] [pid 113:tid 140558160104264] AH01574: module socache_shmcb_module is already loaded, skipping
-[Sat Aug 12 09:23:00.319582 2023] [lbmethod_heartbeat:notice] [pid 113:tid 140558160104264] AH02282: No slotmem from mod_heartmonitor
-[Sat Aug 12 09:23:00.419030 2023] [mpm_event:notice] [pid 113:tid 140558160104264] AH00489: Apache/2.4.25 (Unix) LibreSSL/2.4.4 configured -- resuming normal operations
-[Sat Aug 12 09:23:00.419060 2023] [core:notice] [pid 113:tid 140558160104264] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-2023-08-12 09:23:01,117 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-[12-Aug-2023 09:23:01] NOTICE: fpm is running, pid 90
-[12-Aug-2023 09:23:01] NOTICE: ready to handle connections 
 ```
 
 Open a shell to the HTTP container and find the **index.php** file.
@@ -221,7 +181,7 @@ drwxr-xr-x    1 root     root          4096 Aug 12 07:36 ..
 -rw-r--r--    1 root     root           435 Aug 12 07:37 index.php 
 ```
 
-Check the index.app file. Here we can see that there's some typo error here. Edit this to match the variables specified in the instructions/requirements. 
+Check the index.app file. Here we can see that there's some typo error. Edit this to match the variables specified in the instructions/requirements. 
 
 ```bash
 thor@jump_host ~$ k exec -it $POD -c $HTTP -- sh
@@ -262,6 +222,48 @@ php-fpm:php-fpmd: started
 php-fpm:php-fpmd                 RUNNING   pid 257, uptime 0:00:06 
 / # 
 / # exit
+```
+
+Checking the logs again:
+
+
+```bash
+thor@jump_host ~$ k logs -f $POD -c $HTTP
+-> Executing /opt/docker/provision/entrypoint.d/05-permissions.sh
+-> Executing /opt/docker/provision/entrypoint.d/20-php-fpm.sh
+-> Executing /opt/docker/provision/entrypoint.d/20-php.sh
+-> Executing /opt/docker/bin/service.d/supervisor.d//10-init.sh
+2023-08-12 09:22:58,733 CRIT Set uid to user 0
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2023-08-12 09:22:58,733 WARN Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2023-08-12 09:22:58,742 INFO RPC interface 'supervisor' initialized
+2023-08-12 09:22:58,742 INFO supervisord started with pid 1
+2023-08-12 09:22:59,745 INFO spawned: 'syslogd' with pid 89
+2023-08-12 09:22:59,750 INFO spawned: 'php-fpmd' with pid 90
+2023-08-12 09:22:59,815 INFO spawned: 'apached' with pid 91
+2023-08-12 09:22:59,820 INFO spawned: 'crond' with pid 95
+-> Executing /opt/docker/bin/service.d/syslog-ng.d//10-init.sh
+-> Executing /opt/docker/bin/service.d/php-fpm.d//10-init.sh
+Setting php-fpm user to application
+-> Executing /opt/docker/bin/service.d/httpd.d//10-init.sh
+2023-08-12 09:22:59,822 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-08-12 09:22:59,822 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-08-12 09:22:59,822 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[SYSLOG] syslog-ng[89]: syslog-ng starting up; version='3.7.2'
+-> Executing /opt/docker/bin/service.d/cron.d//10-init.sh
+[Sat Aug 12 09:23:00.215107 2023] [so:warn] [pid 113:tid 140558160104264] AH01574: module socache_shmcb_module is already loaded, skipping
+[Sat Aug 12 09:23:00.316735 2023] [so:warn] [pid 113:tid 140558160104264] AH01574: module socache_shmcb_module is already loaded, skipping
+[Sat Aug 12 09:23:00.319582 2023] [lbmethod_heartbeat:notice] [pid 113:tid 140558160104264] AH02282: No slotmem from mod_heartmonitor
+[Sat Aug 12 09:23:00.419030 2023] [mpm_event:notice] [pid 113:tid 140558160104264] AH00489: Apache/2.4.25 (Unix) LibreSSL/2.4.4 configured -- resuming normal operations
+[Sat Aug 12 09:23:00.419060 2023] [core:notice] [pid 113:tid 140558160104264] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+2023-08-12 09:23:01,117 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+[12-Aug-2023 09:23:01] NOTICE: fpm is running, pid 90
+[12-Aug-2023 09:23:01] NOTICE: ready to handle connections 
 ```
 
 Check the environment variables in both containers. 
