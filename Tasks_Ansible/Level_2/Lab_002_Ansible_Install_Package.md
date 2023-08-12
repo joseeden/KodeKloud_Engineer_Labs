@@ -44,9 +44,9 @@ $ cat > inventory
 
 ## /home/thor/playbook/inventory 
 [app_servers]
-app_server1 ansible_host=172.16.238.10  ansible_user=tony   ansible_ssh_pass=Ir0nM@n    ansible_pkg_mgr=yum
-app_server2 ansible_host=172.16.238.11  ansible_user=steve  ansible_ssh_pass=Am3ric@    ansible_pkg_mgr=yum
-app_server3 ansible_host=172.16.238.12  ansible_user=banner ansible_ssh_pass=BigGr33n   ansible_pkg_mgr=yum
+app_server1 ansible_host=172.16.238.10  ansible_user=tony   ansible_ssh_pass=******    ansible_pkg_mgr=yum
+app_server2 ansible_host=172.16.238.11  ansible_user=steve  ansible_ssh_pass=******    ansible_pkg_mgr=yum
+app_server3 ansible_host=172.16.238.12  ansible_user=banner ansible_ssh_pass=******    ansible_pkg_mgr=yum
 ```
 
 Run a simple ping test. Each app server should return a *pong*.
