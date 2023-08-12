@@ -331,9 +331,9 @@ I've tried this lab for multiple times and there are instances where all the ste
 
 ![](../../Images/k8sl2lab011indexof.png)
 
-In this case, just restart the lab. 
+In this case, just restart the lab by clicking **Try Later**
 
-DO NOT CLICK **CHECK** because the lab will fail. The lab is buggy so you might need to repeat the steps below until you get the "Connected successfully" message. Somehow this is the only way to verify if the lab is completed successfully. 
+DO NOT CLICK **Check** because the lab will fail. The lab is buggy so you might need to repeat the steps below until you get the "Connected successfully" message. Somehow this is the only way to verify if the lab is completed successfully. 
 
 Some additional screenshots:
 
