@@ -423,7 +423,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 008 - [Deploy Tomcat App on Kubernetes](./Tasks_081-090/TASK_83_Deploy_Tomcat_on_Kubernetes.md)          
 ✔️ Lab 009 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)          
 ✔️ Lab 010 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)          
-☐ Lab 011 - Fix issue with LAMP Environment in Kubernetes          
+✔️ Lab 011 - [Fix issue with LAMP Environment in Kubernetes](./Tasks_Kubernetes/Level_2/Lab_011_Fix_issue_with_LAMP_Environment_in_Kubernetes.md)             
 
 ### Jenkins 
 
