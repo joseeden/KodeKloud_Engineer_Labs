@@ -319,7 +319,7 @@ Click the **App** button at the top right to open the app URL in the new tab.
 
 ![](../../Images/k8sl2lab011appbutton.png)
 
-In the newt tab, we should see the message:
+In the new tab, we should see the message:
 
 ![](../../Images/k8sl2lab011connectedsuccessfully.png)
 
