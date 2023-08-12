@@ -66,7 +66,7 @@ secret/mysql-user-pass   Opaque   2      47s
 
 Test the URL.
 
-![](../../iMAGES/K8SL2LAMPISSUE.png)
+![](../../Images/K8SL2LAMPISSUE.png)
 
 From the httpd container, test connectivity to the MySQL. 
 
