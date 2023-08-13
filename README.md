@@ -371,7 +371,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 002 - [Ansible Install Package](./Tasks_Ansible/Level_2/Lab_002_Ansible_Install_Package.md)             
 ✔️ Lab 003 - [Ansible Archive Module](./Tasks_081-090/TASK_86_Ansible_Archive_Module.md)             
 ✔️ Lab 004 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)             
-☐ Lab 005 - [Ansible Blockinfile Module](./Tasks_091-100/TASK_95_Ansible_Blockinfile_module.md)             
+✔️ Lab 005 - [Ansible Blockinfile Module](./Tasks_091-100/TASK_95_Ansible_Blockinfile_module.md)             
 
 ### Docker 
 
@@ -424,6 +424,20 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 009 - [Deploy Node App on Kubernetes](./Tasks_111-120/TASK_118_Deploy_node_app_on_Kubernetes.md)          
 ✔️ Lab 010 - [Troubleshoot Deployment issues in Kubernetes](./Tasks_111-120/TASK_113_Tshoot_Deployment_Issues_in_Kubernetes.md)          
 ✔️ Lab 011 - [Fix issue with LAMP Environment in Kubernetes](./Tasks_Kubernetes/Level_2/Lab_011_Fix_issue_with_LAMP_Environment_in_Kubernetes.md)             
+
+**Level 3**
+
+✔️ Lab 001 - [Deploy Apache Web Server on Kubernetes Cluster](./Tasks_141_150/TASK_142_Deploy_Apache_Web_Server_on_Kubernetes_Cluster.md)                    
+✔️ Lab 002 - [Deploy Lamp Stack on Kubernetes Cluster](./Tasks_Kubernetes/Level_3/Lab_002_Deploy_LAMP_Stack_on_Kubernetes_Cluster.md)                     
+✔️ Lab 003 - [Init Containers in Kubernetes](./Tasks_071-080/TASK_77-Init_containers_in_Kubernetes.md)                    
+✔️ Lab 004 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)                    
+☐ Lab 005 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)                    
+✔️ Lab 006 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)                    
+☐ Lab 007 - Kubernetes LEMP Setup                    
+☐ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    
+☐ Lab 009 - Deploy Iron Gallery App on Kubernetes                    
+✔️ Lab 010 - [Fix Python App Deployed on Kubernetes Cluster](./Tasks_081-090/TASK_84_Fix_Python_App.md)                    
+
 
 ### Jenkins 
 

@@ -20,11 +20,23 @@ There are some applications that need to be deployed on Kubernetes cluster and t
 
 - Create a Deployment named as **ic-deploy-xfusion**.
 
-- Configure spec as replicas should be 1, labels app should be **ic-xfusion**, template's metadata labels app should be the same **ic-xfusion**.
+- Configure spec as **replicas should be 1**, labels app should be **ic-xfusion**, template's metadata labels app should be the same **ic-xfusion**.
 
-- The initContainers should be named as **ic-msg-xfusion**, use image **debian**, preferably with latest tag and use command '/bin/bash', '-c' and 'echo Init Done - Welcome to xFusionCorp Industries > /ic/news'. The volume mount should be named as **ic-volume-xfusion** and mount path should be /ic.
+- The initContainers should be named as **ic-msg-xfusion**, use image **debian**, preferably with **latest** tag and use command:
 
-- Main container should be named as **ic-main-xfusion**, use image debian, preferably with latest tag and use command '/bin/bash', '-c' and 'while true; do cat /ic/news; sleep 5; done'. The volume mount should be named as **ic-volume-xfusion** and mount path should be /ic.
+  - '/bin/bash', 
+  - '-c' and 
+  - 'echo Init Done - Welcome to xFusionCorp Industries > **/ic/news**'. 
+  
+- The volume mount should be named as **ic-volume-xfusion** and mount path should be **/ic**.
+
+- Main container should be named as **ic-main-xfusion**, use image **debian**, preferably with **latest** tag and use command:
+
+  - '/bin/bash',
+  - '-c' and 
+  - 'while true; do cat /ic/news; sleep 5; done'. 
+  
+- The volume mount should be named as **ic-volume-xfusion** and mount path should be **/ic**.
 
 - Volume to be named as **ic-volume-xfusion** and it should be an **emptyDir** type.
 
@@ -93,13 +105,18 @@ kubectl apply -f deploy.yml
 Check the deployment and pods. Ensure that they are running.
 
 ```bash
-thor@jump_host ~$ kubectl get deployment
-NAME                 READY   UP-TO-DATE   AVAILABLE   AGE
-ic-deploy-xfusion   1/1     1            1           30s
+thor@jump_host ~$ k get all
+NAME                                    READY   STATUS    RESTARTS   AGE
+pod/ic-deploy-xfusion-c6755cb4f-4hr6t   1/1     Running   0          18s
 
-thor@jump_host ~$ kubectl get pods
-NAME                                  READY   STATUS    RESTARTS   AGE
-ic-deploy-xfusion-85dc88d9d6-hfltg   1/1     Running   0          37s 
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   8m2s
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/ic-deploy-xfusion   1/1     1            1           18s
+
+NAME                                          DESIRED   CURRENT   READY   AGE
+replicaset.apps/ic-deploy-xfusion-c6755cb4f   1         1         1       18s
 ```
 
 To verify the task, check the logs for the deployment. It should show the message:
@@ -107,11 +124,11 @@ To verify the task, check the logs for the deployment. It should show the messag
 ```bash
 thor@jump_host ~$ kubectl logs -f deployment/ic-deploy-xfusion
 
+Defaulted container "ic-main-xfusion" out of: ic-main-xfusion, ic-msg-xfusion (init)
 Init Done - Welcome to xFusionCorp Industries
 Init Done - Welcome to xFusionCorp Industries
 Init Done - Welcome to xFusionCorp Industries
 Init Done - Welcome to xFusionCorp Industries
-Init Done - Welcome to xFusionCorp Industries 
 ```
 
 ------------------------------

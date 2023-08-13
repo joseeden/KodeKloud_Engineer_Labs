@@ -57,6 +57,8 @@ cd /home/thor/ansible/
 As good practice, confirm that the jumphost is able to reach all three App Servers by running a PING. All three should return a PONG response.
 
 ```bash
+thor@jump_host ~/ansible$ ansible -m ping all -i inventory
+
 stapp02 | SUCCESS => {
     "ansible_facts": {
         "discovered_interpreter_python": "/usr/bin/python"
