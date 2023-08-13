@@ -369,8 +369,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 ✔️ Lab 001 - [Ansible Ping Module Usage](./Tasks_111-120/TASK_117_Ansible_Ping_Module_Usage.md)             
 ✔️ Lab 002 - [Ansible Install Package](./Tasks_Ansible/Level_2/Lab_002_Ansible_Install_Package.md)             
-☐ Lab 003 - [Ansible Archive Module](./Tasks_081-090/TASK_86_Ansible_Archive_Module.md)             
-☐ Lab 004 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)             
+✔️ Lab 003 - [Ansible Archive Module](./Tasks_081-090/TASK_86_Ansible_Archive_Module.md)             
+✔️ Lab 004 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)             
 ☐ Lab 005 - [Ansible Blockinfile Module](./Tasks_091-100/TASK_95_Ansible_Blockinfile_module.md)             
 
 ### Docker 
