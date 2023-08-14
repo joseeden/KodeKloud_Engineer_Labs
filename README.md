@@ -279,7 +279,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 > *Starting July 2023, the mechanics has been changed. Tasks are no longer provisioned individually, but rather engineers are provided Kodekloud coins which can then be used to unlock a number of tasks. In addition to this, engineers can work on multiple labs on different levels across categories.*
 > *See updates section above*
 
-----------------------------------------------
+
+______________________________________________
 
 ## Labs - Per Category 
 
@@ -335,6 +336,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ☐ Lab 023 - Linux LogRotate            
 ☐ Lab 024 - [Application Security](./Tasks_021-030/TASK_29-Application_Security.sh)            
 
+----------------------------------------------
+
 ### Git
 
 **Level 1** 
@@ -353,6 +356,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 004 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
 ✔️ Lab 005 - [Git Revert Some Changes](./Tasks_101-110/TASK_109_Git_revert_some_changes.md)         
 
+----------------------------------------------
 
 ### Ansible 
 
@@ -382,6 +386,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
 ✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)                      
 
+----------------------------------------------
+
 ### Docker 
 
 **Level 1** 
@@ -400,6 +406,8 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 003 - [Create a Docker Image From Container](./Tasks_131-140/TASK_139_Create_a_Docker_image_from_container.md)           
 ✔️ Lab 004 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)           
 ✔️ Lab 005 - [Write a Docker File](./Tasks_Docker/Level_2/Lab_005_Write_a_Dockerfile.md)           
+
+----------------------------------------------
 
 ### Kubernetes
 
@@ -447,6 +455,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ☐ Lab 009 - Deploy Iron Gallery App on Kubernetes                    
 ✔️ Lab 010 - [Fix Python App Deployed on Kubernetes Cluster](./Tasks_081-090/TASK_84_Fix_Python_App.md)                    
 
+----------------------------------------------
 
 ### Jenkins 
 
@@ -458,6 +467,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ☐ Lab 004 - Jenkins Folders         
 ☐ Lab 005 - Jenkins Install Packages         
 
+----------------------------------------------
 
 
 
