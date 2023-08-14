@@ -376,11 +376,11 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 
 **Level 3**
 
-✔️ Lab 001 - [Creating Soft Links Using Ansible](./Tasks_051-060/TASK_58-Creating_softlinks_using_Ansible.md)
-✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)
-☐ Lab 003 - Ansible Manage Services
-☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)
-✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)
+✔️ Lab 001 - [Creating Soft Links Using Ansible](./Tasks_051-060/TASK_58-Creating_softlinks_using_Ansible.md)                      
+✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)                      
+☐ Lab 003 - Ansible Manage Services                      
+☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
+✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)                      
 
 ### Docker 
 
