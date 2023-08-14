@@ -373,6 +373,15 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 004 - [Ansible Unarchive Module](./Tasks_101-110/TASK_103_Ansible_Unarchive_Module.md)             
 ✔️ Lab 005 - [Ansible Blockinfile Module](./Tasks_091-100/TASK_95_Ansible_Blockinfile_module.md)             
 
+
+**Level 3**
+
+✔️ Lab 001 - [Creating Soft Links Using Ansible](./Tasks_051-060/TASK_58-Creating_softlinks_using_Ansible.md)
+✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)
+☐ Lab 003 - Ansible Manage Services
+☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)
+✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)
+
 ### Docker 
 
 **Level 1** 
@@ -431,7 +440,7 @@ Once you have finished all tasks for a level, click the **Mark Complete** to unl
 ✔️ Lab 002 - [Deploy Lamp Stack on Kubernetes Cluster](./Tasks_Kubernetes/Level_3/Lab_002_Deploy_LAMP_Stack_on_Kubernetes_Cluster.md)                     
 ✔️ Lab 003 - [Init Containers in Kubernetes](./Tasks_071-080/TASK_77-Init_containers_in_Kubernetes.md)                    
 ✔️ Lab 004 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)                    
-☐ Lab 005 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)                    
+✔️ Lab 005 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)                    
 ✔️ Lab 006 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)                    
 ☐ Lab 007 - Kubernetes LEMP Setup                    
 ☐ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    

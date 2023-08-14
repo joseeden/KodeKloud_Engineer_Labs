@@ -100,6 +100,89 @@ Run the playbook.
 ansible-playbook -i inventory playbook.yml
 ```
 
+If successful, it should return:
+
+```bash
+thor@jump_host ~/ansible$ ansible-playbook -i inventory playbook.yml
+
+PLAY [stapp01] ******************************************************************************************************************************************
+
+TASK [Create empty file] ********************************************************************************************************************************
+changed: [stapp01]
+
+TASK [Create symbolic link] *****************************************************************************************************************************
+changed: [stapp01]
+
+PLAY [stapp02] ******************************************************************************************************************************************
+
+TASK [Create empty file] ********************************************************************************************************************************
+changed: [stapp02]
+
+TASK [Create symbolic link] *****************************************************************************************************************************
+changed: [stapp02]
+
+PLAY [stapp03] ******************************************************************************************************************************************
+
+TASK [Create empty file] ********************************************************************************************************************************
+changed: [stapp03]
+
+TASK [Create symbolic link] *****************************************************************************************************************************
+changed: [stapp03]
+
+PLAY RECAP **********************************************************************************************************************************************
+stapp01                    : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+stapp02                    : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+stapp03                    : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+```
+
+To verify:
+
+```bash
+thor@jump_host ~/ansible$ ansible all -a "ls -la /opt" -i inventory
+stapp02 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 .
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 ..
+drwxr-xr-x 2 root root 4096 Aug 14 13:12 finance
+stapp03 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 .
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 ..
+drwxr-xr-x 2 root root 4096 Aug 14 13:12 finance
+stapp01 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 .
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 ..
+drwxr-xr-x 2 root root 4096 Aug 14 13:12 finance
+thor@jump_host ~/ansible$ 
+thor@jump_host ~/ansible$ 
+thor@jump_host ~/ansible$ ansible all -a "ls -la /opt/finance" -i inventory
+stapp02 | CHANGED | rc=0 >>
+total 8
+drwxr-xr-x 2 root  root  4096 Aug 14 13:12 .
+drwxr-xr-x 1 root  root  4096 Aug 14 13:09 ..
+-rw-r--r-- 1 steve steve    0 Aug 14 13:12 story.txt
+stapp03 | CHANGED | rc=0 >>
+total 8
+drwxr-xr-x 2 root   root   4096 Aug 14 13:12 .
+drwxr-xr-x 1 root   root   4096 Aug 14 13:09 ..
+-rw-r--r-- 1 banner banner    0 Aug 14 13:12 media.txt
+stapp01 | CHANGED | rc=0 >>
+total 8
+drwxr-xr-x 2 root root 4096 Aug 14 13:12 .
+drwxr-xr-x 1 root root 4096 Aug 14 13:09 ..
+-rw-r--r-- 1 tony tony    0 Aug 14 13:12 blog.txt
+thor@jump_host ~/ansible$ 
+thor@jump_host ~/ansible$ 
+thor@jump_host ~/ansible$ ansible all -a "ls -la /var/www/html" -i inventory
+stapp02 | CHANGED | rc=0 >>
+lrwxrwxrwx 1 root root 12 Aug 14 13:12 /var/www/html -> /opt/finance
+stapp01 | CHANGED | rc=0 >>
+lrwxrwxrwx 1 root root 12 Aug 14 13:12 /var/www/html -> /opt/finance
+stapp03 | CHANGED | rc=0 >>
+lrwxrwxrwx 1 root root 12 Aug 14 13:12 /var/www/html -> /opt/finance 
+```
+
 ------------------------------
 
 ## References

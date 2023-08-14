@@ -1,8 +1,8 @@
 
 ------------------------------
 
-Start: 		2022-11-16 11:12:58 <br>
-Finish:	  2022-11-16 11:47:21
+Start: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022-11-16 11:12:58   
+Finished: &nbsp;&nbsp;2022-11-16 11:47:21
 
 ------------------------------
 
@@ -23,19 +23,19 @@ secrets to store those secrets.
 
 Below you can find more details about the requirements:
 
-We already have a secret key file media.txt under /opt location on jump host. 
+- We already have a secret key file **media.txt** under **/opt** location on jump host. 
 Create a generic secret named media, it should contain the password/license-number 
 present in media.txt file.
 
-Also create a pod named secret-datacenter.
+- Also create a pod named **secret-datacenter**.
 
-Configure pod's spec as container name should be secret-container-datacenter, 
+- Configure pod's spec as container name should be **secret-container-datacenter**, 
 image should be debian preferably with latest tag (remember to mention the tag with image). 
 Use sleep command for container so that it remains in running state. 
 Consume the created secret and mount it under /opt/demo within the container.
 
-To verify you can exec into the container secret-container-datacenter, 
-to check the secret key under the mounted path /opt/demo. 
+- To verify you can exec into the container secret-container-datacenter, 
+to check the secret key under the mounted path **/opt/demo**. 
 Before hitting the Check button please make sure pod/pods are in running state, 
 also validation can take some time to complete so keep patience.
 
@@ -47,6 +47,7 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 Check the secret to be used for the lab.
 
 ```bash
+$ cd /opt
 $ cat media.txt
 5ecur3
 ```
@@ -115,7 +116,7 @@ secret-datacenter   1/1     Running   0
 Login to the pod and check if the secret is mounted.
 
 ```bash
-$ kubectl exec -it secret-datacenter bash
+$ kubectl exec -it secret-datacenter -- bash
 
 root@secret-datacenter:/#
 root@secret-datacenter:/# ls -la /opt/demo/
