@@ -336,6 +336,19 @@ ______________________________________________
 ☐ Lab 023 - Linux LogRotate            
 ☐ Lab 024 - [Application Security](./Tasks_021-030/TASK_29-Application_Security.sh)            
 
+**Level 3**
+
+☐ Lab 001 - Apache Redirects
+☐ Lab 002 - [Install And Configure SFTP](./Tasks_031-040/TASK_38-Install_And_Configure_SFTP.sh)
+☐ Lab 003 - Install and Configure Tomcat Server
+☐ Lab 004 - [Linux Network Services](./Tasks_041-050/TASK_41-Linux_Network_Services.sh)
+☐ Lab 005 - [IPtables Installation And Configuration](./Tasks_031-040/TASK_40-IPtables_Installation_And_Configuration.sh)
+☐ Lab 006 - [Linux Nginx as Reverse Proxy](./Tasks_021-030/TASK_26-Linux_Nginx_as_Reverse_Proxy.sh)
+☐ Lab 007 - Configure protected directories in Apache
+☐ Lab 008 - [Linux Process Troubleshooting](./Tasks_031-040/TASK_37-Linux_Process_Troubleshooting.sh)
+☐ Lab 009 - [PAM Authentication For Apache](./Tasks_031-040/TASK_35-PAM_Authentication_For_Apache.sh)
+☐ Lab 010 - [Setup SSL for Nginx](./Tasks_021-030/TASK_28-Setup_SSL_for_Nginx.sh)
+
 ----------------------------------------------
 
 ### Git
@@ -390,7 +403,7 @@ ______________________________________________
 
 ✔️ Lab 001 - [Creating Soft Links Using Ansible](./Tasks_051-060/TASK_58-Creating_softlinks_using_Ansible.md)                      
 ✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)                      
-☐ Lab 003 - Ansible Manage Services                      
+✔️ Lab 003 - [Ansible Manage Services](./Tasks_Ansible/Level_3/Lab_003_Ansible_Manage_Services.md)                      
 ☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
 ✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)                      
 
@@ -417,9 +430,9 @@ ______________________________________________
 
 **Level 3**
 
-☐ Lab 001 - Create a Docker Network          
-☐ Lab 002 - Docker Volumes Mapping         
-☐ Lab 003 - Docker Ports Mapping         
+☐ Lab 001 - [Create a Docker Network](./Tasks_071-080/TASK_71-Create_a_Docker_Network.md)          
+✔️ Lab 002 - [Docker Volumes Mapping](./Tasks_131-140/TASK_137_Docker_Volume_Mapping.md)         
+✔️ Lab 003 - [Docker Ports Mapping](./Tasks_091-100/TASK_97_Docker_Ports_Mapping.md)         
 ☐ Lab 004 - Save, Load and Transfer Docker Image         
 ☐ Lab 005 - Write a Docker Compose File         
 
