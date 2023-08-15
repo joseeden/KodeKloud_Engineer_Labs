@@ -356,6 +356,14 @@ ______________________________________________
 ✔️ Lab 004 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
 ✔️ Lab 005 - [Git Revert Some Changes](./Tasks_101-110/TASK_109_Git_revert_some_changes.md)         
 
+**Level 3**
+
+☐ Lab 001 - Git Cherry Pick         
+☐ Lab 002 - Manage Git Pull Requests         
+☐ Lab 003 - Git hard reset         
+☐ Lab 004 - Git Clean         
+☐ Lab 005 - Git Stash         
+
 ----------------------------------------------
 
 ### Ansible 
@@ -407,6 +415,15 @@ ______________________________________________
 ✔️ Lab 004 - [Docker EXEC Operations](./Tasks_141_150/TASK_141_Docker_Exec_Operations.md)           
 ✔️ Lab 005 - [Write a Docker File](./Tasks_Docker/Level_2/Lab_005_Write_a_Dockerfile.md)           
 
+**Level 3**
+
+☐ Lab 001 - Create a Docker Network          
+☐ Lab 002 - Docker Volumes Mapping         
+☐ Lab 003 - Docker Ports Mapping         
+☐ Lab 004 - Save, Load and Transfer Docker Image         
+☐ Lab 005 - Write a Docker Compose File         
+
+
 ----------------------------------------------
 
 ### Kubernetes
@@ -450,7 +467,7 @@ ______________________________________________
 ✔️ Lab 004 - [Persistent Volumes in Kubernetes](./Tasks_101-110/TASK_108_Persistent_Volumes_in_Kubernetes.md)                    
 ✔️ Lab 005 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)                    
 ✔️ Lab 006 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)                    
-☐ Lab 007 - Kubernetes LEMP Setup                    
+✔️ Lab 007 - [Kubernetes LEMP Setup](./Tasks_Kubernetes/Level_3/Lab_007_Kubernetes_LEMP_Setup.md)                       
 ☐ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    
 ☐ Lab 009 - Deploy Iron Gallery App on Kubernetes                    
 ✔️ Lab 010 - [Fix Python App Deployed on Kubernetes Cluster](./Tasks_081-090/TASK_84_Fix_Python_App.md)                    
@@ -465,7 +482,25 @@ ______________________________________________
 ☐ Lab 002 - Jenkins Plugins        
 ☐ Lab 003 - Jenkins Create Users       
 ☐ Lab 004 - Jenkins Folders         
-☐ Lab 005 - Jenkins Install Packages         
+☐ Lab 005 - Jenkins Install Packages    
+
+
+**Level 2** 
+
+☐ Lab 001 - Jenkins Views    
+☐ Lab 002 - Jenkins Parameterized Builds    
+☐ Lab 003 - Jenkins Workspaces    
+☐ Lab 004 - Jenkins Database Backup Job    
+☐ Lab 005 - Jenkins Scheduled Jobs    
+
+
+**Level 3** 
+
+☐ Lab 001 - Jenkins Slave Nodes    
+☐ Lab 002 - Jenkins Project Security    
+☐ Lab 003 - Jenkins Build Images    
+☐ Lab 004 - Jenkins Deploy Pipeline    
+☐ Lab 005 - Jenkins Conditional Pipeline    
 
 ----------------------------------------------
 

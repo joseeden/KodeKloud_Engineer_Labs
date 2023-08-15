@@ -180,6 +180,7 @@ spec:
         ports:
         - containerPort: 3306
         resources: {}
+        
       volumes:
       - name: php-ini
         configMap:
