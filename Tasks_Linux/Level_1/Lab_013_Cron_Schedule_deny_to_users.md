@@ -24,6 +24,15 @@ Allow **crontab access** to **rose** user and **deny** the same to **ben** user.
 
 ## Steps
 
+Login to the app server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
+
+
+```bash
+sshpass -p  '********' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sudo su -
+********  
+```
+
 Create the **cron.allow** file and add rose's name. Add  **ben**'s name to the **cron.deny** file.
 
 ```bash
@@ -34,9 +43,6 @@ echo "ben" >> /etc/cron.deny
 To test, switch to user **rose** and test cron. Do the same for user **ben.**
 
 ```bash
-# Switch to root first 
-sudo su -
-
 su - rose 
 crontab -e 
 
