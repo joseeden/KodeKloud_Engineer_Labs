@@ -481,7 +481,7 @@ ______________________________________________
 ✔️ Lab 005 - [Manage Secrets in Kubernetes](./Tasks_051-060/TASK_57-Manage_secrets_in_Kubernetes.md)                    
 ✔️ Lab 006 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)                    
 ✔️ Lab 007 - [Kubernetes LEMP Setup](./Tasks_Kubernetes/Level_3/Lab_007_Kubernetes_LEMP_Setup.md)                       
-☐ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    
+✔️ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    
 ☐ Lab 009 - Deploy Iron Gallery App on Kubernetes                    
 ✔️ Lab 010 - [Fix Python App Deployed on Kubernetes Cluster](./Tasks_081-090/TASK_84_Fix_Python_App.md)                    
 

@@ -287,6 +287,11 @@ spec:
 
 <br>
 
+Apply:
+
+```bash
+kubectl apply -f . 
+```
 
 Check the resources.
 
