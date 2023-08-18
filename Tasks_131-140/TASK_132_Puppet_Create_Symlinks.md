@@ -75,7 +75,7 @@ Validate the Puppet file.
 puppet parser validate blog.pp  
 ```
 
-Login to the App server and switch to root.
+Login to the App server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
 sshpass -p  '**********' ssh -o StrictHostKeyChecking=no tony@172.16.238.10

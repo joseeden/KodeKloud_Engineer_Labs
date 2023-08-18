@@ -2,7 +2,7 @@
 ------------------------------
 
 Start: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023-08-18 20:45:40  
-Finished: &nbsp;&nbsp;
+Finished: &nbsp;&nbsp;2023-08-18 21:21:19
 
 ------------------------------
 
@@ -12,73 +12,89 @@ Finished: &nbsp;&nbsp;
 
 ------------------------------
 
-# Lab xx: 
+# Lab 001: Deploy Redis Deployment on Kubernetes
 
 ## Requirements
 
+The Nautilus application development team observed some performance issues with one of the application that is deployed in Kubernetes cluster. After looking into number of factors, the team has suggested to use some in-memory caching utility for DB service. After number of discussions, they have decided to use Redis. Initially they would like to deploy Redis on kubernetes cluster for testing and later they will move it to production. Please find below more details about the task:
 
+- Create a redis deployment with following parameters:
+
+    - Create a config map called **my-redis-config** having **maxmemory** **2mb** in **redis-config**.
+
+    - Name of the deployment should be **redis-deployment**, it should use
+    **redis:alpine** image and container name should be **redis-container**. Also make sure it has only **1 replica**.
+
+    - The container should **request** for **1 CPU**.
+
+    - Mount 2 volumes:
+
+        a. An **Empty** directory volume called **data** at path **/redis-master-data**.
+
+        b. A **configmap** volume called **redis-config** at path **/redis-master**.
+
+        c. The **container** should expose the port **6379**.
+
+- Finally, redis-deployment should be in an up and running state.
+
+Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 
 ------------------------------
 
 ## Steps
 
 
-Login to the app server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
-
 
 ```bash
-  
+thor@jump_host ~$ kubectl get all
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   21m 
 ```
 
-From the jumphost, switch to root and proceed to the specified directory. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
-
+Create the **deploy.yml** based on the requirements.
 
 ```bash
-sudo su -
-cd /etc/puppetlabs/code/environments/production/manifests/
-```
-
-
-Create the **blog.pp** based on the requirements.
-
-```puppet
-  
-```
-
-Validate the Puppet file.
-
-```bash
-puppet parser validate blog.pp  
-```
-
-Pull the configuration from the Puppet server.
-
-```bash
-[root@stapp01 ~]# puppet agent -tv  
-```
-
-Run the playbook.
-
-```bash
-ansible-playbook -i inventory playbook.yml 
-```
-
-It should return:
-
-```bash
-PLAY RECAP ******************************************************************************************************************************************
-stapp01                    : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
-stapp02                    : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
-stapp03                    : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0    
-```
-
-
-
-
-Create the ** ** based on the requirements.
-
-```yaml
-
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-redis-config
+data:
+  maxmemory: 2mb
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+        - name: redis-container
+          image: redis:alpine
+          ports:
+            - containerPort: 6379
+          resources:
+            requests:
+              cpu: "1000m"
+          volumeMounts:
+            - name: data
+              mountPath: /redis-master-data
+            - name: redis-config
+              mountPath: /redis-master
+      volumes:
+      - name: data
+        emptyDir: {}
+      - name: redis-config
+        configMap:
+          name: my-redis-config 
 ```
 
 Apply. 
@@ -87,68 +103,21 @@ Apply.
 kubectl apply -f .
 ```
 
-
-For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
+Check the resources again. 
 
 ```bash
-# Jump Server to Access Stork DC
-thor 
-mjolnir123
+thor@jump_host ~$ kubectl get pod,deployment,cm
+NAME                                   READY   STATUS    RESTARTS   AGE
+pod/redis-deployment-68fbd4467-cntcb   1/1     Running   0          67s
 
-# stapp01 
-# Nautilus App 1
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sudo su -
-Ir0nM@n
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/redis-deployment   1/1     1            1           67s
 
-# stapp02
-# Nautilus App 2
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
-sudo su -
-Am3ric@
-
-# stapp03
-# Nautilus App 3
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
-sudo su -
-BigGr33n
-
-# stlb01
-# Nautilus HTTP LBR
-sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
-sudo su -
-Mischi3f
-
-# stdb01
-# Nautilus DB Server
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
-sudo su -
-Sp!dy
-
-# ststor01
-# Nautilus Storage Server
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
-sudo su -
-Bl@kW
-
-# stmail01
-# Nautilus Mail Server
-sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
-sudo su -
-H@wk3y3
-
-# stbkp0
-# Nautilus Backup Server
-sshpass -p 'Gr00T123' ssh -o StrictHostKeyChecking=no  groot@172.16.238.16
-sudo su -
-H@wk3y3
-
-# jenkins 
-# Jenkins Server for CI/CD
-jenkins
-j@rv!s
-172.16.238.19
+NAME                         DATA   AGE
+configmap/kube-root-ca.crt   1      22m
+configmap/my-redis-config    1      67s 
 ```
+
 
 
 ------------------------------

@@ -48,7 +48,7 @@ drwxr----- 1 thor thor 4096 Jan 15 10:10 ..
 -rw-r--r-- 1 thor thor  237 Jan 15 10:10 inventory 
 ```
 
-Check the inventory file to see if there are any errors.
+Check the inventory file to see if there are any errors. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
 $ cat inventory 
