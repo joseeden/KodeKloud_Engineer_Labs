@@ -43,7 +43,7 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 
 ## Steps
 
-
+Check the resources.
 
 ```bash
 thor@jump_host ~$ kubectl get all
