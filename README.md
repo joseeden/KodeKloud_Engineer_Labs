@@ -338,16 +338,16 @@ ______________________________________________
 
 **Level 3**
 
-☐ Lab 001 - Apache Redirects
-☐ Lab 002 - [Install And Configure SFTP](./Tasks_031-040/TASK_38-Install_And_Configure_SFTP.sh)
-☐ Lab 003 - Install and Configure Tomcat Server
-☐ Lab 004 - [Linux Network Services](./Tasks_041-050/TASK_41-Linux_Network_Services.sh)
-☐ Lab 005 - [IPtables Installation And Configuration](./Tasks_031-040/TASK_40-IPtables_Installation_And_Configuration.sh)
-☐ Lab 006 - [Linux Nginx as Reverse Proxy](./Tasks_021-030/TASK_26-Linux_Nginx_as_Reverse_Proxy.sh)
-☐ Lab 007 - Configure protected directories in Apache
-☐ Lab 008 - [Linux Process Troubleshooting](./Tasks_031-040/TASK_37-Linux_Process_Troubleshooting.sh)
-☐ Lab 009 - [PAM Authentication For Apache](./Tasks_031-040/TASK_35-PAM_Authentication_For_Apache.sh)
-☐ Lab 010 - [Setup SSL for Nginx](./Tasks_021-030/TASK_28-Setup_SSL_for_Nginx.sh)
+☐ Lab 001 - Apache Redirects         
+☐ Lab 002 - [Install And Configure SFTP](./Tasks_031-040/TASK_38-Install_And_Configure_SFTP.sh)         
+☐ Lab 003 - Install and Configure Tomcat Server         
+☐ Lab 004 - [Linux Network Services](./Tasks_041-050/TASK_41-Linux_Network_Services.sh)         
+☐ Lab 005 - [IPtables Installation And Configuration](./Tasks_031-040/TASK_40-IPtables_Installation_And_Configuration.sh)         
+☐ Lab 006 - [Linux Nginx as Reverse Proxy](./Tasks_021-030/TASK_26-Linux_Nginx_as_Reverse_Proxy.sh)         
+☐ Lab 007 - Configure protected directories in Apache         
+☐ Lab 008 - [Linux Process Troubleshooting](./Tasks_031-040/TASK_37-Linux_Process_Troubleshooting.sh)         
+☐ Lab 009 - [PAM Authentication For Apache](./Tasks_031-040/TASK_35-PAM_Authentication_For_Apache.sh)         
+☐ Lab 010 - [Setup SSL for Nginx](./Tasks_021-030/TASK_28-Setup_SSL_for_Nginx.sh)         
 
 ----------------------------------------------
 
