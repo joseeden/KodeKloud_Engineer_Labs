@@ -433,7 +433,7 @@ ______________________________________________
 ✔️ Lab 001 - [Create a Docker Network](./Tasks_071-080/TASK_71-Create_a_Docker_Network.md)          
 ✔️ Lab 002 - [Docker Volumes Mapping](./Tasks_131-140/TASK_137_Docker_Volume_Mapping.md)         
 ✔️ Lab 003 - [Docker Ports Mapping](./Tasks_091-100/TASK_97_Docker_Ports_Mapping.md)         
-☐ Lab 004 - Save, Load and Transfer Docker Image         
+✔️ Lab 004 - Save, Load and Transfer Docker Image         
 ☐ Lab 005 - Write a Docker Compose File         
 
 
