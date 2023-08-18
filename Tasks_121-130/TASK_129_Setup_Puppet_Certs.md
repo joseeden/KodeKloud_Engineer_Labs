@@ -47,9 +47,8 @@ Login to the app server and switch to root. For the server credentials, check ou
 Edit the /etc/hosts file in the app server and add the alias of the jump server.
 
 ```bash
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
-Ir0nM@n
 ```
 ```bash
 sudo vi /etc/hosts
@@ -98,70 +97,6 @@ Return to the app server and validate by running:
 puppet agent -t 
 ```
 
-
-
-
-For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
-
-```bash
-# Jump Server to Access Stork DC
-thor 
-mjolnir123
-
-# stapp01 
-# Nautilus App 1
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
-sudo su -
-Ir0nM@n
-
-# stapp02
-# Nautilus App 2
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
-sudo su -
-Am3ric@
-
-# stapp03
-# Nautilus App 3
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
-sudo su -
-BigGr33n
-
-# stlb01
-# Nautilus HTTP LBR
-sshpass -p 'Mischi3f' ssh -o StrictHostKeyChecking=no  loki@172.16.238.14
-sudo su -
-Mischi3f
-
-# stdb01
-# Nautilus DB Server
-sshpass -p 'Sp!dy' ssh -o StrictHostKeyChecking=no  peter@172.16.239.10
-sudo su -
-Sp!dy
-
-# ststor01
-# Nautilus Storage Server
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
-sudo su -
-Bl@kW
-
-# stmail01
-# Nautilus Mail Server
-sshpass -p 'H@wk3y3' ssh -o StrictHostKeyChecking=no  clint@172.16.238.16
-sudo su -
-H@wk3y3
-
-# stbkp0
-# Nautilus Backup Server
-sshpass -p 'Gr00T123' ssh -o StrictHostKeyChecking=no  groot@172.16.238.16
-sudo su -
-H@wk3y3
-
-# jenkins 
-# Jenkins Server for CI/CD
-jenkins
-j@rv!s
-172.16.238.19
-```
 
 
 ------------------------------

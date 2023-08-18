@@ -136,11 +136,10 @@ $ puppetserver ca list --all
 No certificates to list
 ```
 
-We can open three terminals, one for each app server. Each terminal will open a session on the jump host.
-SSH into the app server and switch to root. Replace the 'Ir0nM@n' with the [server credentials](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus).
+We can open three terminals, one for each app server. Each terminal will open a session on the jump host. SSH into the app server and switch to root. Replace the '**********' with the [server credentials](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus).
 
 ```bash
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10 
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no tony@172.16.238.10 
 sudo su
 ```
 
@@ -188,14 +187,14 @@ Repeat the same steps for App Server 2 and App Server 3.
 
 ```bash
 # App server 2
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '********** ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su -
 vi /etc/hosts 
 puppet agent --test
 ```
 ```bash
 # App server 3
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
 vi /etc/hosts 
 puppet agent --test

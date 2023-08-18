@@ -45,11 +45,14 @@ drwxr----- 1 thor thor 4096 May 31 23:47 ..
 -rw-r--r-- 1 thor thor   36 May 31 23:47 ansible.cfg
 -rw-r--r-- 1 thor thor  237 May 31 23:47 inventory 
 ```
+
+For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
+
 ```bash
 thor@jump_host ~/ansible$ cat inventory
-stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
-stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
-stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner 
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=********** ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=********** ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=********** ansible_user=banner 
 ``````
 
 As good practice, confirm that the jumphost is able to reach all three App Servers by running a PING. All three should return a PONG response.

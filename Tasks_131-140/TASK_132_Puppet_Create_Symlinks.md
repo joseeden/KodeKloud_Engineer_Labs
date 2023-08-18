@@ -78,7 +78,7 @@ puppet parser validate blog.pp
 Login to the App server and switch to root.
 
 ```bash
-sshpass -p  'Ir0nM@n' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no tony@172.16.238.10
 sudo su -
 ```
 

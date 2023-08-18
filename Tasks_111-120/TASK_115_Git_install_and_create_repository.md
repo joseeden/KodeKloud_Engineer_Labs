@@ -28,9 +28,9 @@ After that create/init a git repository /opt/beta.git (use the exact name as ask
 Login to the Storage server. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '**********' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW 
+********** 
 ```
 
 Install git.

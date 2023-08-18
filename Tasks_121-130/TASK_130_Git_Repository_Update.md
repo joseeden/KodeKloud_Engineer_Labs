@@ -37,9 +37,9 @@ sudo scp /tmp/index.html  natasha@ststor01:/tmp
 Login to the server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '**********' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW  
+**********  
 ```
 
 Copy the file from /tmp to the repo directory.

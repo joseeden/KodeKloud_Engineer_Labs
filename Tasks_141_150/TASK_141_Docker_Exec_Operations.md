@@ -32,9 +32,9 @@ Login to the app server and switch to root. For the server credentials, check ou
 
 
 ```bash
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su -
-Am3ric@
+**********
  
 ```
 

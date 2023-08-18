@@ -37,9 +37,9 @@ Some new developers have joined xFusionCorp Industries and have been assigned Na
 Login to the storage server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '**********' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW 
+********** 
 ```
 
 Install git and set the username and email.

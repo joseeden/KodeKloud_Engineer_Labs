@@ -52,9 +52,9 @@ Check the inventory file to see if there are any errors.
 
 ```bash
 $ cat inventory 
-stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
-stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
-stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner 
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=********** ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=********** ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=********** ansible_user=banner 
 ```
 
 As good practice, confirm that the jumphost is able to reach all app servers by running a simple PING test. All three should return a PONG response.

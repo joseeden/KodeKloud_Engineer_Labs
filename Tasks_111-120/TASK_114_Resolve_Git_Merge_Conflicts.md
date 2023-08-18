@@ -29,12 +29,11 @@ Note: For these kind of scenarios requiring changes to be done in a web UI, plea
 
 ## Steps
 
-Login to the storage server.
+Login to the storage server and switch to root.
 
 ```bash
 sshpass -p 'Max_pass123' ssh -o StrictHostKeyChecking=no  max@172.16.238.15
 sudo su -
-Bl@kW 
 ```
 
 Proceed to the specified directory and check the files.

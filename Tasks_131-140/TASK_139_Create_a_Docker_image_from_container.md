@@ -27,9 +27,9 @@ a. Create an image **cluster:datacenter** on **Application Server 3** from a con
 Login to the app server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su -
-BigGr33n 
+********** 
 ```
 
 Check the running container/s and the current image/s.

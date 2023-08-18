@@ -28,12 +28,12 @@ Below are more details about the task:
 
 ## Steps
 
-SSH to the Storage server.
+SSH to the Storage server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '**********' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW 
+********** 
 ```
 
 Proceed to specified directory and check git status.

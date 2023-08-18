@@ -27,7 +27,7 @@ On Application Server 3 create a container named **nginx_3** using image **nginx
 Log-in to the specified app server.
 
 ```bash
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '*********' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su
 ```
 

@@ -51,9 +51,9 @@ Check the inventory file and verify if the defined parameters are correct. For t
 ```bash
 $ cat inventory;echo
 
-stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
-stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
-stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner 
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=********** ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=********** ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=********** ansible_user=banner 
 ```
 
 To verify if the inventory is correct, let's run a simple ping test. It should return the "ping:pong" response.

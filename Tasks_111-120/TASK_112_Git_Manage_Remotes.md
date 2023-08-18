@@ -31,9 +31,9 @@ The xFusionCorp development team added updates to the project that is maintained
 SSH to the Storage server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 
 ```bash
-sshpass -p 'Bl@kW' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
+sshpass -p '**********' ssh -o StrictHostKeyChecking=no  natasha@172.16.238.15
 sudo su -
-Bl@kW  
+**********  
 ```
 
 Proceed to the cloned directory and add the remote repo. Next, copy the HTML file onto the repo.

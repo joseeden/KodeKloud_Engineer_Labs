@@ -62,9 +62,10 @@ Validate the Puppet file.
 puppet parser validate ecommerce.pp 
 ```
 
-Log-in to the app server and switch to root.
+Log-in to the app server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
+
 ```bash
-sshpass -p  'Am3ric@' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
 sudo su 
 ```
 
