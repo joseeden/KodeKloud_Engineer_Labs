@@ -347,7 +347,20 @@ ______________________________________________
 ☐ Lab 007 - Configure protected directories in Apache         
 ☐ Lab 008 - [Linux Process Troubleshooting](./Tasks_031-040/TASK_37-Linux_Process_Troubleshooting.sh)         
 ☐ Lab 009 - [PAM Authentication For Apache](./Tasks_031-040/TASK_35-PAM_Authentication_For_Apache.sh)         
-☐ Lab 010 - [Setup SSL for Nginx](./Tasks_021-030/TASK_28-Setup_SSL_for_Nginx.sh)         
+☐ Lab 010 - [Setup SSL for Nginx](./Tasks_021-030/TASK_28-Setup_SSL_for_Nginx.sh)  
+
+
+**Level 4**
+
+☐ Lab 001 - Install and Configure Nginx as an LBR                  
+☐ Lab 002 - LEMP Troubleshooting         
+☐ Lab 003 - [Install and Configure PostgreSQL](./Tasks_041-050/TASK_50-Install_and_Configure_PostgreSQL.sh)         
+☐ Lab 004 - Bash scripts if/else statements         
+☐ Lab 005 - Configure LAMP server         
+☐ Lab 006 - [Install and Configure DB Server](./Tasks_041-050/TASK_43-Install_and_Configure_DB_Server.sh)         
+☐ Lab 007 - [Install and Configure Web Application](./Tasks_041-050/TASK_42-Install_and_Configure_Web_Application.sh)         
+☐ Lab 008 - Install and Configure PHP-FPM         
+☐ Lab 009 - Configure Nginx + PHP-FPM Using Unix Sock         
 
 ----------------------------------------------
 
@@ -361,6 +374,7 @@ ______________________________________________
 ✔️ Lab 004 - [Git Repository Update](./Tasks_121-130/TASK_130_Git_Repository_Update.md)                 
 ✔️ Lab 005 - [Git Delete Branches](./Tasks_Git/Level_1/Lab_005_Git_delete_branches.md)                 
 
+
 **Level 2** 
 
 ✔️ Lab 001 - [Git Install and Create Repository](./Tasks_111-120/TASK_115_Git_install_and_create_repository.md)        
@@ -369,13 +383,23 @@ ______________________________________________
 ✔️ Lab 004 - [Git Manage Remotes](./Tasks_111-120/TASK_112_Git_Manage_Remotes.md)        
 ✔️ Lab 005 - [Git Revert Some Changes](./Tasks_101-110/TASK_109_Git_revert_some_changes.md)         
 
+
 **Level 3**
 
 ☐ Lab 001 - Git Cherry Pick         
 ☐ Lab 002 - Manage Git Pull Requests         
 ☐ Lab 003 - Git hard reset         
 ☐ Lab 004 - Git Clean         
-☐ Lab 005 - Git Stash         
+☐ Lab 005 - Git Stash     
+
+
+**Level 4**
+
+☐ Lab 001 - Git Rebase              
+☐ Lab 002 - [Manage Git Repositories](./Tasks_061-070/TASK_65-Manage_Git_repositories.md)       
+☐ Lab 003 - [Resolve Git Merge Conflicts](./Tasks_111-120/TASK_114_Resolve_Git_Merge_Conflicts.md)       
+☐ Lab 004 - Git Hook       
+☐ Lab 005 - [Git Setup from Scratch](./Tasks_121-130/TASK_121_Git_setup_from_Scratch.md)       
 
 ----------------------------------------------
 
@@ -405,7 +429,16 @@ ______________________________________________
 ✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)                      
 ✔️ Lab 003 - [Ansible Manage Services](./Tasks_Ansible/Level_3/Lab_003_Ansible_Manage_Services.md)                      
 ✔️ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
-✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)                      
+✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)         
+
+
+**Level 4**
+
+☐ Lab 001 - [Ansible Facts Gathering](./Tasks_081-090/TASK_81_Ansible_Facts_Gathering.md)                  
+☐ Lab 002 - [Ansible Create Users and Groups](./Tasks_081-090/TASK_88_Ansible_Create_Users_and_Groups.md)         
+☐ Lab 003 - [Managing Jinja2 Templates Using Ansible](./Tasks_061-070/TASK_67_Managing_Jinja2_Templates.md)         
+✔️ Lab 004 - [Ansible Setup Httpd and PHP](./Tasks_091-100/TASK_91_Ansible_Setup_HTTPD_and_PHP.md)         
+☐ Lab 005 - [Using Ansible Conditionals](./Tasks_081-090/TASK_90_Using_Ansible_Conditionals.md)         
 
 ----------------------------------------------
 
@@ -436,6 +469,14 @@ ______________________________________________
 ✔️ Lab 004 - [Save, Load and Transfer Docker Image](./Tasks_Docker/Level_3/Lab_004_Save_Load_Transfer_Docker_image.md)         
 ✔️ Lab 005 - [Write a Docker Compose File](./Tasks_Docker/Level_3/Lab_005_Write_docker_compose_file.md)           
 
+
+**Level 4**
+
+☐ Lab 001 - Resolve Dockerfile Issues                  
+☐ Lab 002 - Resolve Docker Compose Issues         
+☐ Lab 003 - Deploy an App on Docker Containers         
+☐ Lab 004 - Docker Node App         
+☐ Lab 005 - Docker Python App         
 
 ----------------------------------------------
 
@@ -523,6 +564,15 @@ ______________________________________________
 ☐ Lab 003 - Jenkins Build Images    
 ☐ Lab 004 - Jenkins Deploy Pipeline    
 ☐ Lab 005 - Jenkins Conditional Pipeline    
+
+
+**Level 4**
+
+☐ Lab 001 - Jenkins Deployment Job            
+☐ Lab 002 - Jenkins Chained Builds                        
+☐ Lab 003 - Jenkins MR Jobs            
+☐ Lab 004 - Jenkins Multistage Pipeline            
+☐ Lab 005 - Jenkins Setup Node App            
 
 ----------------------------------------------
 
