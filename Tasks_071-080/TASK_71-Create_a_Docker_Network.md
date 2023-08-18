@@ -30,7 +30,7 @@ c. Set it to use subnet 10.10.1.0/24 and iprange 10.10.1.3/24.
 
 Log in to the specified App server and switch to root. For the server credentials, check out the [Project Nautilus documentation.](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus)
 ```bash
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '**********' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 sudo su  
 ```
 

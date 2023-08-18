@@ -404,7 +404,7 @@ ______________________________________________
 ✔️ Lab 001 - [Creating Soft Links Using Ansible](./Tasks_051-060/TASK_58-Creating_softlinks_using_Ansible.md)                      
 ✔️ Lab 002 - [Managing ACLs Using Ansible](./Tasks_121-130/TASK_126_Managing_ACLs_with_Ansible.md)                      
 ✔️ Lab 003 - [Ansible Manage Services](./Tasks_Ansible/Level_3/Lab_003_Ansible_Manage_Services.md)                      
-☐ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
+✔️ Lab 004 - [Ansible Lineinfile Module](./Tasks_061-070/TASK_69-Ansible_Lineinfile_Module.md)                      
 ✔️ Lab 005 - [Ansible Replace Module](./Tasks_091-100/TASK_99_Ansible_Replace_Module.md)                      
 
 ----------------------------------------------
@@ -430,7 +430,7 @@ ______________________________________________
 
 **Level 3**
 
-☐ Lab 001 - [Create a Docker Network](./Tasks_071-080/TASK_71-Create_a_Docker_Network.md)          
+✔️ Lab 001 - [Create a Docker Network](./Tasks_071-080/TASK_71-Create_a_Docker_Network.md)          
 ✔️ Lab 002 - [Docker Volumes Mapping](./Tasks_131-140/TASK_137_Docker_Volume_Mapping.md)         
 ✔️ Lab 003 - [Docker Ports Mapping](./Tasks_091-100/TASK_97_Docker_Ports_Mapping.md)         
 ☐ Lab 004 - Save, Load and Transfer Docker Image         
@@ -482,8 +482,17 @@ ______________________________________________
 ✔️ Lab 006 - [Environment Variables in Kubernetes](./Tasks_121-130/TASK_125_Environment_variables_in_Kubernetes.md)                    
 ✔️ Lab 007 - [Kubernetes LEMP Setup](./Tasks_Kubernetes/Level_3/Lab_007_Kubernetes_LEMP_Setup.md)                       
 ✔️ Lab 008 - [Kubernetes Troubleshooting](./Tasks_091-100/TASK_94_Kubernetes_Troubleshooting.md)                    
-☐ Lab 009 - Deploy Iron Gallery App on Kubernetes                    
+✔️ Lab 009 - [Deploy Iron Gallery App on Kubernetes](./Tasks_Kubernetes/Level_3/Lab_009_Deploy_Iron_Gallery_App_on_Kubernetes.md)                    
 ✔️ Lab 010 - [Fix Python App Deployed on Kubernetes Cluster](./Tasks_081-090/TASK_84_Fix_Python_App.md)                    
+
+
+**Level 4**
+
+✔️ Lab 001 - [Deploy Redis Deployment on Kubernetes](./Tasks_Kubernetes/Level_4/Lab_001_Deploy_Redis_Deployment_on_Kubernetes.md)          
+☐ Lab 002 - Deploy MySQL on Kubernetes          
+☐ Lab 003 - Kubernetes Nginx and PhpFPM Setup          
+☐ Lab 004 - Deploy Drupal App on Kubernetes          
+✔️ Lab 005 - [Deploy Guest Book App on Kubernetes](./Tasks_121-130/TASK_128_Deploy_Guest_Book_App.md)          
 
 ----------------------------------------------
 
