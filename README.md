@@ -531,7 +531,7 @@ ______________________________________________
 
 ✔️ Lab 001 - [Deploy Redis Deployment on Kubernetes](./Tasks_Kubernetes/Level_4/Lab_001_Deploy_Redis_Deployment_on_Kubernetes.md)          
 ✔️ Lab 002 - [Deploy MySQL on Kubernetes](./Tasks_071-080/TASK_80-Deploy_MySQL_on_Kubernetes.md)           
-✔️ Lab 003 - Kubernetes Nginx and PhpFPM Setup          
+✔️ Lab 003 - [Kubernetes Nginx and PhpFPM Setup](./Tasks_Kubernetes/Level_4/Lab_003_Kubernetes_NGINX_and_PhpFPM_Setup.md)          
 ☐ Lab 004 - Deploy Drupal App on Kubernetes          
 ✔️ Lab 005 - [Deploy Guest Book App on Kubernetes](./Tasks_121-130/TASK_128_Deploy_Guest_Book_App.md)          
 
