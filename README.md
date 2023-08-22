@@ -435,10 +435,10 @@ ______________________________________________
 **Level 4**
 
 ✔️ Lab 001 - [Ansible Facts Gathering](./Tasks_081-090/TASK_81_Ansible_Facts_Gathering.md)                  
-☐ Lab 002 - [Ansible Create Users and Groups](./Tasks_081-090/TASK_88_Ansible_Create_Users_and_Groups.md)         
-☐ Lab 003 - [Managing Jinja2 Templates Using Ansible](./Tasks_061-070/TASK_67_Managing_Jinja2_Templates.md)         
+✔️ Lab 002 - [Ansible Create Users and Groups](./Tasks_081-090/TASK_88_Ansible_Create_Users_and_Groups.md)         
+✔️ Lab 003 - [Managing Jinja2 Templates Using Ansible](./Tasks_061-070/TASK_67_Managing_Jinja2_Templates.md)         
 ✔️ Lab 004 - [Ansible Setup Httpd and PHP](./Tasks_091-100/TASK_91_Ansible_Setup_HTTPD_and_PHP.md)         
-☐ Lab 005 - [Using Ansible Conditionals](./Tasks_081-090/TASK_90_Using_Ansible_Conditionals.md)         
+✔️ Lab 005 - [Using Ansible Conditionals](./Tasks_081-090/TASK_90_Using_Ansible_Conditionals.md)         
 
 ----------------------------------------------
 
