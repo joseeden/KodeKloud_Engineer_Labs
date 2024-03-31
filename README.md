@@ -546,9 +546,9 @@ ______________________________________________
 
 **Level 1** 
 
-✔️ Lab 001 - Jenkins Installation       
-☐ Lab 002 - Jenkins Plugins        
-☐ Lab 003 - Jenkins Create Users       
+✔️ Lab 001 - [Jenkins Installation](./Tasks_Jenkins/Level_1/Lab_001_Jenkins_Installation.md)       
+✔️ Lab 002 - [Jenkins Plugins](./Tasks_Jenkins/Level_1/Lab_002_Jenkins_Plugins.md)        
+✔️ Lab 003 - [Jenkins Create Users](./Tasks_Jenkins/Level_1/Lab_003_Jenkins_Create_Users.md)       
 ☐ Lab 004 - Jenkins Folders         
 ☐ Lab 005 - Jenkins Install Packages    
 
