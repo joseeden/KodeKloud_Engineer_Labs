@@ -1,8 +1,8 @@
 
 ------------------------------
 
-Start: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Finished: &nbsp;&nbsp;
+Start: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+Finished: &nbsp;&nbsp;   
 
 ------------------------------
 
